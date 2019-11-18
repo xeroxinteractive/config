@@ -12,6 +12,16 @@
     "deploy": "yarn workspaces run semantic-release --dry-run",
     "test": "yarn workspaces run jest --passWithNoTests"
   },
+  "commitlint": {
+    "extends": [
+      "./packages/xerox-commitlint-config/index.json"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "./packages/xerox-eslint-config/index.js"
