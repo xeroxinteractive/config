@@ -1,6 +1,6 @@
 {
   "name": "@xerox/eslint-config",
-  "version": "1.10.3",
+  "version": "0.0.0",
   "description": "ESLint shareable configuration for Xerox projects.",
   "main": "index.js",
   "repository": "git@github.com:xeroxinteractive/config.git",
