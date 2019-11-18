@@ -6,6 +6,11 @@
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=10.0.0 <13.0.0",
+    "npm": ">=5.0",
+    "yarn": ">=1.15.2"
+  },
   "scripts": {
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",

@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-1.0.0...xerox-semantic-release-config-2.0.0) (2019-11-18)
+
+
+### chore
+
+* reset version + changelogs ([850ee25](https://github.com/xeroxinteractive/config/commit/850ee25b16f20de887d2ae3e0ffa51c887776646))
+
+
+### Features
+
+* setup workspace ([af3ca9e](https://github.com/xeroxinteractive/config/commit/af3ca9e7771cd95f82e72808a5ee8800ff1374a3))
+* **semantic-release:** copy over semantic-release-config ([16e499c](https://github.com/xeroxinteractive/config/commit/16e499c0d97a7a69389a9facf154d93eb85909b2))
+
+
+### BREAKING CHANGES
+
+* Move to monorepo
+
 ## [1.4.2](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.4.1...v1.4.2) (2019-11-18)
 
 ## [1.4.1](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.4.0...v1.4.1) (2019-11-11)

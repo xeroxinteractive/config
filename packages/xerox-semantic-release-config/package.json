@@ -1,7 +1,13 @@
 {
   "name": "@xerox/semantic-release-config",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "semantic-release shareable config for Xerox projects",
+  "keywords": [
+    "xerox",
+    "semantic-release",
+    "semantic-release-plus",
+    "semantic-release-config"
+  ],
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/README.md",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",

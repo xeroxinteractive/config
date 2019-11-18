@@ -1,7 +1,14 @@
 {
   "name": "@xerox/eslint-config",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "ESLint shareable configuration for Xerox projects.",
+  "keywords": [
+    "xerox",
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "react"
+  ],
   "main": "index.js",
   "repository": "git@github.com:xeroxinteractive/config.git",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
@@ -13,7 +20,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.7.0",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^6.0.0",
