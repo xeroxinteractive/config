@@ -13,12 +13,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "release": {
-    "extends": "../xerox-semantic-release-config/npm.js",
-    "commitPaths": [
-      "packages/xerox-semantic-release-config/*"
-    ]
-  },
   "dependencies": {
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/commit-analyzer": "^6.2.0",

@@ -20,6 +20,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "release": {
+    "extends": "../xerox-semantic-release-config/npm.js",
+    "commitPaths": [
+      "../../yarn.lock",
+      "../../package.json",
+      "../../LICENSE",
+      "./*"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",

@@ -9,12 +9,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "release": {
-    "extends": "../xerox-semantic-release-config/npm.js",
-    "commitPaths": [
-      "packages/xerox-prettier-config/*"
-    ]
-  },
   "peerDependencies": {
     "prettier": "*"
   }
