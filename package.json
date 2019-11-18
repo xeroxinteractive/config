@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
-    "deploy": "yarn workspace run semantic-release --dry-run"
+    "deploy": "yarn workspaces run semantic-release --dry-run",
+    "test": "yarn workspaces run jest --passWithNoTests"
   },
   "eslintConfig": {
     "extends": [
