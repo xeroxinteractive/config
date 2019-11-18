@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-1.0.0...xerox-prettier-config-2.0.0) (2019-11-18)
+
+
+### chore
+
+* reset version + changelogs ([850ee25](https://github.com/xeroxinteractive/config/commit/850ee25b16f20de887d2ae3e0ffa51c887776646))
+
+
+### Features
+
+* setup workspace ([af3ca9e](https://github.com/xeroxinteractive/config/commit/af3ca9e7771cd95f82e72808a5ee8800ff1374a3))
+* **prettier:** copy over prettier-config ([60baf27](https://github.com/xeroxinteractive/config/commit/60baf27227b76cc991e45aa058ceada8e534ac66))
+
+
+### BREAKING CHANGES
+
+* Move to monorepo
+
 ## [1.1.2](https://github.com/xeroxinteractive/prettier-config/compare/v1.1.1...v1.1.2) (2019-11-18)
 
 ## [1.1.1](https://github.com/xeroxinteractive/prettier-config/compare/v1.1.0...v1.1.1) (2019-11-11)
