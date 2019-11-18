@@ -1,0 +1,21 @@
+{
+  "name": "@xerox/prettier-config",
+  "version": "1.1.2",
+  "description": "Prettier shareable configuration for Xerox projects.",
+  "main": "index.json",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "extends": "../xerox-semantic-release-config/npm.js",
+    "commitPaths": [
+      "packages/xerox-prettier-config/*"
+    ]
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}
