@@ -1,0 +1,32 @@
+{
+  "name": "@xerox/config",
+  "version": "0.0.0",
+  "description": "Monorepo for Xerox shareable configurations.",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
+    "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
+    "deploy": "yarn workspace run semantic-release --dry-run"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./packages/xerox-eslint-config/index.js"
+    ]
+  },
+  "prettier": "./packages/xerox-prettier-config/index.json",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "eslint": "^5.16.0",
+    "husky": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.16.4",
+    "semantic-release-plus": "^16.0.3"
+  }
+}
