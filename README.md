@@ -18,7 +18,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 
 ---
 
-[LICENSE][license] | [CHANGELOG][changelog]
+[LICENSE][license]
 
 [package-commitlint]: ./packages/xerox-commitlint-config
 [package-eslint]: ./packages/xerox-eslint-config
@@ -26,7 +26,6 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 [package-semantic-release]: ./packages/xerox-semantic-release-config
 
 [license]: ./LICENSE
-[changelog]: ./CHANGELOG.md
 
 [circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/config/master
 [circleci-link]: https://circleci.com/gh/xeroxinteractive/config/tree/master

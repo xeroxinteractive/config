@@ -39,7 +39,7 @@ The react eslint configuration i.e. `"extends": ["@xerox/eslint-config/react"]` 
 [LICENSE][license-link] | [CHANGELOG][changelog-link]
 
 [license-link]: ../../LICENSE
-[changelog-link]: ../../CHANGELOG.md
+[changelog-link]: ./CHANGELOG.md
 
 [circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/config/master
 [circleci-link]: https://circleci.com/gh/xeroxinteractive/config/tree/master

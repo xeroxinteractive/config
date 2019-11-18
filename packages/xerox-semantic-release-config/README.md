@@ -4,7 +4,7 @@
 
 [![circleci status][circleci-badge]][circleci-link]
 [![npm package][npm-badge]][npm-link]
-[![license MIT][license-badge]][license]
+[![license MIT][license-badge]][license-link]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 
@@ -53,10 +53,10 @@ For keeping track of changes.
 
 ---
 
-[LICENSE][license] | [CHANGELOG][changelog]
+[LICENSE][license-link] | [CHANGELOG][changelog-link]
 
-[license]: ../../LICENSE
-[changelog]: ../../CHANGELOG.md
+[license-link]: ../../LICENSE
+[changelog-link]: ./CHANGELOG.md
 
 [circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/config/master
 [circleci-link]: https://circleci.com/gh/xeroxinteractive/config/tree/master
