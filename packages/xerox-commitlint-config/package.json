@@ -1,0 +1,21 @@
+{
+  "name": "@xerox/commitlint-config",
+  "version": "1.0.2",
+  "description": "semantic-release shareable config for Xerox projects",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-commitlint-config",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "files": [
+    "index.json",
+    ".huskyrc.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "husky": "^3.0.0"
+  }
+}
