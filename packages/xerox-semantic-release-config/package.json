@@ -1,0 +1,33 @@
+{
+  "name": "@xerox/semantic-release-config",
+  "version": "1.4.2",
+  "description": "semantic-release shareable config for Xerox projects",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "homepage": "https://github.com/xeroxinteractive/config/blob/master/README.md",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "files": [
+    "npm.js",
+    "simple.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "extends": "../xerox-semantic-release-config/npm.js",
+    "commitPaths": [
+      "packages/xerox-semantic-release-config/*"
+    ]
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/git": "^7.0.12",
+    "@semantic-release/npm": "^5.1.9",
+    "@semantic-release/release-notes-generator": "^7.2.0",
+    "semantic-release-slack-bot": "^1.1.0"
+  },
+  "peerDependencies": {
+    "semantic-release": "*"
+  }
+}
