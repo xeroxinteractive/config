@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-1.0.0...xerox-eslint-config-2.0.0) (2019-11-18)
+
+
+### chore
+
+* reset version + changelogs ([850ee25](https://github.com/xeroxinteractive/config/commit/850ee25b16f20de887d2ae3e0ffa51c887776646))
+
+
+### Features
+
+* setup workspace ([af3ca9e](https://github.com/xeroxinteractive/config/commit/af3ca9e7771cd95f82e72808a5ee8800ff1374a3))
+* **eslint:** copy over eslint-config ([a4170c6](https://github.com/xeroxinteractive/config/commit/a4170c648b7fe252356296d68a0d2ec6a6f7c78a))
+
+
+### BREAKING CHANGES
+
+* Move to monorepo
+
 ## [1.10.3](https://github.com/xeroxinteractive/eslint-config/compare/v1.10.2...v1.10.3) (2019-11-18)
 
 
