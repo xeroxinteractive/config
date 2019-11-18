@@ -1,4 +1,4 @@
-# config
+# Xerox Sharable Configurations
 
 > Monorepo for Xerox shareable configurations.
 
