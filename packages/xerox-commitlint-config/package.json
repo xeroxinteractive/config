@@ -2,6 +2,13 @@
   "name": "@xerox/commitlint-config",
   "version": "2.0.0",
   "description": "semantic-release shareable config for Xerox projects",
+  "keywords": [
+    "xerox",
+    "husky",
+    "husky-config",
+    "commitlint",
+    "commitlint-config"
+  ],
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-commitlint-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
