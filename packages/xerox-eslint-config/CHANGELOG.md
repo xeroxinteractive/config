@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.0...xerox-eslint-config-2.0.1) (2019-11-19)
+
+
+### Bug Fixes
+
+* **eslint:** copy correct typescript config ([4f7fdf2](https://github.com/xeroxinteractive/config/commit/4f7fdf29173139389319f124181466debffec199))
+
 # [2.0.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-1.0.0...xerox-eslint-config-2.0.0) (2019-11-18)
 
 
