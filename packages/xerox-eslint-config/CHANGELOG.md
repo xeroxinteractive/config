@@ -1,3 +1,5 @@
+## [2.0.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.1...xerox-eslint-config-2.0.2) (2019-12-13)
+
 ## [2.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.0...xerox-eslint-config-2.0.1) (2019-11-19)
 
 
