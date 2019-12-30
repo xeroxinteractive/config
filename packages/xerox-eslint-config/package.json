@@ -10,7 +10,7 @@
     "react"
   ],
   "main": "index.js",
-  "repository": "ssh://git@github.com:xeroxinteractive/config.git",
+  "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-eslint-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
