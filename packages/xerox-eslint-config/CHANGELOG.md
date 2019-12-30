@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.2...xerox-eslint-config-2.0.3) (2019-12-30)
+
+
+### Bug Fixes
+
+* **typescript:** disable no-empty-function for tests ([31e3ef1](https://github.com/xeroxinteractive/config/commit/31e3ef1155243886a5b2ccc0e936705466566eae))
+
 ## [2.0.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.1...xerox-eslint-config-2.0.2) (2019-12-13)
 
 ## [2.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.0...xerox-eslint-config-2.0.1) (2019-11-19)
