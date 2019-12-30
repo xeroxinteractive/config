@@ -32,6 +32,7 @@
   },
   "peerDependencies": {
     "eslint": "~5",
-    "prettier": "~1"
+    "prettier": "~1",
+    "@xerox/prettier-config": "*"
   }
 }
