@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.0.1...xerox-semantic-release-config-2.1.0) (2019-12-30)
+
+
+### Features
+
+* **stylelint:** create initial config ([72f571b](https://github.com/xeroxinteractive/config/commit/72f571ba45421fa169cf57f03cb2da71c8dace62))
+
 ## [2.0.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.0.0...xerox-semantic-release-config-2.0.1) (2019-12-30)
 
 # [2.0.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-1.0.0...xerox-semantic-release-config-2.0.0) (2019-11-18)
