@@ -8,7 +8,7 @@
     "prettier-config"
   ],
   "main": "index.json",
-  "repository": "ssh://git@github.com:xeroxinteractive/config.git",
+  "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-prettier-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
