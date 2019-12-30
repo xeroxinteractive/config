@@ -1,0 +1,29 @@
+{
+  "name": "@xerox/stylelint-config",
+  "version": "0.0.0",
+  "description": "Stylelint shareable configuration for Xerox projects.",
+  "keywords": [
+    "xerox",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "main": "index.json",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-stylelint-config",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "stylelint": "*"
+  },
+  "devDependencies": {
+    "@xerox/prettier-config": "*",
+    "stylelint": "^12.0.1",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.13.0"
+  }
+}
