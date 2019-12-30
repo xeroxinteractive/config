@@ -10,23 +10,23 @@
     "react"
   ],
   "main": "index.js",
-  "repository": "git@github.com:xeroxinteractive/config.git",
+  "repository": "https://github.com/xeroxinteractive/config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.4"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.10.0",
-    "@typescript-eslint/parser": "^2.10.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
     "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-jest": "^23.1.1",
-    "eslint-plugin-jsdoc": "^18.4.3",
-    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-jest": "^23.2.0",
+    "eslint-plugin-jsdoc": "^18.6.2",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0"
   },
   "peerDependencies": {
