@@ -15,6 +15,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 * [@xerox/eslint-config][package-eslint] 3 eslint configurations for Javascript, React and TypeScript.
 * [@xerox/prettier-config][package-prettier] Xerox code formatting styles.
 * [@xerox/semantic-release-config][package-semantic-release] Publishing/deployment process configuration.
+* [@xerox/stylelint-config][package-stylelint] stylelint configurations for CSS and SCSS.
 
 ---
 
@@ -24,6 +25,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 [package-eslint]: ./packages/xerox-eslint-config
 [package-prettier]: ./packages/xerox-prettier-config
 [package-semantic-release]: ./packages/xerox-semantic-release-config
+[package-stylelint]: ./packages/xerox-stylelint-config
 
 [license]: ./LICENSE
 
