@@ -2,7 +2,7 @@
   "name": "@xerox/config",
   "version": "0.0.0",
   "description": "Monorepo for Xerox shareable configurations.",
-  "repository": "https://github.com/xeroxinteractive/config",
+  "repository": "ssh://git@github.com:xeroxinteractive/config.git",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "private": true,

@@ -8,8 +8,8 @@
     "semantic-release-plus",
     "semantic-release-config"
   ],
-  "repository": "https://github.com/xeroxinteractive/config",
-  "homepage": "https://github.com/xeroxinteractive/config/blob/master/README.md",
+  "repository": "ssh://git@github.com:xeroxinteractive/config.git",
+  "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-semantic-release-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "files": [
