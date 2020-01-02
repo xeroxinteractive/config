@@ -1442,10 +1442,10 @@ browser-resolve@^1.11.3:
   dependencies:
     resolve "1.1.7"
 
-browserslist-adobe-analytics@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/browserslist-adobe-analytics/-/browserslist-adobe-analytics-1.0.1.tgz#1590ddb6bbca4ebe4959406aa6c238f8b991ad5e"
-  integrity sha512-SL2xHuu/F0KRUXMl3MJyZzXMH0WYaFmPJpRQQF4K7QsOhmAxeh/ZmOhuf2GlWOpdwf2q+cKYcen71J+Ebbbz7A==
+browserslist-adobe-analytics@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/browserslist-adobe-analytics/-/browserslist-adobe-analytics-1.0.2.tgz#49506179bbc159e2c374eaffb0bd9523f9573bac"
+  integrity sha512-gsa4l+N9WYBd3Nc47eUhIRd7eArgfnooUPMAV3yS8ABtbWQ8HwakDTZY59mbS6tfKZeRi8y+klrnvOOn449bSQ==
   dependencies:
     "@adobe/jwt-auth" "^0.3.1"
     browserslist "^4.8.2"
