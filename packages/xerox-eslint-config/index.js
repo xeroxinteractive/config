@@ -24,5 +24,6 @@ module.exports = {
         destructuring: 'all',
       },
     ],
+    eqeqeq: ['error', 'always'],
   },
 };
