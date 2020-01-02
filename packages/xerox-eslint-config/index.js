@@ -1,10 +1,12 @@
 module.exports = {
-  plugins: ['jest', 'prettier'],
+  plugins: ['jest', 'prettier', 'import'],
   extends: [
     'plugin:jest/recommended',
     'prettier',
     'prettier/babel',
     'prettier/standard',
+    'plugin:import/errors',
+    'plugin:import/warnings',
   ],
 
   env: {
@@ -22,5 +24,6 @@ module.exports = {
         destructuring: 'all',
       },
     ],
+    eqeqeq: ['error', 'always'],
   },
 };

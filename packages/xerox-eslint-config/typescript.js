@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
+    'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -11,6 +12,9 @@ module.exports = {
   settings: {
     jsdoc: {
       mode: 'typescript',
+    },
+    'import/resolver': {
+      typescript: {},
     },
   },
   rules: {
@@ -69,6 +73,8 @@ module.exports = {
         },
       },
     ],
+    'import/default': 'off',
+    'import/export': 'off',
   },
   overrides: [
     {
