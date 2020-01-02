@@ -45,6 +45,16 @@ jobs:
           name: Deploy package to npm
           command: yarn deploy
 
+  browserslist-stats:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - node-10-cache-{{ checksum "./yarn.lock" }}
+      - run: yarn install
+      - run: yarn workspace @xerox/browserslist-config run update:stats
+
 workflows:
   version: 2
   install_lint_test_deploy:
@@ -57,3 +67,13 @@ workflows:
             branches:
               only:
                 - master
+  browserslist-stats-cron:
+    triggers:
+      - schedule:
+          cron: '0 15 2 * *'
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - browserslist-stats

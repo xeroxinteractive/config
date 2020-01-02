@@ -1,0 +1,32 @@
+{
+  "name": "@xerox/browserslist-config",
+  "version": "0.0.0",
+  "description": "Browserslist shareable configuration for Xerox projects.",
+  "keywords": [
+    "xerox",
+    "browserslist",
+    "browserslist-stats",
+    "browserslist-config",
+    "browserslist-adobe-analytics",
+    "browserslist-browserstack"
+  ],
+  "scripts": {
+    "update:stats": "baa write"
+  },
+  "main": "index.json",
+  "repository": "git@github.com:xeroxinteractive/config.git",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "browserslist": ">=4.8.0"
+  },
+  "devDependencies": {
+    "browserslist-adobe-analytics": "^1.0.0"
+  },
+  "dependencies": {
+    "browserslist-adobe-analytics": "^1.0.1"
+  }
+}
