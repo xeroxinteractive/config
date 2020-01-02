@@ -49,11 +49,36 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run:
+          name: Configure git
+          command: |
+            ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+            git config --global user.email "jenkinsbuilder@documentsmart.com"
+            git config --global user.name "xeroxinteractive-builder"
+      - run:
+          name: Switch to new branch
+          command: |
+            CRON_BRANCH_NAME="cron/stats/$(date +%d-%m-%Y)"
+            git checkout -b $CRON_BRANCH_NAME
       - restore_cache:
           keys:
             - node-10-cache-{{ checksum "./yarn.lock" }}
       - run: yarn install
-      - run: yarn workspace @xerox/browserslist-config run update:stats
+      - run:
+          name: Create new stats file
+          command: |
+            BAA_PRIVATE_KEY="$(echo $PRIVATE_KEY | base64 --decode)" yarn workspace @xerox/browserslist-config run update:stats
+            git commit -a -m 'chore(browserslist-config): update stats'
+      - run:
+          name: Push branch and create PR
+          command: |
+            cd ~
+            wget https://github.com/github/hub/releases/download/v2.11.2/hub-linux-amd64-2.11.2.tgz
+            tar xvfz hub-linux-amd64-2.11.2.tgz
+            cd ~/repo
+            CRON_BRANCH_NAME="cron/stats/$(date +%d-%m-%Y)"
+            git push --force --set-upstream origin $CRON_BRANCH_NAME
+            ~/hub-linux-amd64-2.11.2/bin/hub pull-request --file .circleci/stats-cron-pr.md --base master
 
 workflows:
   version: 2
@@ -70,7 +95,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '0 15 2 * *'
+          cron: '42 15 2 * *'
           filters:
             branches:
               only:
