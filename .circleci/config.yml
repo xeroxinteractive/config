@@ -49,6 +49,9 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - '94:aa:2d:64:14:93:c8:2f:cb:98:b5:4f:ec:96:80:86'
       - run:
           name: Configure git
           command: |
@@ -95,7 +98,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '50 15 2 * *'
+          cron: '57 15 2 * *'
           filters:
             branches:
               only:
