@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.1.0...xerox-eslint-config-2.2.0) (2020-01-02)
+
+
+### Features
+
+* **eslint:** add eslint-plugin-import ([565c546](https://github.com/xeroxinteractive/config/commit/565c546fd183f7df884057e658e89eb73c8492bf))
+* **eslint:** eqeqeq rule ([474ae4a](https://github.com/xeroxinteractive/config/commit/474ae4a7c3f231e6b0c64e964067ec9077e9ad29))
+
 # [2.1.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.0.3...xerox-eslint-config-2.1.0) (2019-12-30)
 
 
