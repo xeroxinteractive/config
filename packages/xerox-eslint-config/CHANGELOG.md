@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.2.0...xerox-eslint-config-2.2.1) (2020-01-03)
+
+
+### Bug Fixes
+
+* **eslint:** always try resolve TS types ([0a8ecea](https://github.com/xeroxinteractive/config/commit/0a8ecea0711792c42243ce92bb1f83d896e09cca))
+
 # [2.2.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.1.0...xerox-eslint-config-2.2.0) (2020-01-02)
 
 
