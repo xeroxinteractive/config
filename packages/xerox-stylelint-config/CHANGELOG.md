@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.0.0...xerox-stylelint-config-1.0.1) (2020-01-03)
+
+
+### Bug Fixes
+
+* force package.json update to move dev deps to deps ([e8fa2cb](https://github.com/xeroxinteractive/config/commit/e8fa2cb0c2050cecc437f3a1d51f522c8ddb27ed))
+
 # 1.0.0 (2019-12-30)
 
 
