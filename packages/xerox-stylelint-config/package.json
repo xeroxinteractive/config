@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "Stylelint shareable configuration for Xerox projects.",
   "keywords": [
-    "xerox",
     "stylelint",
-    "stylelint-config"
+    "stylelint-config",
+    "xerox"
   ],
   "main": "index.json",
   "repository": "git@github.com:xeroxinteractive/config.git",
