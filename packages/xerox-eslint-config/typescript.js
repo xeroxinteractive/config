@@ -14,7 +14,9 @@ module.exports = {
       mode: 'typescript',
     },
     'import/resolver': {
-      typescript: {},
+      typescript: {
+        alwaysTryTypes: true,
+      },
     },
   },
   rules: {
