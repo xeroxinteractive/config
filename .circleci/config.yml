@@ -61,8 +61,8 @@ jobs:
       - run:
           name: Switch to dev branch
           command: |
+            git pull origin dev
             git checkout -b dev
-            git pull
       - restore_cache:
           keys:
             - node-10-cache-{{ checksum "./yarn.lock" }}
@@ -94,7 +94,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '05 17 7 * *'
+          cron: '12 17 7 * *'
           filters:
             branches:
               only:
