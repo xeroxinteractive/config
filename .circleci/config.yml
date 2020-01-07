@@ -71,6 +71,7 @@ jobs:
           name: Create new stats file
           command: |
             BAA_PRIVATE_KEY="$(echo $PRIVATE_KEY | base64 --decode)" yarn workspace @xerox/browserslist-config run update:stats
+            npx prettier ./packages/xerox-browserslist-config/browserslist-stats.json --write
             git commit -a -m 'chore(browserslist-config): update stats'
       - run:
           name: Push branch and create PR
@@ -98,7 +99,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '57 15 2 * *'
+          cron: '40 16 7 * *'
           filters:
             branches:
               only:
