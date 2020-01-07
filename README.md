@@ -16,6 +16,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 * [@xerox/prettier-config][package-prettier] Xerox code formatting styles.
 * [@xerox/semantic-release-config][package-semantic-release] Publishing/deployment process configuration.
 * [@xerox/stylelint-config][package-stylelint] stylelint configurations for CSS and SCSS.
+* [@xerox/browserslist-config][package-browserslist] browserslist configurations based on Adobe Analytics usage statistics.
 
 ---
 
@@ -26,6 +27,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 [package-prettier]: ./packages/xerox-prettier-config
 [package-semantic-release]: ./packages/xerox-semantic-release-config
 [package-stylelint]: ./packages/xerox-stylelint-config
+[package-browserslist]: ./packages/xerox-browserslist-config
 
 [license]: ./LICENSE
 

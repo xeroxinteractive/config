@@ -59,10 +59,10 @@ jobs:
             git config --global user.email "jenkinsbuilder@documentsmart.com"
             git config --global user.name "xeroxinteractive-builder"
       - run:
-          name: Switch to new branch
+          name: Switch to dev branch
           command: |
-            CRON_BRANCH_NAME="cron/stats/$(date +%d-%m-%Y)"
-            git checkout -b $CRON_BRANCH_NAME
+            git checkout -b dev
+            git pull
       - restore_cache:
           keys:
             - node-10-cache-{{ checksum "./yarn.lock" }}
@@ -76,13 +76,8 @@ jobs:
       - run:
           name: Push branch and create PR
           command: |
-            cd ~
-            wget https://github.com/github/hub/releases/download/v2.11.2/hub-linux-amd64-2.11.2.tgz
-            tar xvfz hub-linux-amd64-2.11.2.tgz
             cd ~/repo
-            CRON_BRANCH_NAME="cron/stats/$(date +%d-%m-%Y)"
-            git push --force --set-upstream origin $CRON_BRANCH_NAME
-            ~/hub-linux-amd64-2.11.2/bin/hub pull-request --file .circleci/stats-cron-pr.md --base master
+            git push --set-upstream origin dev
 
 workflows:
   version: 2
@@ -99,7 +94,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '40 16 7 * *'
+          cron: '05 17 7 * *'
           filters:
             branches:
               only:
