@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.1.0...xerox-semantic-release-config-2.2.0) (2020-01-10)
+
+
+### Features
+
+* refactor + perf triggers patch ([f70e9f5](https://github.com/xeroxinteractive/config/commit/f70e9f552ae45ef6325457f2c02bd145b5a43d8b))
+
 # [2.1.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.0.1...xerox-semantic-release-config-2.1.0) (2019-12-30)
 
 
