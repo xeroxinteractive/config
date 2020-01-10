@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.0...xerox-browserslist-config-1.0.1) (2020-01-10)
+
+
+### Bug Fixes
+
+* use node 12 ([079f951](https://github.com/xeroxinteractive/config/commit/079f951f080f77c1dbc13eee46396470819181a4))
+
 # 1.0.0 (2020-01-02)
 
 
