@@ -28,6 +28,6 @@
     "semantic-release-slack-bot": "^1.4.0"
   },
   "peerDependencies": {
-    "semantic-release": "*"
+    "semantic-release": "15.14.0"
   }
 }
