@@ -1,1 +1,1 @@
-module.exports = ['node 10'];
+module.exports = ['node 12'];
