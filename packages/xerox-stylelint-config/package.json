@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "@xerox/prettier-config": "*",
-    "stylelint": "^12.0.1"
+    "stylelint": "^13.0.0"
   }
 }
