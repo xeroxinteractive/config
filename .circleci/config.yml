@@ -12,7 +12,6 @@ install_lint_test: &install_lint_test
           - node-{{ .Environment.NODE_VERSION }}-cache-{{ checksum "./yarn.lock" }}
     - run: yarn install
     - run: yarn lint
-    - run: yarn type-check
     - run: yarn test
     - save_cache:
         key: node-{{ .Environment.NODE_VERSION }}-cache-{{ checksum "./yarn.lock" }}
