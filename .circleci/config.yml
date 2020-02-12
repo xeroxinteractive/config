@@ -72,7 +72,7 @@ jobs:
       - run:
           name: Switch to dev branch
           command: |
-            git pull origin dev
+            git fetch origin dev
             git checkout -b dev
       - restore_cache:
           keys:
