@@ -18,19 +18,19 @@
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.14.0",
-    "@typescript-eslint/parser": "^2.14.0",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
     "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-prettier": "^6.10.0",
     "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jest": "^23.3.0",
-    "eslint-plugin-jsdoc": "^20.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-jsdoc": "^21.0.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.18.3"
   },
   "peerDependencies": {
     "@xerox/prettier-config": "*",
