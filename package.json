@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
-    "deploy": "yarn workspaces run semantic-release",
+    "deploy": "yarn workspaces run semantic-release --debug",
     "test": "yarn workspaces run jest --passWithNoTests"
   },
   "commitlint": {

@@ -8,7 +8,7 @@ module.exports = {
           {
             type: 'chore',
             scope: 'deps',
-            subject: '/\\[security\\].*/',
+            subject: '[security].*',
             release: 'patch',
           },
           {
