@@ -18,7 +18,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.2"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.19.2",
