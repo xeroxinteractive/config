@@ -7613,10 +7613,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-semantic-release-plus@^18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-plus/-/semantic-release-plus-18.0.0.tgz#4c3257711040f9deb31513d91d063d13d4cc0485"
-  integrity sha512-cx1+WAyjOQb0R3nd5haIdIgo6qQkL2cHR7VdXPDElK2AKXbWjyJbgytiaVOGGCRjWNDAq09C2bfLi4mBd11WPw==
+semantic-release-plus@^18.0.1:
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/semantic-release-plus/-/semantic-release-plus-18.0.1.tgz#c4f460bfbaca3a60009ad00ddcab385682344fb4"
+  integrity sha512-uNJC8B+ahuNxLzauYwqyYBlZ7qCPwXqfOw3hvur/Vs1Y0aSRhZoujAW20OLz5QC46Hk/9Z9SIPsdsRyOBmZgqw==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
