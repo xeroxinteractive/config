@@ -40,9 +40,9 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "eslint": "^5.16.0",
-    "husky": "^4.2.1",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
     "prettier": "^1.16.4",
-    "semantic-release-plus": "^18.0.0"
+    "semantic-release-plus": "^18.0.1"
   }
 }
