@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.0...xerox-eslint-config-3.0.1) (2020-03-09)
+
+
+### Bug Fixes
+
+* **eslint/typescript:** disable import/no-named-as-default-member ([40e11d7](https://github.com/xeroxinteractive/config/commit/40e11d786db40c742b38f95c86de42c98391a131))
+
 # [3.0.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.2.1...xerox-eslint-config-3.0.0) (2020-03-09)
 
 
