@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.0...xerox-semantic-release-config-2.2.1) (2020-03-09)
+
+
+### Bug Fixes
+
+* upgrade semantic-release peer dependency ([502a198](https://github.com/xeroxinteractive/config/commit/502a1983daf964f1607c617f535db5fe33d64fce))
+
 # [2.2.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.1.0...xerox-semantic-release-config-2.2.0) (2020-01-10)
 
 
