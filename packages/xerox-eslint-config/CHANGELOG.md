@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.2.1...xerox-eslint-config-3.0.0) (2020-03-09)
+
+
+### chore
+
+* **deps:** upgrade to eslint 6 ([60df663](https://github.com/xeroxinteractive/config/commit/60df663eea50fa7b611b69f8482026a524e5bb5a))
+
+
+### BREAKING CHANGES
+
+* **deps:** eslint upgraded to version 6
+
 ## [2.2.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-2.2.0...xerox-eslint-config-2.2.1) (2020-01-03)
 
 
