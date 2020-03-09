@@ -77,6 +77,7 @@ module.exports = {
     ],
     'import/default': 'off',
     'import/export': 'off',
+    'import/no-named-as-default-member': 'off',
   },
   overrides: [
     {

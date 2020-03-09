@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@xerox",
+    "@xerox/eslint-config/react"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
