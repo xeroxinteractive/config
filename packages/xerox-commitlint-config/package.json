@@ -24,5 +24,10 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.2.3"
+  },
+  "resolutions": {
+    "acorn": ">=7.1.1",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3"
   }
 }

@@ -27,5 +27,10 @@
   "devDependencies": {
     "@xerox/prettier-config": "*",
     "stylelint": "^13.2.1"
+  },
+  "resolutions": {
+    "acorn": ">=7.1.1",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3"
   }
 }
