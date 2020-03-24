@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.2...xerox-eslint-config-3.0.3) (2020-03-24)
+
+
+### Bug Fixes
+
+* **eslint:** update peer deps ([95b25ae](https://github.com/xeroxinteractive/config/commit/95b25ae7206cc9ad12a9d71f512acea689f25597))
+
 ## [3.0.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.1...xerox-eslint-config-3.0.2) (2020-03-24)
 
 ## [3.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.0...xerox-eslint-config-3.0.1) (2020-03-09)
