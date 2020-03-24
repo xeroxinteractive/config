@@ -5,6 +5,6 @@ import path from 'path';
  *
  * @returns The path to foo bar.
  */
-export default function() {
+export default function () {
   return path.join('foo', 'bar');
 }
