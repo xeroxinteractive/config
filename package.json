@@ -44,5 +44,10 @@
     "jest": "^25.1.0",
     "prettier": "^2.0.2",
     "semantic-release-plus": "^18.0.1"
+  },
+  "resolutions": {
+    "acorn": ">=7.1.1",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3"
   }
 }
