@@ -37,8 +37,8 @@
   },
   "peerDependencies": {
     "@xerox/prettier-config": "*",
-    "eslint": "~6",
-    "prettier": "~1"
+    "eslint": "^6.0.0",
+    "prettier": "^2.0.0"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
