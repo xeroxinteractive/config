@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.1.0...xerox-prettier-config-2.2.0) (2020-03-24)
+
+
+### Features
+
+* **deps:** upgrade to prettier 2 ([6a04d13](https://github.com/xeroxinteractive/config/commit/6a04d1319447693029102f373a18c25a011173cb))
+
 # [2.1.0](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.0.1...xerox-prettier-config-2.1.0) (2019-12-30)
 
 
