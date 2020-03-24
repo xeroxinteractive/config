@@ -1,3 +1,5 @@
+## [3.0.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.1...xerox-eslint-config-3.0.2) (2020-03-24)
+
 ## [3.0.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.0...xerox-eslint-config-3.0.1) (2020-03-09)
 
 
