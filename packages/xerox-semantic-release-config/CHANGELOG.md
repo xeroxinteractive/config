@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.1...xerox-semantic-release-config-2.2.2) (2020-03-24)
+
+
+### Bug Fixes
+
+* **semantic-release:** fix security rules ([664965d](https://github.com/xeroxinteractive/config/commit/664965d051aa0d867107ba16b5c8fb30be2dcb77))
+
 ## [2.2.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.0...xerox-semantic-release-config-2.2.1) (2020-03-09)
 
 
