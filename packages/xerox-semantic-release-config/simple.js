@@ -8,7 +8,7 @@ module.exports = {
           {
             type: 'chore',
             scope: 'deps',
-            subject: '[security].*',
+            subject: '[security]*',
             release: 'patch',
           },
           {
@@ -20,6 +20,7 @@ module.exports = {
             release: 'patch',
           },
         ],
+        noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'SECURITY'],
       },
     ],
     [
