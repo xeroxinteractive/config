@@ -1,3 +1,5 @@
+## [2.1.1](https://github.com/xeroxinteractive/config/compare/xerox-commitlint-config-2.1.0...xerox-commitlint-config-2.1.1) (2020-03-24)
+
 # [2.1.0](https://github.com/xeroxinteractive/config/compare/xerox-commitlint-config-2.0.1...xerox-commitlint-config-2.1.0) (2019-12-30)
 
 
