@@ -7522,10 +7522,10 @@ semantic-release-plus@^18.0.1:
     signale "^1.2.1"
     yargs "^15.0.1"
 
-semantic-release-slack-bot@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-1.5.0.tgz#4c13cbd42528e3e885295f18c1db50f850e597d2"
-  integrity sha512-a/7GugwaS+KwqZun7yqaMmDCQXywny1l2+q9t8geL9RGyHD6URPdcmGj5SfOnm4OgxqNLhuLWlqnqozcZ/fOxw==
+semantic-release-slack-bot@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-1.6.1.tgz#e5513df4215be65e79c5ea2166dbeba9eaf996c5"
+  integrity sha512-r5sVI0bf3QvnTPmJis9ZCIwfg/jB1LBC0xozGnpbxMgTT6M3W11wIk71eKUYlTbJbSN46zUuaR2HfMLvMhjcTA==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     node-fetch "^2.3.0"
