@@ -24,7 +24,7 @@
     "browserslist": ">=4.8.0"
   },
   "devDependencies": {
-    "browserslist-adobe-analytics": "^1.0.4"
+    "browserslist-adobe-analytics": "^1.0.5"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
