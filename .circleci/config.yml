@@ -128,7 +128,7 @@ workflows:
   browserslist-stats-cron:
     triggers:
       - schedule:
-          cron: '30 11 11 * *'
+          cron: '35 11 11 * *'
           filters:
             branches:
               only:
