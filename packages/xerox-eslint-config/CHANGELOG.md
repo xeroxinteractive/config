@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.4...xerox-eslint-config-3.1.0) (2020-06-08)
+
+
+### Features
+
+* **eslint-config:** eslint 7 support ([#246](https://github.com/xeroxinteractive/config/issues/246)) ([6134837](https://github.com/xeroxinteractive/config/commit/6134837a2e8cbf1445b8a3af2d1f795a19a9bfff))
+
 ## [3.0.4](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.3...xerox-eslint-config-3.0.4) (2020-05-22)
 
 ## [3.0.3](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.2...xerox-eslint-config-3.0.3) (2020-03-24)
