@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.0...xerox-eslint-config-3.1.1) (2020-06-08)
+
+
+### Bug Fixes
+
+* **eslint-config:** eslint 7.2.0 peer dependency ([219c359](https://github.com/xeroxinteractive/config/commit/219c3599a612366d750a766e5ff7c37870c5c290))
+
 # [3.1.0](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.0.4...xerox-eslint-config-3.1.0) (2020-06-08)
 
 
