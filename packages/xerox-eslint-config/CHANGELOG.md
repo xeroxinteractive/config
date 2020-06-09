@@ -1,3 +1,10 @@
+## [3.1.3](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.2...xerox-eslint-config-3.1.3) (2020-06-09)
+
+
+### Bug Fixes
+
+* **eslint-config:** remove Function from ban-types rule ([936f8c4](https://github.com/xeroxinteractive/config/commit/936f8c47928a106488b90242fd14eb989e0bc60e))
+
 ## [3.1.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.1...xerox-eslint-config-3.1.2) (2020-06-09)
 
 
