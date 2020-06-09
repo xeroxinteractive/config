@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.1...xerox-eslint-config-3.1.2) (2020-06-09)
+
+
+### Bug Fixes
+
+* **eslint-config:** upgrade eslint-plugin-jsdoc to fix TS error ([0e5726c](https://github.com/xeroxinteractive/config/commit/0e5726c45081fc00c5baca8f23d003cb33707834))
+
 ## [3.1.1](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.0...xerox-eslint-config-3.1.1) (2020-06-08)
 
 
