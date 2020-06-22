@@ -43,7 +43,7 @@
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "prettier": "^2.0.5",
-    "semantic-release-plus": "^18.0.2"
+    "semantic-release-plus": "^18.0.3"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
