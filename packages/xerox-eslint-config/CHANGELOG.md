@@ -1,3 +1,10 @@
+## [3.1.4](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.3...xerox-eslint-config-3.1.4) (2020-06-30)
+
+
+### Bug Fixes
+
+* **eslint:** upgrade eslint-plugin-import ([939f7b3](https://github.com/xeroxinteractive/config/commit/939f7b3d07f187c48e37a26d40d3a16b95a36810))
+
 ## [3.1.3](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.2...xerox-eslint-config-3.1.3) (2020-06-09)
 
 
