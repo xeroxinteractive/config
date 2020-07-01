@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.3...xerox-semantic-release-config-2.3.0) (2020-07-01)
+
+
+### Features
+
+* create npm-next semantic-release config ([3c3e079](https://github.com/xeroxinteractive/config/commit/3c3e079461d3f23b68fc1aae28d4d4027a499e85))
+
 ## [2.2.3](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.2...xerox-semantic-release-config-2.2.3) (2020-05-22)
 
 ## [2.2.2](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.1...xerox-semantic-release-config-2.2.2) (2020-03-24)
