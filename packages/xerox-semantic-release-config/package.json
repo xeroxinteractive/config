@@ -14,6 +14,7 @@
   "license": "MIT",
   "files": [
     "npm.js",
+    "npm-next.js",
     "simple.js"
   ],
   "publishConfig": {
