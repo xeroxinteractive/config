@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.0...xerox-semantic-release-config-2.3.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* **semantic-release:** include npm-next in files ([1e53822](https://github.com/xeroxinteractive/config/commit/1e53822d123d6cf57bb75b0f3660e71c1dba3d01))
+
 # [2.3.0](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.2.3...xerox-semantic-release-config-2.3.0) (2020-07-01)
 
 
