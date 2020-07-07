@@ -41,7 +41,7 @@
     "@commitlint/config-conventional": "^9.0.1",
     "eslint": "^7.4.0",
     "husky": "^4.2.5",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "semantic-release-plus": "^18.0.3"
   },
