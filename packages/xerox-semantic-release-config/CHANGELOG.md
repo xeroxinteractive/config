@@ -1,3 +1,5 @@
+## [2.3.2](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.1...xerox-semantic-release-config-2.3.2) (2020-07-31)
+
 ## [2.3.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.0...xerox-semantic-release-config-2.3.1) (2020-07-02)
 
 
