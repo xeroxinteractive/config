@@ -1,3 +1,5 @@
+## [1.0.6](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.5...xerox-browserslist-config-1.0.6) (2020-07-31)
+
 ## [1.0.5](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.4...xerox-browserslist-config-1.0.5) (2020-07-15)
 
 ## [1.0.4](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.3...xerox-browserslist-config-1.0.4) (2020-05-22)
