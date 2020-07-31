@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 40 14 31 * *
+    - cron: 10 15 31 * *
 
 name: Update Browserslist Statistics
 
@@ -13,31 +13,29 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '12.x'
+      - uses: webfactory/ssh-agent@v0.4.0
+        with:
+          ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
 
       - name: Create new stats file
         run: |
-          git checkout -b next origin/next
           BAA_PRIVATE_KEY="$(echo $AA_PRIVATE_KEY | base64 --decode)" yarn workspace @xerox/browserslist-config run update:stats
           npx prettier ./packages/xerox-browserslist-config/browserslist-stats.json --write
-          git commit -a -m 'chore(browserslist-config): update stats'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           AA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
-      - name: Push branch
-        run: |
-          cd ~/repo
-          git pull --rebase
-          git push --set-upstream origin next
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
       - name: Create PR
-        run: |
-          cd ~
-          wget https://github.com/github/hub/releases/download/v2.11.2/hub-linux-amd64-2.11.2.tgz
-          tar xvfz hub-linux-amd64-2.11.2.tgz
-          cd ~/repo
-          ~/hub-linux-amd64-2.11.2/bin/hub pull-request --file .github/stats-cron-pr.md --base release
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'chore(browserslist-config): update stats'
+          title: 'chore(browserslist-config): update stats'
+          body: |
+            The `@xerox/browserslist-config` `browserslist-stats.json` file was updated with the last 3 months of Adobe Analytics data.
+
+            Please check the data looks reasonable and merge this PR.
+          labels: cron
+          branch: cron/stats
+          branch-suffix: timestamp
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
