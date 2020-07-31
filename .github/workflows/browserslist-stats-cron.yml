@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 10 15 31 * *
+    - cron: 30 15 31 * *
 
 name: Update Browserslist Statistics
 
@@ -19,11 +19,11 @@ jobs:
 
       - name: Create new stats file
         run: |
-          BAA_PRIVATE_KEY="$(echo $AA_PRIVATE_KEY | base64 --decode)" yarn workspace @xerox/browserslist-config run update:stats
+          yarn workspace @xerox/browserslist-config run update:stats
           npx prettier ./packages/xerox-browserslist-config/browserslist-stats.json --write
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          AA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
+          BAA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
