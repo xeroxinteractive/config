@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 05 14 31 * *
+    - cron: 25 14 31 * *
 
 name: Update Browserslist Statistics
 
@@ -22,7 +22,7 @@ jobs:
           git commit -a -m 'chore(browserslist-config): update stats'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          AA_PRIVATE_KEY: ${{ADOBE_ANALYTICS_PRIVATE_KEY}}
+          AA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
       - name: Push branch
         run: |
