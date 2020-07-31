@@ -1,3 +1,5 @@
+## [2.2.3](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.2...xerox-prettier-config-2.2.3) (2020-07-31)
+
 ## [2.2.2](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.1...xerox-prettier-config-2.2.2) (2020-05-22)
 
 ## [2.2.1](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.0...xerox-prettier-config-2.2.1) (2020-03-24)
