@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: 50 15 31 * *
+    - cron: 00 16 31 * *
 
 name: Update Browserslist Statistics
 
