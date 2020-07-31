@@ -1,3 +1,5 @@
+## [1.1.1](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.1.0...xerox-stylelint-config-1.1.1) (2020-07-31)
+
 # [1.1.0](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.0.3...xerox-stylelint-config-1.1.0) (2020-06-08)
 
 
