@@ -2,7 +2,7 @@
 
 > Monorepo for Xerox shareable configurations.
 
-[![circleci status][circleci-badge]][circleci-link]
+[![ci status][ci-badge]][ci-link]
 [![license MIT][license-badge]][license]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
@@ -31,8 +31,8 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 
 [license]: ./LICENSE
 
-[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/config/master
-[circleci-link]: https://circleci.com/gh/xeroxinteractive/config/tree/master
+[ci-badge]: https://flat.badgen.net/github/checks/xeroxinteractive/config/release?label=ci
+[ci-link]: https://github.com/xeroxinteractive/config/actions?query=branch%3Arelease
 
 [license-badge]: https://flat.badgen.net/badge/license/MIT
 

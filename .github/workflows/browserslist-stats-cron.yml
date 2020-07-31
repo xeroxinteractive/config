@@ -1,0 +1,43 @@
+on:
+  schedule:
+    - cron: 00 08 15 * *
+
+name: Update Browserslist Statistics
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Create new stats file
+        run: |
+          git checkout -b dev origin/dev
+          BAA_PRIVATE_KEY="$(echo $AA_PRIVATE_KEY | base64 --decode)" yarn workspace @xerox/browserslist-config run update:stats
+          npx prettier ./packages/xerox-browserslist-config/browserslist-stats.json --write
+          git commit -a -m 'chore(browserslist-config): update stats'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          AA_PRIVATE_KEY: ${{ADOBE_ANALYTICS_PRIVATE_KEY}}
+
+      - name: Push branch
+        run: |
+          cd ~/repo
+          git pull --rebase
+          git push --set-upstream origin dev
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Create PR
+        run: |
+          cd ~
+          wget https://github.com/github/hub/releases/download/v2.11.2/hub-linux-amd64-2.11.2.tgz
+          tar xvfz hub-linux-amd64-2.11.2.tgz
+          cd ~/repo
+          ~/hub-linux-amd64-2.11.2/bin/hub pull-request --file .github/stats-cron-pr.md --base master
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

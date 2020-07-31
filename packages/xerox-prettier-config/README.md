@@ -2,7 +2,7 @@
 
 > Prettier shareable configuration for Xerox projects.
 
-[![circleci status][circleci-badge]][circleci-link]
+[![ci status][ci-badge]][ci-link]
 [![npm package][npm-badge]][npm-link]
 [![license MIT][license-badge]][license-link]
 [![commit style angular][commit-style-badge]][commit-style-link]
@@ -31,8 +31,8 @@ npm install prettier @xerox/prettier-config --save-dev
 [license-link]: ../../LICENSE
 [changelog-link]: ./CHANGELOG.md
 
-[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/config/master
-[circleci-link]: https://circleci.com/gh/xeroxinteractive/config/tree/master
+[ci-badge]: https://flat.badgen.net/github/checks/xeroxinteractive/config/release?label=ci
+[ci-link]: https://github.com/xeroxinteractive/config/actions?query=branch%3Arelease
 
 [npm-badge]: https://flat.badgen.net/npm/v/@xerox/prettier-config?color=cyan
 [npm-link]: https://www.npmjs.com/package/@xerox/prettier-config
