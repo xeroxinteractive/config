@@ -1,3 +1,16 @@
+## [1.0.5](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.4...xerox-browserslist-config-1.0.5) (2020-07-15)
+
+## [1.0.4](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.3...xerox-browserslist-config-1.0.4) (2020-05-22)
+
+## [1.0.3](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.2...xerox-browserslist-config-1.0.3) (2020-04-01)
+
+
+### Bug Fixes
+
+* **browserslist:** only include windows only edge ([55a5fbd](https://github.com/xeroxinteractive/config/commit/55a5fbd10a6a70e9131810f45b4bcba1c53f2971))
+
+## [1.0.2](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.1...xerox-browserslist-config-1.0.2) (2020-03-24)
+
 ## [1.0.1](https://github.com/xeroxinteractive/config/compare/xerox-browserslist-config-1.0.0...xerox-browserslist-config-1.0.1) (2020-01-10)
 
 
