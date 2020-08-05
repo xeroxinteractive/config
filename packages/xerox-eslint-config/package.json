@@ -33,7 +33,7 @@
     "eslint-plugin-jest": "^23.18.2",
     "eslint-plugin-jsdoc": "^30.2.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.4"
+    "eslint-plugin-react": "^7.20.5"
   },
   "peerDependencies": {
     "@xerox/prettier-config": "*",
