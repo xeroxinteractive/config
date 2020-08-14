@@ -3631,6 +3631,11 @@ get-stream@^5.0.0:
   dependencies:
     pump "^3.0.0"
 
+get-stream@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.0.tgz#3e0012cb6827319da2706e601a1583e8629a6718"
+  integrity sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
+
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
@@ -7737,10 +7742,10 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-semantic-release-plus@^18.2.1:
-  version "18.2.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-plus/-/semantic-release-plus-18.2.1.tgz#1191f89fe3d7d3087c27a3469582f9c7a15c6b1c"
-  integrity sha512-K9LBRHcEKzpI9qtXSXOzodoNZ79I8+pBDvlJsMT86UhWEhTWPLx4Wta5HwgK3y5BkS0rVw/73hMAPf+qDoJQ1g==
+semantic-release-plus@^18.2.2:
+  version "18.2.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-plus/-/semantic-release-plus-18.2.2.tgz#06c6d7d74fd7119dc487817bc6d8cdacd0111c11"
+  integrity sha512-1xcDOSarIrZElc1MgPxj/Whqwj5urk48kuOzu7XOI1Kr0SUgEQTU0KH9yesJLxMXLmo1+5V0ALXSHwsnVAIluA==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
@@ -7754,7 +7759,7 @@ semantic-release-plus@^18.2.1:
     execa "^4.0.0"
     figures "^3.0.0"
     find-versions "^3.0.0"
-    get-stream "^5.0.0"
+    get-stream "^6.0.0"
     git-log-parser "^1.2.0"
     hook-std "^2.0.0"
     hosted-git-info "^3.0.0"
