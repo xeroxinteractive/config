@@ -1,3 +1,10 @@
+## [3.1.6](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.5...xerox-eslint-config-3.1.6) (2020-08-24)
+
+
+### Bug Fixes
+
+* bump version for ts 4 ([bd8ea13](https://github.com/xeroxinteractive/config/commit/bd8ea13fc907dded18619a5949a762115e1195da))
+
 ## [3.1.5](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.4...xerox-eslint-config-3.1.5) (2020-07-31)
 
 ## [3.1.4](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.3...xerox-eslint-config-3.1.4) (2020-06-30)
