@@ -1392,16 +1392,6 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.4, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^6.12.4:
-  version "6.12.4"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.4.tgz#0614facc4522127fa713445c6bfd3ebd376e2234"
-  integrity sha512-eienB2c9qVQs2KWexhkrdMLVDoIQCz5KSeLxwg9Lzk4DOfBtIK9PQwwufcsn1jjGuf9WZmqPMbGxOzfcuphJCQ==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    fast-json-stable-stringify "^2.0.0"
-    json-schema-traverse "^0.4.1"
-    uri-js "^4.2.2"
-
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
@@ -3007,10 +2997,10 @@ eslint-import-resolver-node@^0.3.3:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.2.1.tgz#4b9bdfb51af7e14947ebc40ffdd6c32d5924b905"
-  integrity sha512-wxlVdwuWY6R5+CoesIy6n8EZX4k9lEeZGWTVBoX9g//8Xma8JMtL/p3AGnG43rRyXmIrX+/0IN8lpOPzrw1fSw==
+eslint-import-resolver-typescript@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.3.0.tgz#0870988098bc6c6419c87705e6b42bee89425445"
+  integrity sha512-MHSXvmj5e0SGOOBhBbt7C+fWj1bJbtSYFAD85Xeg8nvUtuooTod2HQb8bfhE9f5QyyNxEfgzqOYFCvmdDIcCuw==
   dependencies:
     debug "^4.1.1"
     glob "^7.1.6"
