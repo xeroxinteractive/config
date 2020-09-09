@@ -23,7 +23,7 @@
   "dependencies": {
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
-    "husky": "^4.2.5"
+    "husky": "^4.3.0"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
