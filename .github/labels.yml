@@ -30,7 +30,7 @@
   description: adds a new feature or improves on an existing one
   color: ad12cc
 - name: dependencies
-  description: Update one or more dependencies version
+  description: related to dependencies
   color: fcf3b8
 - name: major
   description: Increment the major version when merged
