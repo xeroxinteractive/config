@@ -31,19 +31,19 @@
   color: ad12cc
 - name: dependencies
   description: Update one or more dependencies version
-  color: 8732bc
+  color: fcf3b8
 - name: major
   description: Increment the major version when merged
   color: c5000b
 - name: minor
   description: Increment the minor version when merged
-  color: f1a60e
+  color: b54f0b
 - name: patch
   description: Increment the patch version when merged
-  color: 870048
+  color: 067314
 - name: release
   description: Create a release when this pr is merged
-  color: 007f70
+  color: 38e0d5
 - name: internal
   description: Changes only affect the internal API
   color: 696969
