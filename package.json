@@ -15,7 +15,7 @@
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
     "deploy": "yarn auto shipit",
-    "test": "jest --testPathIgnorePatterns packages && lerna run jest --passWithNoTests"
+    "test": "jest --testPathIgnorePatterns packages && yarn lerna run jest --passWithNoTests"
   },
   "commitlint": {
     "extends": [
