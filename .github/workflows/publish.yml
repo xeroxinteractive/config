@@ -34,7 +34,7 @@ jobs:
       - run: yarn lint
       - run: yarn test
 
-  publish:
+  release:
     needs: test
     runs-on: ubuntu-latest
     if: "! contains(toJSON(github.event.commits.*.message), '[skip-ci]')"
@@ -63,5 +63,5 @@ jobs:
           yarn deploy
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
-          SLACK_WEBHOOK: ${{secrets.NPM_SLACK_WEBHOOK}}
+          SLACK_WEBHOOK_URL: ${{secrets.NPM_SLACK_WEBHOOK}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
