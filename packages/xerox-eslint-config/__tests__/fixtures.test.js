@@ -1,8 +1,8 @@
 const glob = require('globby');
-const { join, resolve } = require('path');
+const { posix } = require('path');
 const { CLIEngine } = require('eslint');
 
-const fixtures = glob.sync(join(__dirname, '../__fixtures__/**/index.*'));
+const fixtures = glob.sync(posix.join(__dirname, '../__fixtures__/**/index.*'));
 
 const cli = new CLIEngine();
 
