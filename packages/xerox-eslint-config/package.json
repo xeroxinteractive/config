@@ -18,22 +18,22 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/react": "^16.9.46",
+    "@types/react": "^16.9.51",
     "globby": "^11.0.0",
     "react": "^16.13.1",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.10.0",
-    "@typescript-eslint/parser": "^3.10.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
     "babel-eslint": "^10.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-import-resolver-typescript": "^2.2.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.20.0",
-    "eslint-plugin-jsdoc": "^30.2.4",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsdoc": "^30.6.4",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.21.4"
   },
   "peerDependencies": {
     "@xerox/prettier-config": "*",
