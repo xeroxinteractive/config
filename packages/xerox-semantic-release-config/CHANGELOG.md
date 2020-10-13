@@ -1,3 +1,15 @@
+# v2.3.3 (Tue Oct 13 2020)
+
+#### 🐛 Bug Fix
+
+
+#### Authors: 2
+
+- [@tinytim84](https://github.com/tinytim84)
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 ## [2.3.2](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.1...xerox-semantic-release-config-2.3.2) (2020-07-31)
 
 ## [2.3.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.0...xerox-semantic-release-config-2.3.1) (2020-07-02)

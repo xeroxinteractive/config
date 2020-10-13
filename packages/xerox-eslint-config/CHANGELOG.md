@@ -1,3 +1,15 @@
+# v3.1.7 (Tue Oct 13 2020)
+
+#### 🐛 Bug Fix
+
+
+#### Authors: 2
+
+- [@tinytim84](https://github.com/tinytim84)
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 ## [3.1.6](https://github.com/xeroxinteractive/config/compare/xerox-eslint-config-3.1.5...xerox-eslint-config-3.1.6) (2020-08-24)
 
 

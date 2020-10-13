@@ -1,3 +1,15 @@
+# v2.2.4 (Tue Oct 13 2020)
+
+#### 🐛 Bug Fix
+
+
+#### Authors: 2
+
+- [@tinytim84](https://github.com/tinytim84)
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 ## [2.2.3](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.2...xerox-prettier-config-2.2.3) (2020-07-31)
 
 ## [2.2.2](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.1...xerox-prettier-config-2.2.2) (2020-05-22)

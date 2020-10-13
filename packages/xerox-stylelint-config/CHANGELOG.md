@@ -1,3 +1,15 @@
+# v1.1.2 (Tue Oct 13 2020)
+
+#### 🐛 Bug Fix
+
+
+#### Authors: 2
+
+- [@tinytim84](https://github.com/tinytim84)
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 ## [1.1.1](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.1.0...xerox-stylelint-config-1.1.1) (2020-07-31)
 
 # [1.1.0](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.0.3...xerox-stylelint-config-1.1.0) (2020-06-08)
