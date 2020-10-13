@@ -41,6 +41,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -54,9 +56,6 @@ jobs:
           key: 12.x-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             12.x-yarn-
-      - uses: webfactory/ssh-agent@v0.4.0
-        with:
-          ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
       - run: yarn install
       - name: Deploy
         run: |
