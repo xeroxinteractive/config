@@ -41,6 +41,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+        with:
+        # Ensure that git uses your token with write access to the repo
+        token: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           node-version: 12
