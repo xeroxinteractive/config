@@ -63,6 +63,7 @@ jobs:
       - name: Deploy
         run: |
           git remote set-url origin git@github.com:xeroxinteractive/config.git
+          git push --dry-run git@github.com:xeroxinteractive/config.git
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
           SLACK_WEBHOOK_URL: ${{secrets.NPM_SLACK_WEBHOOK}}
