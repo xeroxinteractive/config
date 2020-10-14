@@ -60,7 +60,8 @@
     "baseBranch": "release",
     "plugins": [
       "npm",
-      "slack"
+      "slack",
+      "./plugins/auto-before-publish.js"
     ]
   }
 }
