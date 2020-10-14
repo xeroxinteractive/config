@@ -10,6 +10,8 @@ module.exports = class TestPlugin {
   apply(auto) {
     auto.hooks.beforeShipIt.tap(this.name, function (context) {
       console.log(auto.remote);
+      auto.remote = 'git@github.com:xeroxinteractive/config.git';
+      console.log(auto.remote);
     });
   }
 };
