@@ -21,12 +21,59 @@
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.58.0.tgz#f62c447aae783c35dffe9e95630aecc84f55a1bf"
   integrity sha512-iJ1hs0knbTv729lyYnFALs/HlK7epBEIleR26wX34FbzN6BswIQgXOqk+AcYyArR2fAZJAbBlAaAm5eGX5g5PA==
 
+"@auto-it/bot-list@9.59.0":
+  version "9.59.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.59.0.tgz#c62f2d5279c4a8acec953de5eaa332b4abe008ed"
+  integrity sha512-8F3SbfO6tIUQsu4kNkp7/fmP+F052p+0qvfrILCelZC4IEhGfllh8vDIVwgseh574jiR6XrNf2aaYw655faWgg==
+
 "@auto-it/core@9.58.0":
   version "9.58.0"
   resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.58.0.tgz#e4841e1356a7f334fbbd0fb0028b7c9fc5091fb7"
   integrity sha512-5TpsT3xcxwS/duVPm9tTpzrc8vmhw8lrn+RMaB3tT3hojpAne1CEQDrtkZgfjfac2vqpcMTDQUJ65aomdbfXhw==
   dependencies:
     "@auto-it/bot-list" "9.58.0"
+    "@octokit/plugin-enterprise-compatibility" "^1.2.2"
+    "@octokit/plugin-retry" "^3.0.1"
+    "@octokit/plugin-throttling" "^3.2.0"
+    "@octokit/rest" "^18.0.0"
+    await-to-js "^2.1.1"
+    chalk "^4.0.0"
+    cosmiconfig "7.0.0"
+    deepmerge "^4.0.0"
+    dotenv "^8.0.0"
+    endent "^2.0.1"
+    enquirer "^2.3.4"
+    env-ci "^5.0.1"
+    fast-glob "^3.1.1"
+    fp-ts "^2.5.3"
+    fromentries "^1.2.0"
+    gitlog "^4.0.3"
+    https-proxy-agent "^5.0.0"
+    import-cwd "^3.0.0"
+    import-from "^3.0.0"
+    io-ts "^2.1.2"
+    lodash.chunk "^4.2.0"
+    log-symbols "^4.0.0"
+    node-fetch "2.6.1"
+    parse-author "^2.0.0"
+    parse-github-url "1.0.2"
+    pretty-ms "^7.0.0"
+    semver "^7.0.0"
+    signale "^1.4.0"
+    tapable "^2.0.0-beta.2"
+    terminal-link "^2.1.1"
+    tinycolor2 "^1.4.1"
+    tslib "2.0.1"
+    type-fest "^0.16.0"
+    typescript-memoize "^1.0.0-alpha.3"
+    url-join "^4.0.0"
+
+"@auto-it/core@9.59.0":
+  version "9.59.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.59.0.tgz#e3f5b30359c720218662de5597b668a2e7f69cc6"
+  integrity sha512-KT27oSlGmqJRKqkIC78pLeHcmGKkI2h5jcZCMtdLPjgo9u9YFm6raLeZ04+NYLLBBLG3hghpVxrOZWwZEvxJvQ==
+  dependencies:
+    "@auto-it/bot-list" "9.59.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -95,12 +142,12 @@
     tslib "2.0.1"
 
 "@auto-it/slack@^9.57.0":
-  version "9.58.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-9.58.0.tgz#cae30ad236a035dd316a0835fcdf0257376b8eb6"
-  integrity sha512-fRbdbuWtMS0Qz61e74qZTWABlp/Kvv+bDG0sog8DT6E0845+N9Ztv8nOmORYCprGSY/kK2VGukIRP2MZpBUm8w==
+  version "9.59.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-9.59.0.tgz#c9df1d7f5986e7858dd69480cb88b11fc26b3eb2"
+  integrity sha512-Zs0sIDpxYgbmmhKokEUf8EIhvnxcemKFQbGf7AKd4cisxzPYv2Q5eb+QzRiOF3+EOVPCanMqMUZpclAACgH0FA==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
-    "@auto-it/core" "9.58.0"
+    "@auto-it/core" "9.59.0"
     "@octokit/rest" "^18.0.0"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
