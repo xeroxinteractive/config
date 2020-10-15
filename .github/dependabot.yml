@@ -12,5 +12,4 @@ updates:
     target-branch: "next"
     labels:
       - "dependencies"
-    allow:
-      - "direct"
+    allow: ["direct"]
