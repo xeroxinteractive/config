@@ -7,10 +7,10 @@ updates:
     schedule:
       interval: "daily"
     commit-message:
-      prefix: "chore(deps): "
-      prefix-development: "chore(dev-deps): "
+      prefix: "chore"
       include: "scope"
     target-branch: "next"
     labels:
       - "dependencies"
-    allow: "direct"
+    allow:
+      - "direct"
