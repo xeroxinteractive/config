@@ -21,10 +21,10 @@
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.58.0.tgz#f62c447aae783c35dffe9e95630aecc84f55a1bf"
   integrity sha512-iJ1hs0knbTv729lyYnFALs/HlK7epBEIleR26wX34FbzN6BswIQgXOqk+AcYyArR2fAZJAbBlAaAm5eGX5g5PA==
 
-"@auto-it/bot-list@9.59.0":
-  version "9.59.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.59.0.tgz#c62f2d5279c4a8acec953de5eaa332b4abe008ed"
-  integrity sha512-8F3SbfO6tIUQsu4kNkp7/fmP+F052p+0qvfrILCelZC4IEhGfllh8vDIVwgseh574jiR6XrNf2aaYw655faWgg==
+"@auto-it/bot-list@9.59.1":
+  version "9.59.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.59.1.tgz#e979d76b0b4cb7409bc09718165960e3a22c4ca5"
+  integrity sha512-g1+zfAf8sUD+lIvhM6wpXOqfRUEfKyS/k5AaWWnExtrViyyvKcIbHYmBMgACvjfsTknXHs8UrSnbxcZ7pW47yQ==
 
 "@auto-it/core@9.58.0":
   version "9.58.0"
@@ -68,12 +68,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/core@9.59.0":
-  version "9.59.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.59.0.tgz#e3f5b30359c720218662de5597b668a2e7f69cc6"
-  integrity sha512-KT27oSlGmqJRKqkIC78pLeHcmGKkI2h5jcZCMtdLPjgo9u9YFm6raLeZ04+NYLLBBLG3hghpVxrOZWwZEvxJvQ==
+"@auto-it/core@9.59.1":
+  version "9.59.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.59.1.tgz#6022ae47fe69cba57fe32a0ee4c0de746cb6172e"
+  integrity sha512-83PwfzHc8W7s8KUtEpubJc1U3qLd5+YV8vyZzwVpvGeIql879LNtq3iPdYoGhx7WnG57IsGfM5WxFvGpOn2sEw==
   dependencies:
-    "@auto-it/bot-list" "9.59.0"
+    "@auto-it/bot-list" "9.59.1"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -142,12 +142,12 @@
     tslib "2.0.1"
 
 "@auto-it/slack@^9.57.0":
-  version "9.59.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-9.59.0.tgz#c9df1d7f5986e7858dd69480cb88b11fc26b3eb2"
-  integrity sha512-Zs0sIDpxYgbmmhKokEUf8EIhvnxcemKFQbGf7AKd4cisxzPYv2Q5eb+QzRiOF3+EOVPCanMqMUZpclAACgH0FA==
+  version "9.59.1"
+  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-9.59.1.tgz#84f5d9ce72880a8603deb0076457371fa777b648"
+  integrity sha512-3/uSAkz3kZxtYg7E+Ej5www2LaS8ANt64lwW1s+ZJ0Y14a4v1YmIO/ciol8pXTB2dTAkYXf8ZVVlIB609+LF6w==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
-    "@auto-it/core" "9.59.0"
+    "@auto-it/core" "9.59.1"
     "@octokit/rest" "^18.0.0"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
