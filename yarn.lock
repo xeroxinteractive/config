@@ -6502,12 +6502,12 @@ jest-mock@^26.6.1:
     "@types/node" "*"
 
 jest-package-audit@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/jest-package-audit/-/jest-package-audit-3.1.2.tgz#39e62c4cb79d21470cf0248c39e24eb99b8f58d3"
-  integrity sha512-tTPcJ3Q99U6VltQGEZoQYugth7js3GYESgmuYssfNSUzRDDW254i+UdxwamObbNzCn+Dy00FBd5CKaKDxi7Q5Q==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/jest-package-audit/-/jest-package-audit-3.2.0.tgz#f853b2bdb0f14a8f0220497213cced27a6460117"
+  integrity sha512-keGSx24KF4HT9B4JnxpqRyrWWCV5PYv29qYjk3MWLsOXcX2tsydPlCtK3RRaQwwM0KMoOj1YCmeQWJPp/tpQ0A==
   dependencies:
     cross-spawn "^7.0.0"
-    pkg-dir "^4.1.0"
+    pkg-dir "^5.0.0"
 
 jest-pnp-resolver@^1.2.2:
   version "1.2.2"
@@ -8899,12 +8899,19 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg-dir@^4.1.0, pkg-dir@^4.2.0:
+pkg-dir@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
+
+pkg-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
+  dependencies:
+    find-up "^5.0.0"
 
 pkg-up@^2.0.0:
   version "2.0.0"
