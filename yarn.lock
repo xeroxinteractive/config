@@ -21,59 +21,12 @@
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.0.2.tgz#b30f2a7c591bc90beeca9afb0cb7aff30705c16f"
   integrity sha512-A7dL9tuKNr/KV+Fnls2O4L4zJY6qk/cN8ocRo//yDXwEoBlLhXSZOuZDoFvTFf7Uvg/IAM86krUkM36u8LTUZg==
 
-"@auto-it/bot-list@9.61.0":
-  version "9.61.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-9.61.0.tgz#71010eb8d52ef3c64e4c7605490693993df4b746"
-  integrity sha512-/W7qeHFGO4M9vbiBWh5v80IwQsWN5j0mPkQL5bjY18QXwy1D/GsQ/SuGrZ12NYDMSwlMsa5NelVEicSkwYFAqQ==
-
 "@auto-it/core@10.0.2":
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.0.2.tgz#e2643a478de851caad537c83e001e9bb81cf122c"
   integrity sha512-GVGcv076B9S/y2o5U+Zy+WkEt96/QRaH8QdgkRspD5A1zFsT9kizf+53wTZeNlcPwbqrMtaPFY6Efn8lcA/iOw==
   dependencies:
     "@auto-it/bot-list" "10.0.2"
-    "@octokit/plugin-enterprise-compatibility" "^1.2.2"
-    "@octokit/plugin-retry" "^3.0.1"
-    "@octokit/plugin-throttling" "^3.2.0"
-    "@octokit/rest" "^18.0.0"
-    await-to-js "^2.1.1"
-    chalk "^4.0.0"
-    cosmiconfig "7.0.0"
-    deepmerge "^4.0.0"
-    dotenv "^8.0.0"
-    endent "^2.0.1"
-    enquirer "^2.3.4"
-    env-ci "^5.0.1"
-    fast-glob "^3.1.1"
-    fp-ts "^2.5.3"
-    fromentries "^1.2.0"
-    gitlog "^4.0.3"
-    https-proxy-agent "^5.0.0"
-    import-cwd "^3.0.0"
-    import-from "^3.0.0"
-    io-ts "^2.1.2"
-    lodash.chunk "^4.2.0"
-    log-symbols "^4.0.0"
-    node-fetch "2.6.1"
-    parse-author "^2.0.0"
-    parse-github-url "1.0.2"
-    pretty-ms "^7.0.0"
-    semver "^7.0.0"
-    signale "^1.4.0"
-    tapable "^2.0.0-beta.2"
-    terminal-link "^2.1.1"
-    tinycolor2 "^1.4.1"
-    tslib "2.0.1"
-    type-fest "^0.16.0"
-    typescript-memoize "^1.0.0-alpha.3"
-    url-join "^4.0.0"
-
-"@auto-it/core@9.61.0":
-  version "9.61.0"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-9.61.0.tgz#e224ee2ccf33223d32dc36f88e0bafc4eadbd152"
-  integrity sha512-fuH7qfnraiaPRPqm3V8b+7s9xHFt3/ojbQWKFeYzRA+zEbk6Ie2MqhLXRDBON3hTDjSnjw5cwY14R2RkL98hcQ==
-  dependencies:
-    "@auto-it/bot-list" "9.61.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -4462,9 +4415,9 @@ eslint-plugin-jest@^24.1.0:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
 eslint-plugin-jsdoc@^30.6.4:
-  version "30.7.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-30.7.3.tgz#1087642d7c4aba13b97dd7c1fdbcec49cd7dcc72"
-  integrity sha512-slzJeKrm3vXabRYcFBpbUgWgdnATN9rNOFAr7IhmkxmR9Vk/6qN1c/IdvTqVSEctDRQ08chR+Lvk8fRayXgYZg==
+  version "30.7.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-30.7.6.tgz#050ee54014dd301d9d53eb0e9aa740293861cc47"
+  integrity sha512-w18IOiS/9ahKgRfQOuHbce+EQYx3fwIkZhUZDEK+augNlhJkzgTSZkrBkzaflSbFNZ9/Tk4xzUABEaTbsBSzew==
   dependencies:
     comment-parser "^0.7.6"
     debug "^4.2.0"
