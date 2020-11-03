@@ -16,22 +16,22 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.2.0.tgz#488594ecb6676c7571dc66fcb18fb7452fecccb2"
   integrity sha512-ZDDooL8brlN+oH4MKaG/es0Y4ccYzcVJaPwwblWww/VB6t8BqqGvnIzqQ2U45XCv9o0LMMOQ3/JFl2p4Ajzjzg==
 
-"@auto-it/bot-list@10.0.2":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.0.2.tgz#b30f2a7c591bc90beeca9afb0cb7aff30705c16f"
-  integrity sha512-A7dL9tuKNr/KV+Fnls2O4L4zJY6qk/cN8ocRo//yDXwEoBlLhXSZOuZDoFvTFf7Uvg/IAM86krUkM36u8LTUZg==
+"@auto-it/bot-list@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.2.0.tgz#8b015e9ea6a840b18fa9b1c7e9f0651564d278ea"
+  integrity sha512-WY720yNVXa1FDfne+GVqF93kxztAn2qzDCiDy8gEo9OeXRkMQmNkpDVeD5Tx8lymzks4q0GLspE7paO5Pk+ppA==
 
 "@auto-it/bot-list@10.2.0":
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.2.0.tgz#8b015e9ea6a840b18fa9b1c7e9f0651564d278ea"
   integrity sha512-WY720yNVXa1FDfne+GVqF93kxztAn2qzDCiDy8gEo9OeXRkMQmNkpDVeD5Tx8lymzks4q0GLspE7paO5Pk+ppA==
 
-"@auto-it/core@10.0.2":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.0.2.tgz#e2643a478de851caad537c83e001e9bb81cf122c"
-  integrity sha512-GVGcv076B9S/y2o5U+Zy+WkEt96/QRaH8QdgkRspD5A1zFsT9kizf+53wTZeNlcPwbqrMtaPFY6Efn8lcA/iOw==
+"@auto-it/core@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.2.0.tgz#da36256da0ea929bb6c6baeea3bb9e4227fa11a4"
+  integrity sha512-E+myJ96JKR2QdH85Ze4AKwap5/yXCOdxNr4ptzC2jxDj49T3eAH+8iLNjIWl3390TaDe7nlXpoZcCpw1n0l0hA==
   dependencies:
-    "@auto-it/bot-list" "10.0.2"
+    "@auto-it/bot-list" "10.2.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -63,7 +63,7 @@
     tapable "^2.0.0-beta.2"
     terminal-link "^2.1.1"
     tinycolor2 "^1.4.1"
-    tslib "2.0.1"
+    tslib "2.0.3"
     type-fest "^0.16.0"
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
@@ -2779,7 +2779,7 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@^10.0.2:
+auto@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/auto/-/auto-10.2.0.tgz#8605b83b22c088f7480a9c0638e1be8b4af4a4f0"
   integrity sha512-RLiMyIoXIh9DLYfVZSyqE9mrWsLeIutVA94uTcdUWq8YhnzUSwSpGUQMNmjDG+onOFi1Fu08KnylspPzbZkKww==
