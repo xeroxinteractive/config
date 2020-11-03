@@ -1,6 +1,6 @@
 {
   "name": "@xerox/prettier-config",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Prettier shareable configuration for Xerox projects.",
   "keywords": [
     "xerox",
