@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
-    "deploy": "git fetch --tags && auto shipit",
+    "deploy": "auto shipit",
     "test": "jest --testPathIgnorePatterns packages && lerna exec jest -- --passWithNoTests"
   },
   "commitlint": {
@@ -40,7 +40,7 @@
     "@auto-it/slack": "^10.0.2",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "auto": "^10.0.2",
+    "auto": "^10.2.0",
     "eslint": "^7.11.0",
     "husky": "^4.3.0",
     "jest": "^26.5.2",
@@ -60,8 +60,7 @@
     "baseBranch": "release",
     "plugins": [
       "npm",
-      "slack",
-      "./plugins/auto-before-publish.js"
+      "slack"
     ]
   }
 }

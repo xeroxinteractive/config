@@ -42,7 +42,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
       - uses: actions/setup-node@v1
         with:
           node-version: 12
