@@ -65,43 +65,43 @@
     ],
     "labels": [
       {
-        "name": "bump: major",
+        "name": "change: major",
         "changelogTitle": "Breaking Change",
         "description": "A major breaking change",
         "releaseType": "major"
       },
       {
-        "name": "bump: feature",
+        "name": "change: feature",
         "changelogTitle": "Feature",
         "description": "Adds a new feature or improves on an existing one",
         "releaseType": "minor"
       },
       {
-        "name": "bump: fix",
+        "name": "change: fix",
         "changelogTitle": "Fix",
         "description": "Fixes a bug",
         "releaseType": "patch"
       },
       {
-        "name": "bump: documentation",
+        "name": "change: documentation",
         "changelogTitle": "Documentation",
         "description": "Changes only affect the documentation",
         "releaseType": "patch"
       },
       {
-        "name": "bump: refactor",
+        "name": "change: refactor",
         "changelogTitle": "Refactor",
         "description": "Changes that introduce no new features or fixes",
         "releaseType": "patch"
       },
       {
-        "name": "bump: performance",
+        "name": "change: performance",
         "changelogTitle": "Performance",
         "description": "Improve performance of an existing feature",
         "releaseType": "patch"
       },
       {
-        "name": "bump: dependencies",
+        "name": "change: dependencies",
         "changelogTitle": "Dependencies",
         "description": "Updates to dependancies only",
         "releaseType": "patch"
