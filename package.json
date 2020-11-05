@@ -113,8 +113,8 @@
         "releaseType": "none"
       },
       {
-        "name": "change: test",
-        "changelogTitle": "Test",
+        "name": "change: tests",
+        "changelogTitle": "Tests",
         "description": "Add or improve existing tests",
         "releaseType": "none"
       },
