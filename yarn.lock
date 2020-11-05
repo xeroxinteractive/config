@@ -16,17 +16,17 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.2.0.tgz#488594ecb6676c7571dc66fcb18fb7452fecccb2"
   integrity sha512-ZDDooL8brlN+oH4MKaG/es0Y4ccYzcVJaPwwblWww/VB6t8BqqGvnIzqQ2U45XCv9o0LMMOQ3/JFl2p4Ajzjzg==
 
-"@auto-it/bot-list@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.2.1.tgz#383b0876904e23568335425ceebf4fd795177f18"
-  integrity sha512-PkHtlLYYIspIM5BWX2PPIXMFnzD/FR/AgCp+Yk4dGmSXMPVQ9gA+7UmAh5UpchoYdD2vAwab8/k7oeJaHSogkQ==
+"@auto-it/bot-list@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.2.3.tgz#f7200b4f1be0b4bd1cb48e570eb96d4af4e52862"
+  integrity sha512-pnMpNNkLYwu6j/JlXTkQEwMWPCgD+BFabFKc+heE3EUVyaADhE8dZ3CeKW3dh0Xfv7wUV5qe2uS64gZ8wn+HQA==
 
-"@auto-it/core@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.2.1.tgz#0b72af8ca6b1a2e12405e83f42b48c603b1cefe1"
-  integrity sha512-wzeIipLMTOFUYdOwZBzaVSVJUHa3BAtixT5Yzq/iXW5ewweY38rjkrcv1iV1URZ0jWDOrGB+O21S1XFw9fUQMQ==
+"@auto-it/core@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.2.3.tgz#029424269ad76abb7a4ce2e6fd51d93271b7e708"
+  integrity sha512-ov7h5u8rQp2Qztgp/ltT7P1ZLShl3/NCZtz210QIOJGdc5cOlW9WVqH0VtJ6Gd+lJvUNp8BruELomqw5ocTP+A==
   dependencies:
-    "@auto-it/bot-list" "10.2.1"
+    "@auto-it/bot-list" "10.2.3"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -63,12 +63,12 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-it/npm@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-10.2.1.tgz#dbef73a6b1d14b01d250f49d8abc90d5714d7cfa"
-  integrity sha512-oUHanX1wf8TpDcawVkmoUsA8aOGmBpiAs39P6HwntfyLFpdxze2nlNaCB8IOTLhpOp3Yk51XBaqqvc8CVipBBw==
+"@auto-it/npm@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-10.2.3.tgz#264d7bc0a34601b50f48dff57c636eae32608d7d"
+  integrity sha512-Jx/HMak2+ebxsvIkIeVqIT1BCtIceRTr6SEbdm7N0Lz37gbi2VkOoFL6lGaj3QIzaO3DdpnD9Yof/UPitNZ+DA==
   dependencies:
-    "@auto-it/core" "10.2.1"
+    "@auto-it/core" "10.2.3"
     await-to-js "^2.1.1"
     env-ci "^5.0.1"
     fp-ts "^2.5.3"
@@ -83,24 +83,24 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-it/released@10.2.1":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-10.2.1.tgz#61f2a24f58afd7682e19765e12976b9fa17f5c7a"
-  integrity sha512-ZCZaokt8T88eD1VW5u/AbjQW3UsC+iCKFFgm3qFP24+gSMAFa0MVzzBmSZHJItJr2Q2Ofi0fl9CrfPuJhQKpcA==
+"@auto-it/released@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-10.2.3.tgz#a3d3c6dc8ddce2f87584f2e7e57690573c329398"
+  integrity sha512-u85qavqsGsHasIB22DbLwkOosn0dE4bhSpN5l77FoxFZAZhU1YeWpFDXwJyLde9HsT8MvSq10JySRu7unKnbVw==
   dependencies:
-    "@auto-it/core" "10.2.1"
+    "@auto-it/core" "10.2.3"
     deepmerge "^4.0.0"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     tslib "2.0.3"
 
-"@auto-it/slack@^10.0.2":
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-10.2.1.tgz#d806002dcc13303a7fe763e026569ce60dabafeb"
-  integrity sha512-Rad+iCUymyJzmIi4YMDoNDEhiBzOXDTXddOVefwqf9E/r3oA7oFv1ivIegtx8X6clMSts3xbpdk4Bsh7QODWmw==
+"@auto-it/slack@^10.2.1":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-10.2.3.tgz#176b100022c40c0ea3425b2f713aac97c345b03d"
+  integrity sha512-Zf8UxLsvBefQpYNvAQmm4gQczUtMh2aNEnYI2x3XQ0TurtdX8Qwemi9ddOeyI8Cugx9mzJO58JQ/xmFXhaLDPw==
   dependencies:
     "@atomist/slack-messages" "~1.2.0"
-    "@auto-it/core" "10.2.1"
+    "@auto-it/core" "10.2.3"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
     io-ts "^2.1.2"
@@ -2697,14 +2697,14 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
 
-auto@^10.2.0:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/auto/-/auto-10.2.1.tgz#11174d5b64c5f46155388b06ad3ae58c3f53a239"
-  integrity sha512-aQRy8QUrUSCP2qIOK2kwAp8GS9YWqxfgeptuXm7PyKNLrAJ7XIVjM9JropzhDgPOLWRnRVCqKVadzE/dvVpeEg==
+auto@^10.2.1:
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-10.2.3.tgz#8dbc8a0461d0bcc6b78fde3d972e6a29179676e9"
+  integrity sha512-gTD+RZN5hBvZ1afTwXDBrcjJrCBSuHLbVGw8V/1QUFc5lCkghRcntilIxi2KEUPkRO3hSNCbShswW6WQHUFb2w==
   dependencies:
-    "@auto-it/core" "10.2.1"
-    "@auto-it/npm" "10.2.1"
-    "@auto-it/released" "10.2.1"
+    "@auto-it/core" "10.2.3"
+    "@auto-it/npm" "10.2.3"
+    "@auto-it/released" "10.2.3"
     await-to-js "^2.1.1"
     chalk "^4.0.0"
     command-line-application "^0.10.1"
@@ -4443,9 +4443,9 @@ eslint-plugin-jest@^24.1.0:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
 eslint-plugin-jsdoc@^30.6.4:
-  version "30.7.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-30.7.6.tgz#050ee54014dd301d9d53eb0e9aa740293861cc47"
-  integrity sha512-w18IOiS/9ahKgRfQOuHbce+EQYx3fwIkZhUZDEK+augNlhJkzgTSZkrBkzaflSbFNZ9/Tk4xzUABEaTbsBSzew==
+  version "30.7.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-30.7.7.tgz#2af2c68e5adaf8a59fc3c72081a4b137098268bb"
+  integrity sha512-DmVMJC2AbpYX7X1KhnVT1a9ex1AUvG+q9G8i6hzjp3cpjW8vmKQTUmZnRS0//W+7HvMqeb+eXPANdCOzGVVZBQ==
   dependencies:
     comment-parser "^0.7.6"
     debug "^4.2.0"

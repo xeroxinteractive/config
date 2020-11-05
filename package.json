@@ -37,10 +37,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@auto-it/slack": "^10.0.2",
+    "@auto-it/slack": "^10.2.1",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "auto": "^10.2.0",
+    "auto": "^10.2.1",
     "eslint": "^7.11.0",
     "husky": "^4.3.0",
     "jest": "^26.5.2",
@@ -58,9 +58,71 @@
   },
   "auto": {
     "baseBranch": "release",
+    "onlyPublishWithReleaseLabel": true,
     "plugins": [
       "npm",
       "slack"
+    ],
+    "labels": [
+      {
+        "name": "change: major",
+        "changelogTitle": "Breaking Change",
+        "description": "A major breaking change",
+        "releaseType": "major"
+      },
+      {
+        "name": "change: feature",
+        "changelogTitle": "Feature",
+        "description": "Adds a new feature or improves on an existing one",
+        "releaseType": "minor"
+      },
+      {
+        "name": "change: fix",
+        "changelogTitle": "Fix",
+        "description": "Fixes a bug",
+        "releaseType": "patch"
+      },
+      {
+        "name": "change: documentation",
+        "changelogTitle": "Documentation",
+        "description": "Changes only affect the documentation",
+        "releaseType": "patch"
+      },
+      {
+        "name": "change: refactor",
+        "changelogTitle": "Refactor",
+        "description": "Changes that introduce no new features or fixes",
+        "releaseType": "patch"
+      },
+      {
+        "name": "change: performance",
+        "changelogTitle": "Performance",
+        "description": "Improve performance of an existing feature",
+        "releaseType": "patch"
+      },
+      {
+        "name": "change: dependencies",
+        "changelogTitle": "Dependencies",
+        "description": "Updates to dependancies only",
+        "releaseType": "patch"
+      },
+      {
+        "name": "change: chore",
+        "changelogTitle": "Chore",
+        "description": "Changes around build process",
+        "releaseType": "none"
+      },
+      {
+        "name": "change: tests",
+        "changelogTitle": "Tests",
+        "description": "Add or improve existing tests",
+        "releaseType": "none"
+      },
+      {
+        "name": "release",
+        "description": "Create a release when this pr is merged",
+        "releaseType": "release"
+      }
     ]
   }
 }
