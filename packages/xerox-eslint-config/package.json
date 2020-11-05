@@ -1,6 +1,6 @@
 {
   "name": "@xerox/eslint-config",
-  "version": "3.1.6",
+  "version": "3.1.7",
   "description": "ESLint shareable configuration for Xerox projects.",
   "keywords": [
     "xerox",
