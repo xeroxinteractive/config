@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=10 <=12",
+    "node": ">=10 <=14",
     "npm": ">=5.0",
     "yarn": ">=1.15.2"
   },
