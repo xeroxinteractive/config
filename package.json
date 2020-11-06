@@ -61,7 +61,8 @@
     "onlyPublishWithReleaseLabel": true,
     "plugins": [
       "npm",
-      "slack"
+      "slack",
+      "released"
     ],
     "labels": [
       {
