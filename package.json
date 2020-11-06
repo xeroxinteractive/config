@@ -89,7 +89,7 @@
       {
         "name": "change: dependencies",
         "changelogTitle": "Dependencies",
-        "description": "Updates to dependancies only",
+        "description": "Updates to dependencies only",
         "releaseType": "patch"
       },
       {

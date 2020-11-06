@@ -8,6 +8,6 @@ updates:
       interval: 'daily'
     target-branch: 'next'
     labels:
-      - 'dependencies'
+      - 'change: dependencies'
     allow:
       - dependency-type: 'direct'
