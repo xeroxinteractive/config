@@ -2,15 +2,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "daily"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-    target-branch: "next"
+      interval: 'daily'
+    target-branch: 'next'
     labels:
-      - "dependencies"
+      - 'dependencies'
     allow:
-      - dependency-type: "direct"
+      - dependency-type: 'direct'
