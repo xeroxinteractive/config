@@ -27,8 +27,8 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@auto-it/slack": "^10.2.1",
-    "auto": "^10.2.1",
+    "@auto-it/slack": "^10.3.0",
+    "auto": "^10.3.0",
     "eslint": "^7.11.0",
     "jest": "^26.5.2",
     "jest-package-audit": "^3.1.2",
