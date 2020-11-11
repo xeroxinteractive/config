@@ -48,7 +48,7 @@
   description: Improve performance of an existing feature
   color: fcf3b8
 - name: 'change: dependencies'
-  description: Updates to dependancies only
+  description: Updates to dependencies only
   color: fcf3b8
 - name: 'change: tests'
   description: Add or improve existing tests

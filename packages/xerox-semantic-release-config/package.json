@@ -30,7 +30,7 @@
     "semantic-release-slack-bot": "^1.6.2"
   },
   "peerDependencies": {
-    "semantic-release": "17.0.4"
+    "semantic-release": "^17.0.4"
   },
   "resolutions": {
     "acorn": ">=7.1.1",

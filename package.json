@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=10 <=12",
+    "node": ">=10 <=14",
     "npm": ">=5.0",
     "yarn": ">=1.15.2"
   },
@@ -16,16 +16,6 @@
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
     "deploy": "auto shipit",
     "test": "jest --testPathIgnorePatterns packages && lerna exec jest -- --passWithNoTests"
-  },
-  "commitlint": {
-    "extends": [
-      "./packages/xerox-commitlint-config/index.json"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
-    }
   },
   "eslintConfig": {
     "extends": [
@@ -37,17 +27,13 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@auto-it/slack": "^10.2.1",
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "auto": "^10.2.1",
+    "@auto-it/slack": "^10.3.0",
+    "auto": "^10.3.0",
     "eslint": "^7.11.0",
-    "husky": "^4.3.0",
     "jest": "^26.5.2",
     "jest-package-audit": "^3.1.2",
     "lerna": "^3.22.1",
-    "prettier": "^2.1.2",
-    "semantic-release-plus": "^18.2.2"
+    "prettier": "^2.1.2"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
@@ -61,7 +47,8 @@
     "onlyPublishWithReleaseLabel": true,
     "plugins": [
       "npm",
-      "slack"
+      "slack",
+      "released"
     ],
     "labels": [
       {
@@ -103,7 +90,7 @@
       {
         "name": "change: dependencies",
         "changelogTitle": "Dependencies",
-        "description": "Updates to dependancies only",
+        "description": "Updates to dependencies only",
         "releaseType": "patch"
       },
       {
