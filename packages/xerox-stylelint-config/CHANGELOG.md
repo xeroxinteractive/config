@@ -1,3 +1,32 @@
+# v1.1.3 (Wed Nov 11 2020)
+
+#### Fix
+
+- Merge branch 'next' into PH-semrel-dep ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' into next ([@tinytim84](https://github.com/tinytim84))
+- fix: package versions ([@tinytim84](https://github.com/tinytim84))
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore: update package.json versions ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps-dev): bump stylelint from 13.7.1 to 13.7.2 [#386](https://github.com/xeroxinteractive/config/pull/386) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump stylelint from 13.7.1 to 13.7.2 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 30.4.0 to 30.4.1 [#368](https://github.com/xeroxinteractive/config/pull/368) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump stylelint from 13.7.0 to 13.7.1 [#367](https://github.com/xeroxinteractive/config/pull/367) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump stylelint from 13.7.0 to 13.7.1 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 3.10.1 to 4.0.1 [#355](https://github.com/xeroxinteractive/config/pull/355) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump eslint from 7.7.0 to 7.8.0 [#353](https://github.com/xeroxinteractive/config/pull/353) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump stylelint from 13.6.1 to 13.7.0 [#354](https://github.com/xeroxinteractive/config/pull/354) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump stylelint from 13.6.1 to 13.7.0 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 5
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+
+---
+
 ## [1.1.1](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.1.0...xerox-stylelint-config-1.1.1) (2020-07-31)
 
 # [1.1.0](https://github.com/xeroxinteractive/config/compare/xerox-stylelint-config-1.0.3...xerox-stylelint-config-1.1.0) (2020-06-08)

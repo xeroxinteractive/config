@@ -1,3 +1,34 @@
+# v2.1.5 (Wed Nov 11 2020)
+
+#### Fix
+
+- Merge branch 'next' into PH-semrel-dep ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' into next ([@tinytim84](https://github.com/tinytim84))
+- fix: package versions ([@tinytim84](https://github.com/tinytim84))
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore: update package.json versions ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @typescript-eslint/parser from 4.1.0 to 4.1.1 [#370](https://github.com/xeroxinteractive/config/pull/370) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @commitlint/config-conventional from 9.1.2 to 11.0.0 [#375](https://github.com/xeroxinteractive/config/pull/375) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @commitlint/config-conventional from 9.1.2 to 11.0.0 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 30.4.1 to 30.5.1 [#374](https://github.com/xeroxinteractive/config/pull/374) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps-dev): bump eslint from 7.8.1 to 7.9.0 [#373](https://github.com/xeroxinteractive/config/pull/373) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @commitlint/cli from 9.1.2 to 11.0.0 [#372](https://github.com/xeroxinteractive/config/pull/372) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @commitlint/cli from 9.1.2 to 11.0.0 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.0.1 to 4.1.0 [#360](https://github.com/xeroxinteractive/config/pull/360) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @semantic-release/npm from 7.0.5 to 7.0.6 [#363](https://github.com/xeroxinteractive/config/pull/363) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump husky from 4.2.5 to 4.3.0 [#362](https://github.com/xeroxinteractive/config/pull/362) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump husky from 4.2.5 to 4.3.0 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 5
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+
+---
+
 ## [2.1.3](https://github.com/xeroxinteractive/config/compare/xerox-commitlint-config-2.1.2...xerox-commitlint-config-2.1.3) (2020-07-31)
 
 ## [2.1.2](https://github.com/xeroxinteractive/config/compare/xerox-commitlint-config-2.1.1...xerox-commitlint-config-2.1.2) (2020-05-22)
