@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 
 /**
  * Hello World.
@@ -6,5 +6,6 @@ import React from 'react';
  * @returns The Hello World component.
  */
 export default function helloWorld(): JSX.Element {
-  return <h1>Hello World!</h1>;
+  const [state, setState] = useState('Hello World!');
+  return <button onClick={() => setState('Goodbye World!')}>{state}</button>;
 }
