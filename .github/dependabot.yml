@@ -11,3 +11,57 @@ updates:
       - 'change: dependencies'
     allow:
       - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-browserslist-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-commitlint-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-eslint-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-prettier-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-semantic-release-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'
+  - package-ecosystem: 'npm'
+    directory: '/packages/xerox-stylelint-config'
+    schedule:
+      interval: 'daily'
+    target-branch: 'next'
+    labels:
+      - 'change: dependencies'
+    allow:
+      - dependency-type: 'direct'

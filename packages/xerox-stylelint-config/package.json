@@ -25,14 +25,7 @@
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
-    "@xerox/prettier-config": "^2.2.5",
-    "stylelint": "^13.7.2"
-  },
-  "resolutions": {
-    "acorn": ">=7.1.1",
-    "kind-of": ">=6.0.3",
-    "minimist": ">=1.2.3",
-    "yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2",
-    "dot-prop": ">=5.1.1"
+    "@xerox/prettier-config": "*",
+    "stylelint": "^13.8.0"
   }
 }

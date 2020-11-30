@@ -1,7 +1,4 @@
 on:
-  push:
-    branches:
-      - next
   pull_request:
     branches:
       - next
@@ -27,12 +24,12 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: yarn-cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ matrix.node-version }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ matrix.node-version }}-yarn-
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ matrix.node-version}}-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install
       - run: yarn lint
       - run: yarn test
