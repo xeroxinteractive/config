@@ -1,3 +1,26 @@
+# v3.1.9 (Mon Nov 30 2020)
+
+#### Fix
+
+- Merge branch 'release' of github.com:xeroxinteractive/config into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- feat(react): add react-testing-library plugin ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Al react 17 [#496](https://github.com/xeroxinteractive/config/pull/496) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore: manually bump all the deps ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps-dev): bump @types/react from 16.9.56 to 17.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump react from 16.14.0 to 17.0.1 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps-dev): bump @types/react from 16.9.56 to 17.0.0 [#493](https://github.com/xeroxinteractive/config/pull/493) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump react from 16.14.0 to 17.0.1 [#437](https://github.com/xeroxinteractive/config/pull/437) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v3.1.8 (Wed Nov 11 2020)
 
 #### Fix

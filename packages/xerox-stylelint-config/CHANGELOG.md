@@ -1,3 +1,18 @@
+# v1.1.4 (Mon Nov 30 2020)
+
+#### Fix
+
+- Merge branch 'release' of github.com:xeroxinteractive/config into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Al react 17 [#496](https://github.com/xeroxinteractive/config/pull/496) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore: manually bump all the deps ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v1.1.3 (Wed Nov 11 2020)
 
 #### Fix
