@@ -1,6 +1,6 @@
 {
   "name": "@xerox/commitlint-config",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "semantic-release shareable config for Xerox projects",
   "keywords": [
     "xerox",
