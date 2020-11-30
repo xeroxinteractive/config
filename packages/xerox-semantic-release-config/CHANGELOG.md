@@ -1,3 +1,34 @@
+# v2.3.4 (Wed Nov 11 2020)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Merge branch 'next' into PH-semrel-dep ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Merge branch 'next' into PH-semrel-dep ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' into next ([@tinytim84](https://github.com/tinytim84))
+- fix: package versions ([@tinytim84](https://github.com/tinytim84))
+- fix: loosen peer dependency ([@phawxby](https://github.com/phawxby))
+- chore: update package.json versions ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @typescript-eslint/parser from 4.0.1 to 4.1.0 [#360](https://github.com/xeroxinteractive/config/pull/360) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @semantic-release/github from 7.0.7 to 7.1.1 [#361](https://github.com/xeroxinteractive/config/pull/361) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @semantic-release/github from 7.0.7 to 7.1.1 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @semantic-release/npm from 7.0.5 to 7.0.6 [#363](https://github.com/xeroxinteractive/config/pull/363) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- chore(deps): bump @semantic-release/npm from 7.0.5 to 7.0.6 ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Dependencies
+
+- Node 14 + loosen peer dependency [#459](https://github.com/xeroxinteractive/config/pull/459) ([@phawxby](https://github.com/phawxby) [@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 5
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+
+---
+
 ## [2.3.2](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.1...xerox-semantic-release-config-2.3.2) (2020-07-31)
 
 ## [2.3.1](https://github.com/xeroxinteractive/config/compare/xerox-semantic-release-config-2.3.0...xerox-semantic-release-config-2.3.1) (2020-07-02)

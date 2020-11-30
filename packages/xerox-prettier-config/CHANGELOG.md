@@ -1,3 +1,23 @@
+# v2.2.5 (Wed Nov 11 2020)
+
+#### Fix
+
+- Merge branch 'next' into PH-semrel-dep ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' into next ([@tinytim84](https://github.com/tinytim84))
+- fix: package versions ([@tinytim84](https://github.com/tinytim84))
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore: update package.json versions ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 5
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+
+---
+
 ## [2.2.3](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.2...xerox-prettier-config-2.2.3) (2020-07-31)
 
 ## [2.2.2](https://github.com/xeroxinteractive/config/compare/xerox-prettier-config-2.2.1...xerox-prettier-config-2.2.2) (2020-05-22)
