@@ -1,3 +1,45 @@
+# (Mon Nov 30 2020)
+
+#### Fix
+
+- chore: force yarn install [#501](https://github.com/xeroxinteractive/config/pull/501) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- ci: tweaks [#500](https://github.com/xeroxinteractive/config/pull/500) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- ci: lerna yarn caching [#499](https://github.com/xeroxinteractive/config/pull/499) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- `@xerox/browserslist-config@1.0.9`, `@xerox/commitlint-config@2.1.6`, `@xerox/eslint-config@3.1.9`, `@xerox/prettier-config@2.2.6`, `@xerox/semantic-release-config@2.3.5`, `@xerox/stylelint-config@1.1.4`
+  - Al react 17 [#496](https://github.com/xeroxinteractive/config/pull/496) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- chore(deps): bump semantic-release-slack-bot from 1.6.2 to 1.7.0 [#497](https://github.com/xeroxinteractive/config/pull/497) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump prettier from 2.2.0 to 2.2.1 [#498](https://github.com/xeroxinteractive/config/pull/498) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump typescript from 4.0.5 to 4.1.2 [#490](https://github.com/xeroxinteractive/config/pull/490) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.8.1 to 4.8.2 [#495](https://github.com/xeroxinteractive/config/pull/495) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump @auto-it/slack from 10.4.0 to 10.4.2 [#494](https://github.com/xeroxinteractive/config/pull/494) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump eslint from 7.13.0 to 7.14.0 [#492](https://github.com/xeroxinteractive/config/pull/492) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump prettier from 2.1.2 to 2.2.0 [#491](https://github.com/xeroxinteractive/config/pull/491) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump auto from 10.3.0 to 10.4.0 [#489](https://github.com/xeroxinteractive/config/pull/489) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump @auto-it/slack from 10.3.0 to 10.4.0 [#488](https://github.com/xeroxinteractive/config/pull/488) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @semantic-release/github from 7.1.2 to 7.2.0 [#487](https://github.com/xeroxinteractive/config/pull/487) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump stylelint from 13.7.2 to 13.8.0 [#485](https://github.com/xeroxinteractive/config/pull/485) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.8.0 to 4.8.1 [#486](https://github.com/xeroxinteractive/config/pull/486) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.8.0 to 4.8.1 [#484](https://github.com/xeroxinteractive/config/pull/484) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.7.0 to 4.8.0 [#482](https://github.com/xeroxinteractive/config/pull/482) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @semantic-release/npm from 7.0.6 to 7.0.8 [#483](https://github.com/xeroxinteractive/config/pull/483) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.7.0 to 4.8.0 [#481](https://github.com/xeroxinteractive/config/pull/481) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @semantic-release/github from 7.1.1 to 7.1.2 [#479](https://github.com/xeroxinteractive/config/pull/479) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 30.7.7 to 30.7.8 [#480](https://github.com/xeroxinteractive/config/pull/480) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jest from 24.1.0 to 24.1.3 [#478](https://github.com/xeroxinteractive/config/pull/478) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@xerox/eslint-config@3.1.9`
+  - chore(deps-dev): bump @types/react from 16.9.56 to 17.0.0 [#493](https://github.com/xeroxinteractive/config/pull/493) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+  - chore(deps-dev): bump react from 16.14.0 to 17.0.1 [#437](https://github.com/xeroxinteractive/config/pull/437) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # (Wed Nov 11 2020)
 
 #### Fix
