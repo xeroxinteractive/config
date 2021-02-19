@@ -12,8 +12,8 @@
     "yarn": ">=1.15.2"
   },
   "scripts": {
-    "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check",
-    "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write",
+    "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check --ignore-path .gitignore",
+    "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write --ignore-path .gitignore",
     "deploy": "auto shipit",
     "test": "jest --testPathIgnorePatterns packages && lerna exec jest -- --passWithNoTests"
   },
