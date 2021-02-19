@@ -1,3 +1,24 @@
+# v2.2.0 (Fri Feb 19 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump husky from 4.3.8 to 5.0.9 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump husky in /packages/xerox-commitlint-config ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps): bump stylelint-scss from 3.18.0 to 3.19.0 [#592](https://github.com/xeroxinteractive/config/pull/592) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.14.2 to 4.15.0 [#594](https://github.com/xeroxinteractive/config/pull/594) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump husky from 4.3.8 to 5.0.9 [#595](https://github.com/xeroxinteractive/config/pull/595) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.1.6 (Mon Nov 30 2020)
 
 #### Fix

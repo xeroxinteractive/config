@@ -1,3 +1,28 @@
+# v3.2.0 (Fri Feb 19 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump eslint-plugin-jsdoc in /packages/xerox-eslint-config ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 31.6.1 to 32.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 30.7.13 to 31.0.3 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-config-prettier ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-config-prettier from 6.15.0 to 7.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps): bump eslint-plugin-jsdoc from 31.6.1 to 32.0.0 [#604](https://github.com/xeroxinteractive/config/pull/604) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.12.0 to 4.13.0 [#544](https://github.com/xeroxinteractive/config/pull/544) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 30.7.13 to 31.0.3 [#546](https://github.com/xeroxinteractive/config/pull/546) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-config-prettier from 6.15.0 to 7.0.0 [#509](https://github.com/xeroxinteractive/config/pull/509) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v3.1.9 (Mon Nov 30 2020)
 
 #### Fix
