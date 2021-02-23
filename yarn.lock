@@ -2796,9 +2796,9 @@ browser-process-hrtime@^1.0.0:
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
 browserslist-adobe-analytics@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/browserslist-adobe-analytics/-/browserslist-adobe-analytics-1.1.0.tgz#4363cc228322799de93e2ea38afdcf04cbf3777e"
-  integrity sha512-2g0dxIX06vtIdvYeeUkemdWN7yorEYY2EO0VodPdZKirONiytTLu1DaTZcdKBhsz0b5uAWaBr9aayOtEFirCSQ==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/browserslist-adobe-analytics/-/browserslist-adobe-analytics-1.1.1.tgz#96bee3e8972ee4db84698d820535caa07c08fa52"
+  integrity sha512-w7vnI9s/iLg7S/cCYXEniUkvWaY69PKank7cvES4x6XfXSnq7lK+2v026yFHb+nTnUx7kyHxAI4LtYCdhwa+Yg==
   dependencies:
     "@adobe/jwt-auth" "^0.3.1"
     browserslist "^4.8.2"
