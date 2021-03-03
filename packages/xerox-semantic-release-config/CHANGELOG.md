@@ -1,3 +1,22 @@
+# v2.4.0 (Fri Feb 19 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump semantic-release-slack-bot ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump semantic-release-slack-bot from 1.7.0 to 2.1.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps): bump semantic-release-slack-bot from 1.7.0 to 2.1.0 [#580](https://github.com/xeroxinteractive/config/pull/580) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.3.5 (Mon Nov 30 2020)
 
 #### Fix
