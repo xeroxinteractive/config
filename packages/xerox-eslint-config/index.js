@@ -3,8 +3,6 @@ module.exports = {
   extends: [
     'plugin:jest/recommended',
     'prettier',
-    'prettier/babel',
-    'prettier/standard',
     'plugin:import/errors',
     'plugin:import/warnings',
   ],
