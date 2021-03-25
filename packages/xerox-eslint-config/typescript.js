@@ -46,9 +46,15 @@ module.exports = {
         definedTags: ['remarks', 'jest-environment'],
       },
     ],
-    'jsdoc/check-types': 'warn',
-    'jsdoc/newline-after-description': 'error',
+
+    // Disable all the types related stuff, as that is what TypeScript is for.
+    'jsdoc/no-types': 'off',
+    'jsdoc/check-types': 'off',
     'jsdoc/no-undefined-types': 'off',
+    'jsdoc/require-returns-type': 'off',
+    'jsdoc/valid-types': 'off',
+
+    'jsdoc/newline-after-description': 'error',
     'jsdoc/require-description': 'off',
     'jsdoc/require-description-complete-sentence': 'error',
     'jsdoc/require-example': 'off',
@@ -60,8 +66,6 @@ module.exports = {
     'jsdoc/require-returns': 'error',
     'jsdoc/require-returns-check': 'error',
     'jsdoc/require-returns-description': 'error',
-    'jsdoc/require-returns-type': 'off',
-    'jsdoc/valid-types': 'off',
     'jsdoc/require-jsdoc': [
       'error',
       {
