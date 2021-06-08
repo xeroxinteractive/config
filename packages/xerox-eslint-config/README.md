@@ -23,6 +23,7 @@ npm install eslint@5.12.1 @xerox/eslint-config --save-dev
     "@xerox",
     "@xerox/eslint-config/typescript", // Optional
     "@xerox/eslint-config/react" // Optional
+    "@xerox/eslint-config/jest" // Optional
   ]
 }
 ```
@@ -33,7 +34,10 @@ The base eslint configuration i.e. `"extends": ["@xerox"]` includes rules for Je
 ### xerox/typescript
 The typescript eslint configuration i.e. `"extends": ["@xerox/eslint-config/typescript"]` includes various TypeScript related rules, as well as swapping the default parser in order for eslint to work with TypeScript. You should call eslint using `--ext .js,.ts`, add `.jsx` and/or `.tsx` if necessary. This also adds a JSDoc requirement for only TypeScript files, `.js` and `test.{js,ts}` files are excluded, this allows you to progressively convert from TS to JS without having to add JSdoc to all the old JS source. These JSDoc rules are setup to mimick TSDoc, eslint-plugin-tsdoc doesn't yet exist, so this is a workaround, try to follow the example set out [here](https://github.com/Microsoft/tsdoc).
 ### xerox/react
-The react eslint configuration i.e. `"extends": ["@xerox/eslint-config/react"]` enables jsx and includes the react reccomended settings from eslint-plugin-react, this sub-config needs some fleshing out.
+The react eslint configuration i.e. `"extends": ["@xerox/eslint-config/react"]` enables jsx and includes the react recommended settings from eslint-plugin-react, this sub-config needs some fleshing out.
+
+### xerox/jest
+The jest eslint configuration i.e. `"extends": ["@xerox/eslint-config/jest"]` includes the jest recommended settings from eslint-plugin-jest.
 
 ---
 [LICENSE][license-link] | [CHANGELOG][changelog-link]

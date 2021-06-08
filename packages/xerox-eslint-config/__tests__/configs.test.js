@@ -1,6 +1,6 @@
 const CLIEngine = require('eslint').CLIEngine;
 
-test.each(['index.js', 'react.js', 'typescript.js'])(
+test.each(['index.js', 'react.js', 'typescript.js', 'jest.js'])(
   '%s config valid',
   (filename) => {
     expect(

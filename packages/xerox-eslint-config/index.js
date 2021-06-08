@@ -1,11 +1,6 @@
 module.exports = {
-  plugins: ['jest', 'prettier', 'import'],
-  extends: [
-    'plugin:jest/recommended',
-    'prettier',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-  ],
+  plugins: ['prettier', 'import'],
+  extends: ['prettier', 'plugin:import/errors', 'plugin:import/warnings'],
 
   env: {
     node: true,
