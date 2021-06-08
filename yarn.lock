@@ -16,60 +16,10 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.2.2.tgz#782d31936a0363e4458272bcc8fbe4f7651292ee"
   integrity sha512-K1kQv1BZVtMXQqdpNZt9Pgh85KwamsWX9gYyq1xG4cpyb+EacfMiNfumrju16piFXanCUrCR0P1DowPjV2qV/A==
 
-"@auto-it/bot-list@10.26.1":
-  version "10.26.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.26.1.tgz#465130aac17d5333abbc4ea2b1647858f59e5385"
-  integrity sha512-TLXYX/F+NlI6nPx4wS8qp69Tcr0qykGRwRl3nRJKFlgA6RHFvx6nSguq8g9GDvEpDcxEbOo0TB/AiknyFzkzSg==
-
 "@auto-it/bot-list@10.29.2":
   version "10.29.2"
   resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.29.2.tgz#a47c5ce59c2eff8edc3ce05859a400aee11d0694"
   integrity sha512-dkrzfeIxN1QBXHmV93DfMEMu2dXG9Op0fjUqKKWSgDp7JYCRHvC6Qp0GpDf5OQfS6JC50ClLq7+1feYlzVtbqg==
-
-"@auto-it/core@10.26.1":
-  version "10.26.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.26.1.tgz#7e55b452c75714f488423e869e4c8bcc98592122"
-  integrity sha512-Bs4hGhzpUi4H80MJnIhIRfAd/yv1KShdCU3laH4GDo4pDUbco0BOE8pMTAisaCLrBXN+q8Q+9h16hp3Bij4nZw==
-  dependencies:
-    "@auto-it/bot-list" "10.26.1"
-    "@endemolshinegroup/cosmiconfig-typescript-loader" "^3.0.2"
-    "@octokit/plugin-enterprise-compatibility" "^1.2.2"
-    "@octokit/plugin-retry" "^3.0.1"
-    "@octokit/plugin-throttling" "^3.2.0"
-    "@octokit/rest" "^18.0.0"
-    await-to-js "^3.0.0"
-    chalk "^4.0.0"
-    cosmiconfig "7.0.0"
-    deepmerge "^4.0.0"
-    dotenv "^8.0.0"
-    endent "^2.0.1"
-    enquirer "^2.3.4"
-    env-ci "^5.0.1"
-    fast-glob "^3.1.1"
-    fp-ts "^2.5.3"
-    fromentries "^1.2.0"
-    gitlog "^4.0.3"
-    https-proxy-agent "^5.0.0"
-    import-cwd "^3.0.0"
-    import-from "^3.0.0"
-    io-ts "^2.1.2"
-    lodash.chunk "^4.2.0"
-    log-symbols "^4.0.0"
-    node-fetch "2.6.1"
-    parse-author "^2.0.0"
-    parse-github-url "1.0.2"
-    pretty-ms "^7.0.0"
-    requireg "^0.2.2"
-    semver "^7.0.0"
-    signale "^1.4.0"
-    tapable "^2.0.0-beta.2"
-    terminal-link "^2.1.1"
-    tinycolor2 "^1.4.1"
-    ts-node "^9.1.1"
-    tslib "2.1.0"
-    type-fest "^0.21.1"
-    typescript-memoize "^1.0.0-alpha.3"
-    url-join "^4.0.0"
 
 "@auto-it/core@10.29.2":
   version "10.29.2"
@@ -157,12 +107,12 @@
     tslib "2.1.0"
 
 "@auto-it/slack@^10.4.2":
-  version "10.26.1"
-  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-10.26.1.tgz#96bd42e58ed906597169f89613eaff1cc84eed86"
-  integrity sha512-gyG6wbou9/IafhF/1nqu68cRuljU9LzRWpT3aCQ02Z4OHaJSCO1YjQ5+GhUhFTdHjHKndOhLS5bs5X+dovPJIA==
+  version "10.29.2"
+  resolved "https://registry.yarnpkg.com/@auto-it/slack/-/slack-10.29.2.tgz#9691d954ba8d7433e6acb10692efaedf70931a06"
+  integrity sha512-u+FKvXXB/aRsnmUoBWc34xmkj/1UfZJKN6hdNKiF2Egocg+YZFaZ3kxtSqIBHII2MaySHBgcJXYIrW3KVGgisw==
   dependencies:
     "@atomist/slack-messages" "^1.2.2"
-    "@auto-it/core" "10.26.1"
+    "@auto-it/core" "10.29.2"
     "@octokit/rest" "^18.0.0"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
@@ -9622,11 +9572,6 @@ table@^6.0.4, table@^6.6.0:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
-
-tapable@^2.0.0-beta.2:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/tapable/-/tapable-2.1.1.tgz#b01cc1902d42a7bb30514e320ce21c456f72fd3f"
-  integrity sha512-Wib1S8m2wdpLbmQz0RBEVosIyvb/ykfKXf3ZIDqvWoMg/zTNm6G/tDSuUM61J1kNCDXWJrLHGSFeMhAG+gAGpQ==
 
 tapable@^2.2.0:
   version "2.2.0"
