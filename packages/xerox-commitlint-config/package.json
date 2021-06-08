@@ -14,15 +14,16 @@
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "files": [
-    "index.json",
-    ".huskyrc.json"
+    "index.json"
   ],
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "@commitlint/cli": "^12.0.0",
-    "@commitlint/config-conventional": "^12.0.0",
-    "husky": "^4.3.8"
+    "@commitlint/config-conventional": "^12.0.0"
+  },
+  "peerDependencies": {
+    "husky": "*"
   }
 }
