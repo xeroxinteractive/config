@@ -1,3 +1,44 @@
+# v3.3.0 (Tue Jun 08 2021)
+
+#### Feature
+
+- feat: disable jsdoc types for TS [#692](https://github.com/xeroxinteractive/config/pull/692) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Seperate out jest config [#652](https://github.com/xeroxinteractive/config/pull/652) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump eslint-plugin-jsdoc from 33.1.0 to 35.1.3 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc in /packages/xerox-eslint-config ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.3.3 to 33.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-testing-library from 3.10.2 to 4.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- feat: disable jsdoc types for TS (andrew.leedham@xerox.com)
+- feat: seperate out jest config ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- chore(deps): bump @types/react from 17.0.5 to 17.0.9 [#806](https://github.com/xeroxinteractive/config/pull/806) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.22.1 to 4.26.1 [#804](https://github.com/xeroxinteractive/config/pull/804) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-testing-library from 4.2.0 to 4.6.0 [#803](https://github.com/xeroxinteractive/config/pull/803) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump typescript from 4.2.4 to 4.3.2 [#801](https://github.com/xeroxinteractive/config/pull/801) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 12.1.1 to 12.1.4 [#800](https://github.com/xeroxinteractive/config/pull/800) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-react from 7.23.2 to 7.24.0 [#799](https://github.com/xeroxinteractive/config/pull/799) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump eslint from 7.25.0 to 7.28.0 [#798](https://github.com/xeroxinteractive/config/pull/798) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 12.1.1 to 12.1.4 [#797](https://github.com/xeroxinteractive/config/pull/797) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @semantic-release/npm from 7.1.1 to 7.1.3 [#759](https://github.com/xeroxinteractive/config/pull/759) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @semantic-release/github from 7.2.1 to 7.2.3 [#765](https://github.com/xeroxinteractive/config/pull/765) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 33.3.0 to 35.1.3 in /packages/xerox-eslint-config [#792](https://github.com/xeroxinteractive/config/pull/792) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.3.3 to 33.0.0 [#749](https://github.com/xeroxinteractive/config/pull/749) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-testing-library from 3.10.2 to 4.0.0 [#717](https://github.com/xeroxinteractive/config/pull/717) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 3
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- AndrewLeedham (andrew.leedham@xerox.com)
+
+---
+
 # v3.2.1 (Wed Mar 03 2021)
 
 #### Fix

@@ -1,3 +1,27 @@
+# v1.2.0 (Tue Jun 08 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump stylelint-config-recommended ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump stylelint-config-recommended from 3.0.0 to 4.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps): bump @types/react from 17.0.3 to 17.0.4 [#740](https://github.com/xeroxinteractive/config/pull/740) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-config-prettier from 8.2.0 to 8.3.0 [#739](https://github.com/xeroxinteractive/config/pull/739) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump stylelint-config-recommended from 4.0.0 to 5.0.0 in /packages/xerox-stylelint-config [#738](https://github.com/xeroxinteractive/config/pull/738) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @types/react from 17.0.2 to 17.0.3 [#656](https://github.com/xeroxinteractive/config/pull/656) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump stylelint from 13.11.0 to 13.12.0 [#655](https://github.com/xeroxinteractive/config/pull/655) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump stylelint-config-recommended from 3.0.0 to 4.0.0 [#654](https://github.com/xeroxinteractive/config/pull/654) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v1.1.4 (Mon Nov 30 2020)
 
 #### Fix
