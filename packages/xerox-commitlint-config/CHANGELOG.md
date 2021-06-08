@@ -1,3 +1,31 @@
+# v2.2.1 (Wed Mar 03 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @commitlint/config-conventional from 11.0.0 to 12.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli in /packages/xerox-commitlint-config ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 11.0.0 to 12.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore: downgrade to husky 4 ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- chore(deps-dev): bump auto from 10.16.6 to 10.16.7 [#633](https://github.com/xeroxinteractive/config/pull/633) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump browserslist-adobe-analytics from 1.1.0 to 1.1.1 [#632](https://github.com/xeroxinteractive/config/pull/632) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.15.1 to 4.15.2 [#631](https://github.com/xeroxinteractive/config/pull/631) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.15.1 to 4.15.2 [#629](https://github.com/xeroxinteractive/config/pull/629) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 11.0.0 to 12.0.0 [#625](https://github.com/xeroxinteractive/config/pull/625) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.1.0 to 32.1.1 [#624](https://github.com/xeroxinteractive/config/pull/624) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 11.0.0 to 12.0.0 [#623](https://github.com/xeroxinteractive/config/pull/623) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.2.0 (Fri Feb 19 2021)
 
 #### Fix

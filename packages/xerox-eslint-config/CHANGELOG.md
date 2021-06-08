@@ -1,3 +1,23 @@
+# v3.2.1 (Wed Mar 03 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- fix: condense prettier configs ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump eslint-config-prettier from 7.2.0 to 8.1.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- chore(deps-dev): bump auto from 10.16.8 to 10.18.1 [#646](https://github.com/xeroxinteractive/config/pull/646) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-config-prettier from 7.2.0 to 8.1.0 [#636](https://github.com/xeroxinteractive/config/pull/636) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v3.2.0 (Fri Feb 19 2021)
 
 #### Fix

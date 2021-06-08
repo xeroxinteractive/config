@@ -1,3 +1,46 @@
+# (Wed Mar 03 2021)
+
+#### Fix
+
+
+#### Dependencies
+
+- chore(deps-dev): bump lerna from 3.22.1 to 4.0.0 [#645](https://github.com/xeroxinteractive/config/pull/645) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump @auto-it/slack from 10.16.8 to 10.18.1 [#647](https://github.com/xeroxinteractive/config/pull/647) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump auto from 10.16.8 to 10.18.1 [#646](https://github.com/xeroxinteractive/config/pull/646) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump eslint from 7.20.0 to 7.21.0 [#642](https://github.com/xeroxinteractive/config/pull/642) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump typescript from 4.1.5 to 4.2.2 [#634](https://github.com/xeroxinteractive/config/pull/634) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.15.2 to 4.16.1 [#644](https://github.com/xeroxinteractive/config/pull/644) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.15.2 to 4.16.1 [#643](https://github.com/xeroxinteractive/config/pull/643) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump stylelint-prettier from 1.1.2 to 1.2.0 [#641](https://github.com/xeroxinteractive/config/pull/641) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 12.0.0 to 12.0.1 [#640](https://github.com/xeroxinteractive/config/pull/640) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 12.0.0 to 12.0.1 [#639](https://github.com/xeroxinteractive/config/pull/639) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump @auto-it/slack from 10.16.7 to 10.16.8 [#637](https://github.com/xeroxinteractive/config/pull/637) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump auto from 10.16.7 to 10.16.8 [#635](https://github.com/xeroxinteractive/config/pull/635) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump auto from 10.16.6 to 10.16.7 [#633](https://github.com/xeroxinteractive/config/pull/633) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump browserslist-adobe-analytics from 1.1.0 to 1.1.1 [#632](https://github.com/xeroxinteractive/config/pull/632) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.1.1 to 32.2.0 [#630](https://github.com/xeroxinteractive/config/pull/630) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.15.1 to 4.15.2 [#631](https://github.com/xeroxinteractive/config/pull/631) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.15.1 to 4.15.2 [#629](https://github.com/xeroxinteractive/config/pull/629) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 11.0.0 to 12.0.0 in /packages/xerox-commitlint-config [#628](https://github.com/xeroxinteractive/config/pull/628) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 11.0.0 to 12.0.0 in /packages/xerox-commitlint-config [#626](https://github.com/xeroxinteractive/config/pull/626) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.1.0 to 32.1.1 [#624](https://github.com/xeroxinteractive/config/pull/624) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 32.0.2 to 32.1.0 [#619](https://github.com/xeroxinteractive/config/pull/619) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump @auto-it/slack from 10.16.6 to 10.16.7 [#618](https://github.com/xeroxinteractive/config/pull/618) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump stylelint from 13.10.0 to 13.11.0 [#617](https://github.com/xeroxinteractive/config/pull/617) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@xerox/eslint-config@3.2.1`
+  - chore(deps): bump eslint-config-prettier from 7.2.0 to 8.1.0 [#636](https://github.com/xeroxinteractive/config/pull/636) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- `@xerox/commitlint-config@2.2.1`
+  - chore(deps): bump @commitlint/config-conventional from 11.0.0 to 12.0.0 [#625](https://github.com/xeroxinteractive/config/pull/625) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+  - chore(deps): bump @commitlint/cli from 11.0.0 to 12.0.0 [#623](https://github.com/xeroxinteractive/config/pull/623) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # (Fri Feb 19 2021)
 
 #### Feature
