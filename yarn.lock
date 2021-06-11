@@ -1829,16 +1829,16 @@
     tempy "^1.0.0"
 
 "@semantic-release/release-notes-generator@^9.0.1":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.2.tgz#a00da9f984b6d42d16e037ecd529f58665cde938"
-  integrity sha512-xGFSidhGqB27uwgWCU6y0gbf4r/no5flOAkJyFFc4+bPf8S+LfAVm7xhhlK5VPXLt2Iu1RBH8F+IgMK2ah5YpA==
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.3.tgz#d541221c6512e9619f25ba8079527e34288e6904"
+  integrity sha512-hMZyddr0u99OvM2SxVOIelHzly+PP3sYtJ8XOLHdMp8mrluN5/lpeTnIO27oeCYdupY/ndoGfvrqDjHqkSyhVg==
   dependencies:
     conventional-changelog-angular "^5.0.0"
     conventional-changelog-writer "^4.0.0"
     conventional-commits-filter "^2.0.0"
     conventional-commits-parser "^3.0.0"
     debug "^4.0.0"
-    get-stream "^5.0.0"
+    get-stream "^6.0.0"
     import-from "^3.0.0"
     into-stream "^6.0.0"
     lodash "^4.17.4"
@@ -9790,9 +9790,9 @@ treeverse@^1.0.4:
   integrity sha512-whw60l7r+8ZU8Tu/Uc2yxtc4ZTZbR/PF3u1IPNKGQ6p8EICLb3Z2lAgoqw9bqYd8IkgnsaOcLzYHFckjqNsf0g==
 
 "trim-newlines@>=3.0.1 <4.0.0 || >=4.0.1", trim-newlines@^1.0.0, trim-newlines@^3.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-4.0.1.tgz#caa1a0c92e86282c9cc8485ccd3ee5a6a4fbd958"
-  integrity sha512-5n5GIW0uEbjCB2PO6OoaG11rscJmLOLw12ZG9e0vBKNMToDJ2n1+AkUhJpGO2bLj3jXKa/gYTGVmilX5CCxqmA==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-4.0.2.tgz#d6aaaf6a0df1b4b536d183879a6b939489808c7c"
+  integrity sha512-GJtWyq9InR/2HRiLZgpIKv+ufIKrVrvjQWEj7PxAXNc5dwbNJkqhAUoAGgzRmULAnoOM5EIpveYd3J2VeSAIew==
 
 trim-off-newlines@^1.0.0:
   version "1.0.1"
