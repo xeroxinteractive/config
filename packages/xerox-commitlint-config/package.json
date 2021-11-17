@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0"
+    "@commitlint/config-conventional": "^15.0.0"
   },
   "peerDependencies": {
     "husky": "*"
