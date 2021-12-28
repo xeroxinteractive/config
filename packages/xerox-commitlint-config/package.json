@@ -20,7 +20,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^13.1.0"
   },
   "peerDependencies": {
