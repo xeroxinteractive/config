@@ -30,7 +30,7 @@
     "@auto-it/slack": "^10.4.2",
     "auto": "^10.4.2",
     "browserslist": "^4.14.5",
-    "eslint": "^7.14.0",
+    "eslint": "^8.6.0",
     "jest": "^26.6.3",
     "jest-package-audit": "^4.0.1",
     "lerna": "^4.0.0",
