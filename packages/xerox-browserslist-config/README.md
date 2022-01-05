@@ -7,7 +7,6 @@
 [![license MIT][license-badge]][license-link]
 [![commit style angular][commit-style-badge]][commit-style-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
-[![Dependabot Status][dependabot-badge]][dependabot-link]
 
 ## Usage
 1. Install this config and prettier as a `devDependency`:
@@ -68,6 +67,3 @@ Currently there are 3 different browserslist configurations:
 
 [semantic-release-badge]: https://flat.badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic%20release/e10079
 [semantic-release-link]: https://github.com/semantic-release/semantic-release
-
-[dependabot-badge]: https://flat.badgen.net/dependabot/xeroxinteractive/config?icon=dependabot
-[dependabot-link]: https://dependabot.com
