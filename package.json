@@ -15,9 +15,12 @@
     "lint": "eslint ./packages/**/*.js && prettier ./**/*.json --check --ignore-path .gitignore && lerna run lint",
     "format": "eslint ./packages/**/*.js --format && prettier ./**/*.json --write --ignore-path .gitignore",
     "deploy": "auto shipit",
-    "test": "jest --testPathIgnorePatterns packages && lerna exec jest -- --passWithNoTests"
+    "test": "jest"
   },
   "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
     "extends": [
       "./packages/xerox-eslint-config/index.js"
     ]
@@ -30,7 +33,8 @@
     "@auto-it/slack": "10.32.5",
     "auto": "10.32.5",
     "browserslist": "4.19.1",
-    "eslint": "7.32.0",
+    "enhanced-resolve": "^5.8.3",
+    "eslint": "8.6.0",
     "jest": "27.4.7",
     "jest-package-audit": "4.0.1",
     "lerna": "4.0.0",
