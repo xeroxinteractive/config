@@ -8800,10 +8800,10 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
-semantic-release-slack-bot@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-2.1.1.tgz#22fd5f10640c468c83af8f2deae7b89bb9d571f7"
-  integrity sha512-keNqVsZ+Ntm1F8O5yqoX3DmIsH1gK+CDmPhcjLAHTOtmJSul2kRFzEnAac1O8LltF9BQ2wW5OJ3BXcFWXt49aw==
+semantic-release-slack-bot@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-3.4.0.tgz#124aef42594d0d42d638a08c3bb6f69ab35cb90a"
+  integrity sha512-8R8eCAtm2klNY2xcOxd5zIpu3knH2cn+sn1AyaQGghLuydRMvVB0tfSv2s0bBIieVgwLcT0x9mWMzcWbli8fxg==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     micromatch "4.0.2"
