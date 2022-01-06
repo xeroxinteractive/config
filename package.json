@@ -27,14 +27,14 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@auto-it/slack": "10.29.2",
-    "auto": "10.29.2",
-    "browserslist": "4.16.6",
-    "eslint": "7.31.0",
+    "@auto-it/slack": "10.32.5",
+    "auto": "10.32.5",
+    "browserslist": "4.19.1",
+    "eslint": "7.32.0",
     "jest": "26.6.3",
     "jest-package-audit": "4.0.1",
     "lerna": "4.0.0",
-    "prettier": "2.3.2",
+    "prettier": "2.5.1",
     "stylelint": "13.13.1"
   },
   "resolutions": {
