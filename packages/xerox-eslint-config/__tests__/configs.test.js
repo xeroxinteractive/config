@@ -1,13 +1,15 @@
-const CLIEngine = require('eslint').CLIEngine;
+const { ESLint } = require('eslint');
+const { posix } = require('path');
 
 test.each(['index.js', 'react.js', 'typescript.js', 'jest.js'])(
   '%s config valid',
   (filename) => {
     expect(
       () =>
-        new CLIEngine({
+        new ESLint({
+          cwd: posix.resolve(__dirname, '../'),
           useEslintrc: false,
-          configFile: filename,
+          overrideConfigFile: filename,
         })
     ).not.toThrow();
   }
