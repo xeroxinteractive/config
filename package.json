@@ -31,7 +31,7 @@
     "auto": "10.32.5",
     "browserslist": "4.19.1",
     "eslint": "7.32.0",
-    "jest": "26.6.3",
+    "jest": "27.4.7",
     "jest-package-audit": "4.0.1",
     "lerna": "4.0.0",
     "prettier": "2.5.1",
