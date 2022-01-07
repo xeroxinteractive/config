@@ -1,3 +1,23 @@
+# v2.3.0 (Tue Jun 08 2021)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Remove husky config + open ended node engine [#793](https://github.com/xeroxinteractive/config/pull/793) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Remove husky config ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- chore(deps-dev): bump prettier from 2.2.1 to 2.3.1 [#795](https://github.com/xeroxinteractive/config/pull/795) ([@AndrewLeedham](https://github.com/AndrewLeedham) [@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.22.1 to 4.26.1 [#794](https://github.com/xeroxinteractive/config/pull/794) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.2.1 (Wed Mar 03 2021)
 
 #### Fix

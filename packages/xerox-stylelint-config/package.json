@@ -1,6 +1,6 @@
 {
   "name": "@xerox/stylelint-config",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Stylelint shareable configuration for Xerox projects.",
   "keywords": [
     "stylelint",
