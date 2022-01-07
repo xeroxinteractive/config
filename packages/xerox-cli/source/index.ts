@@ -2,7 +2,7 @@ import findUp from 'find-up';
 import path from 'path';
 import chalk from 'chalk';
 
-const configPath = findUp.sync('x-cli.config.js');
+const configPath = findUp.sync(['x-cli.config.mjs', 'x-cli.config.cjs', 'x-cli.config.js']);
 if (configPath) {
   const {run} = require(configPath);
   process.chdir(path.dirname(configPath));
