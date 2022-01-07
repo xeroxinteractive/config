@@ -1,3 +1,37 @@
+# v3.0.0 (Fri Jan 07 2022)
+
+#### Feature
+
+- Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency semantic-release-slack-bot to v3 ([@renovate-bot](https://github.com/renovate-bot))
+- Update semantic-release monorepo ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependencies ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update dependency eslint to v8 [#982](https://github.com/xeroxinteractive/config/pull/982) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency semantic-release-slack-bot to v3 [#980](https://github.com/xeroxinteractive/config/pull/980) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-prettier to v9 [#979](https://github.com/xeroxinteractive/config/pull/979) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo (major) [#978](https://github.com/xeroxinteractive/config/pull/978) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update Node.js to v16 [#964](https://github.com/xeroxinteractive/config/pull/964) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/setup-node action to v2 [#965](https://github.com/xeroxinteractive/config/pull/965) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo (major) [#966](https://github.com/xeroxinteractive/config/pull/966) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#961](https://github.com/xeroxinteractive/config/pull/961) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dependencies [#958](https://github.com/xeroxinteractive/config/pull/958) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.4.0 (Fri Feb 19 2021)
 
 #### Fix

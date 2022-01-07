@@ -1,3 +1,57 @@
+# v4.0.0 (Fri Jan 07 2022)
+
+#### Feature
+
+- Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Resolve ESM in Jest + new ESLint testing ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency eslint-plugin-prettier to v4 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency eslint-plugin-jsdoc to v37 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency eslint-plugin-testing-library to v5 ([@renovate-bot](https://github.com/renovate-bot))
+- Update typescript-eslint monorepo to v5 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency eslint-plugin-jest to v25 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/react to v17.0.38 ([@renovate-bot](https://github.com/renovate-bot))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependency @types/react to v17.0.9 ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- docs: remove dependabot from readmes [#956](https://github.com/xeroxinteractive/config/pull/956) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- docs: remove dependabot from readmes ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump eslint-plugin-jsdoc from 35.1.3 to 36.0.6 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- Update dependency eslint to v8 [#982](https://github.com/xeroxinteractive/config/pull/982) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-testing-library to v5 [#970](https://github.com/xeroxinteractive/config/pull/970) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v27 [#973](https://github.com/xeroxinteractive/config/pull/973) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-prettier to v4 [#971](https://github.com/xeroxinteractive/config/pull/971) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v37 [#972](https://github.com/xeroxinteractive/config/pull/972) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update typescript-eslint monorepo to v5 (major) [#969](https://github.com/xeroxinteractive/config/pull/969) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jest to v25 [#968](https://github.com/xeroxinteractive/config/pull/968) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.38 [#967](https://github.com/xeroxinteractive/config/pull/967) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update Node.js to v16 [#964](https://github.com/xeroxinteractive/config/pull/964) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/setup-node action to v2 [#965](https://github.com/xeroxinteractive/config/pull/965) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#962](https://github.com/xeroxinteractive/config/pull/962) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo (major) [#966](https://github.com/xeroxinteractive/config/pull/966) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#961](https://github.com/xeroxinteractive/config/pull/961) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dependency @types/react to v17.0.9 [#959](https://github.com/xeroxinteractive/config/pull/959) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dependencies [#958](https://github.com/xeroxinteractive/config/pull/958) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore(deps-dev): bump eslint from 7.28.0 to 7.31.0 [#840](https://github.com/xeroxinteractive/config/pull/840) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump typescript from 4.3.2 to 4.3.5 [#839](https://github.com/xeroxinteractive/config/pull/839) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jsdoc from 35.1.3 to 36.0.6 [#838](https://github.com/xeroxinteractive/config/pull/838) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.3.0 (Tue Jun 08 2021)
 
 #### Feature

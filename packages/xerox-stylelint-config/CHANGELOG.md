@@ -1,3 +1,40 @@
+# v2.0.0 (Fri Jan 07 2022)
+
+#### Feature
+
+- Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency stylelint-prettier to v2 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency stylelint-config-prettier to v9 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency stylelint to v14 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency stylelint-config-recommended to v6 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency stylelint-scss to v4 ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- docs: remove dependabot from readmes [#956](https://github.com/xeroxinteractive/config/pull/956) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- docs: remove dependabot from readmes ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency stylelint-config-prettier to v9 [#979](https://github.com/xeroxinteractive/config/pull/979) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo (major) [#978](https://github.com/xeroxinteractive/config/pull/978) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-prettier to v2 [#976](https://github.com/xeroxinteractive/config/pull/976) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint to v14 [#974](https://github.com/xeroxinteractive/config/pull/974) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v6 [#977](https://github.com/xeroxinteractive/config/pull/977) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-scss to v4 [#975](https://github.com/xeroxinteractive/config/pull/975) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dependencies [#958](https://github.com/xeroxinteractive/config/pull/958) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.2.0 (Tue Jun 08 2021)
 
 #### Fix

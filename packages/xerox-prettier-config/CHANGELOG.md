@@ -1,3 +1,22 @@
+# v3.0.0 (Fri Jan 07 2022)
+
+#### Feature
+
+- Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- docs: remove dependabot from readmes [#956](https://github.com/xeroxinteractive/config/pull/956) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- docs: remove dependabot from readmes ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 2
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+
+---
+
 # v2.2.6 (Mon Nov 30 2020)
 
 #### Fix

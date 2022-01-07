@@ -1,3 +1,41 @@
+# v3.0.0 (Fri Jan 07 2022)
+
+#### Feature
+
+- Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update commitlint monorepo ([@renovate-bot](https://github.com/renovate-bot))
+- Pin dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- docs: remove dependabot from readmes [#956](https://github.com/xeroxinteractive/config/pull/956) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- docs: remove dependabot from readmes ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- chore(deps): bump @commitlint/cli from 12.1.4 to 13.1.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 12.1.4 to 13.1.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Dependencies
+
+- Update Node.js to v16 [#964](https://github.com/xeroxinteractive/config/pull/964) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/setup-node action to v2 [#965](https://github.com/xeroxinteractive/config/pull/965) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#962](https://github.com/xeroxinteractive/config/pull/962) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo (major) [#966](https://github.com/xeroxinteractive/config/pull/966) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Pin dependencies [#958](https://github.com/xeroxinteractive/config/pull/958) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore(deps-dev): bump prettier from 2.3.1 to 2.3.2 [#852](https://github.com/xeroxinteractive/config/pull/852) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/cli from 12.1.4 to 13.1.0 [#851](https://github.com/xeroxinteractive/config/pull/851) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.26.1 to 4.29.0 [#846](https://github.com/xeroxinteractive/config/pull/846) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @commitlint/config-conventional from 12.1.4 to 13.1.0 [#845](https://github.com/xeroxinteractive/config/pull/845) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.3.0 (Tue Jun 08 2021)
 
 #### Fix
