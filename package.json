@@ -34,7 +34,7 @@
     "auto": "10.32.5",
     "browserslist": "4.19.1",
     "enhanced-resolve": "5.8.3",
-    "eslint": "8.6.0",
+    "eslint": "8.7.0",
     "jest": "27.4.7",
     "jest-package-audit": "4.0.1",
     "lerna": "4.0.0",
