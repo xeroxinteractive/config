@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import findUp from 'find-up';
+import { findUp } from 'find-up';
 import path from 'path';
 import chalk from 'chalk';
 
