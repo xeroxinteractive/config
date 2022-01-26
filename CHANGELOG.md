@@ -1,3 +1,88 @@
+# (Fri Jan 07 2022)
+
+#### Breaking Change
+
+- Resolve vulnerabilities [#955](https://github.com/xeroxinteractive/config/pull/955) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Feature
+
+- `@xerox/browserslist-config@2.0.0`, `@xerox/cli@1.0.0`, `@xerox/commitlint-config@3.0.0`, `@xerox/eslint-config@4.0.0`, `@xerox/prettier-config@3.0.0`, `@xerox/semantic-release-config@3.0.0`, `@xerox/stylelint-config@2.0.0`
+  - Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+- `@xerox/cli@1.0.0`
+  - Add ESM support to Xerox CLI [#833](https://github.com/xeroxinteractive/config/pull/833) ([@phawxby](https://github.com/phawxby))
+
+#### Fix
+
+- Configure Renovate [#957](https://github.com/xeroxinteractive/config/pull/957) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore: force release [#843](https://github.com/xeroxinteractive/config/pull/843) ([@phawxby](https://github.com/phawxby))
+- fix: revert normalize-url so esm conversion not required [#842](https://github.com/xeroxinteractive/config/pull/842) ([@phawxby](https://github.com/phawxby))
+- `@xerox/commitlint-config@3.0.0`, `@xerox/eslint-config@4.0.0`, `@xerox/stylelint-config@2.0.0`
+  - Merge branch 'release' into next [#836](https://github.com/xeroxinteractive/config/pull/836) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- `@xerox/browserslist-config@2.0.0`, `@xerox/commitlint-config@3.0.0`, `@xerox/eslint-config@4.0.0`, `@xerox/prettier-config@3.0.0`, `@xerox/stylelint-config@2.0.0`
+  - docs: remove dependabot from readmes [#956](https://github.com/xeroxinteractive/config/pull/956) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Pin dependency enhanced-resolve to 5.8.3 [#984](https://github.com/xeroxinteractive/config/pull/984) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency normalize-url to v7 [#981](https://github.com/xeroxinteractive/config/pull/981) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v27 [#973](https://github.com/xeroxinteractive/config/pull/973) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update Node.js to v16 [#964](https://github.com/xeroxinteractive/config/pull/964) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/setup-node action to v2 [#965](https://github.com/xeroxinteractive/config/pull/965) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- chore(deps): bump eslint-plugin-testing-library from 4.6.0 to 4.10.1 [#853](https://github.com/xeroxinteractive/config/pull/853) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump prettier from 2.3.1 to 2.3.2 [#852](https://github.com/xeroxinteractive/config/pull/852) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump postcss from 7.0.35 to 7.0.36 [#815](https://github.com/xeroxinteractive/config/pull/815) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump stylelint-scss from 3.19.0 to 3.20.1 [#850](https://github.com/xeroxinteractive/config/pull/850) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump eslint-plugin-jest from 24.3.6 to 24.4.0 [#849](https://github.com/xeroxinteractive/config/pull/849) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump chalk from 4.1.1 to 4.1.2 [#848](https://github.com/xeroxinteractive/config/pull/848) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump tar from 4.4.13 to 4.4.15 [#847](https://github.com/xeroxinteractive/config/pull/847) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/parser from 4.26.1 to 4.29.0 [#846](https://github.com/xeroxinteractive/config/pull/846) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump @typescript-eslint/eslint-plugin from 4.26.1 to 4.29.0 [#844](https://github.com/xeroxinteractive/config/pull/844) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps-dev): bump eslint from 7.28.0 to 7.31.0 [#840](https://github.com/xeroxinteractive/config/pull/840) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore(deps): bump typescript from 4.3.2 to 4.3.5 [#839](https://github.com/xeroxinteractive/config/pull/839) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@xerox/eslint-config@4.0.0`
+  - Update dependency eslint to v8 [#982](https://github.com/xeroxinteractive/config/pull/982) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-testing-library to v5 [#970](https://github.com/xeroxinteractive/config/pull/970) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-prettier to v4 [#971](https://github.com/xeroxinteractive/config/pull/971) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-jsdoc to v37 [#972](https://github.com/xeroxinteractive/config/pull/972) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update typescript-eslint monorepo to v5 (major) [#969](https://github.com/xeroxinteractive/config/pull/969) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-jest to v25 [#968](https://github.com/xeroxinteractive/config/pull/968) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/react to v17.0.38 [#967](https://github.com/xeroxinteractive/config/pull/967) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Pin dependency @types/react to v17.0.9 [#959](https://github.com/xeroxinteractive/config/pull/959) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - chore(deps): bump eslint-plugin-jsdoc from 35.1.3 to 36.0.6 [#838](https://github.com/xeroxinteractive/config/pull/838) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@xerox/semantic-release-config@3.0.0`
+  - Update dependency semantic-release-slack-bot to v3 [#980](https://github.com/xeroxinteractive/config/pull/980) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update semantic-release monorepo (major) [#978](https://github.com/xeroxinteractive/config/pull/978) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update semantic-release monorepo [#961](https://github.com/xeroxinteractive/config/pull/961) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/stylelint-config@2.0.0`
+  - Update dependency stylelint-config-prettier to v9 [#979](https://github.com/xeroxinteractive/config/pull/979) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint-prettier to v2 [#976](https://github.com/xeroxinteractive/config/pull/976) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint to v14 [#974](https://github.com/xeroxinteractive/config/pull/974) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint-config-recommended to v6 [#977](https://github.com/xeroxinteractive/config/pull/977) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint-scss to v4 [#975](https://github.com/xeroxinteractive/config/pull/975) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@1.0.0`, `@xerox/eslint-config@4.0.0`
+  - Update all non-major dependencies [#962](https://github.com/xeroxinteractive/config/pull/962) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/commitlint-config@3.0.0`
+  - Update commitlint monorepo (major) [#966](https://github.com/xeroxinteractive/config/pull/966) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - chore(deps): bump @commitlint/cli from 12.1.4 to 13.1.0 [#851](https://github.com/xeroxinteractive/config/pull/851) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+  - chore(deps): bump @commitlint/config-conventional from 12.1.4 to 13.1.0 [#845](https://github.com/xeroxinteractive/config/pull/845) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@xerox/browserslist-config@2.0.0`, `@xerox/cli@1.0.0`, `@xerox/commitlint-config@3.0.0`, `@xerox/eslint-config@4.0.0`, `@xerox/semantic-release-config@3.0.0`, `@xerox/stylelint-config@2.0.0`
+  - Pin dependencies [#958](https://github.com/xeroxinteractive/config/pull/958) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Chore
+
+- Downgrade normalize-url + auto registry workaround [#988](https://github.com/xeroxinteractive/config/pull/988) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Add save-exact npmrc [#987](https://github.com/xeroxinteractive/config/pull/987) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Tue Jun 08 2021)
 
 #### Feature
