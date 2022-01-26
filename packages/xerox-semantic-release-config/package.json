@@ -1,6 +1,6 @@
 {
   "name": "@xerox/semantic-release-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "semantic-release shareable config for Xerox projects",
   "keywords": [
     "xerox",
