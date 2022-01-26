@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "baseUrl": ".",
-    "outDir": "build"
+    "noEmit": true,
+    "allowJs": true
   },
-  "include": ["source"]
+  "include": ["./bin/x.js"]
 }
