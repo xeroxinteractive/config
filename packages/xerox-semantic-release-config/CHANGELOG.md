@@ -1,3 +1,31 @@
+# v3.1.0 (Wed Jan 26 2022)
+
+#### Feature
+
+- Add ESLint TS checking rules + style enforcement [#991](https://github.com/xeroxinteractive/config/pull/991) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Merge remote-tracking branch 'origin/next' into AL-cli-full-esm ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @semantic-release/npm to v9 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update all non-major dependencies [#995](https://github.com/xeroxinteractive/config/pull/995) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @commitlint/cli to v16.1.0 [#992](https://github.com/xeroxinteractive/config/pull/992) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v9 [#993](https://github.com/xeroxinteractive/config/pull/993) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#990](https://github.com/xeroxinteractive/config/pull/990) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.0.0 (Fri Jan 07 2022)
 
 #### Feature
