@@ -19,7 +19,8 @@
   },
   "eslintConfig": {
     "parserOptions": {
-      "ecmaVersion": 2020
+      "ecmaVersion": 2022,
+      "sourceType": "module"
     },
     "extends": [
       "./packages/xerox-eslint-config/index.js"

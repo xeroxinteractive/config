@@ -9,14 +9,12 @@
   "bin": {
     "x": "./bin/x.js"
   },
+  "type": "module",
   "scripts": {
-    "prepublishOnly": "yarn build",
-    "build": "tsc",
-    "lint": "tsc --noEmit"
+    "lint": "tsc"
   },
   "files": [
-    "bin/",
-    "build/"
+    "bin/"
   ],
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-cli",
@@ -26,10 +24,11 @@
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "4.5.5"
+    "typescript": "4.5.5",
+    "@types/node": "16.11.7"
   },
   "dependencies": {
-    "chalk": "4.1.2",
-    "find-up": "5.0.0"
+    "chalk": "5.0.0",
+    "find-up": "6.2.0"
   }
 }
