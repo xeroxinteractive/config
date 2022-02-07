@@ -1,3 +1,31 @@
+# v1.1.0 (Wed Jan 26 2022)
+
+#### Feature
+
+- Remove build step and go full ESM [#994](https://github.com/xeroxinteractive/config/pull/994) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @types/node to v16.11.21 ([@renovate-bot](https://github.com/renovate-bot))
+- Merge remote-tracking branch 'origin/next' into AL-cli-full-esm ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Add @typs/node ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Remove build step and go full ESM ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency @types/node to v16.11.21 [#998](https://github.com/xeroxinteractive/config/pull/998) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#995](https://github.com/xeroxinteractive/config/pull/995) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.0.0 (Fri Jan 07 2022)
 
 #### Feature

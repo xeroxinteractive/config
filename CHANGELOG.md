@@ -1,3 +1,39 @@
+# (Wed Jan 26 2022)
+
+#### Feature
+
+- `@xerox/cli@1.1.0`
+  - Remove build step and go full ESM [#994](https://github.com/xeroxinteractive/config/pull/994) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- `@xerox/eslint-config@4.1.0`
+  - Add ESLint TS checking rules + style enforcement [#991](https://github.com/xeroxinteractive/config/pull/991) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+
+#### Dependencies
+
+- `@xerox/cli@1.1.0`
+  - Update dependency @types/node to v16.11.21 [#998](https://github.com/xeroxinteractive/config/pull/998) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@4.1.0`
+  - Update dependency eslint-plugin-jest to v26 [#996](https://github.com/xeroxinteractive/config/pull/996) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@1.1.0`, `@xerox/eslint-config@4.1.0`, `@xerox/semantic-release-config@3.1.0`, `@xerox/stylelint-config@2.1.0`
+  - Update all non-major dependencies [#995](https://github.com/xeroxinteractive/config/pull/995) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/commitlint-config@3.1.0`
+  - Update dependency @commitlint/cli to v16.1.0 [#992](https://github.com/xeroxinteractive/config/pull/992) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @commitlint/cli to v16.0.2 [#963](https://github.com/xeroxinteractive/config/pull/963) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@3.1.0`
+  - Update dependency @semantic-release/npm to v9 [#993](https://github.com/xeroxinteractive/config/pull/993) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@4.1.0`, `@xerox/semantic-release-config@3.1.0`
+  - Update all non-major dependencies [#990](https://github.com/xeroxinteractive/config/pull/990) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Fri Jan 07 2022)
 
 #### Breaking Change
