@@ -3,6 +3,7 @@
 import { findUp } from 'find-up';
 import path from 'path';
 import chalk from 'chalk';
+import { pathToFileURL } from 'url';
 
 const configPath = await findUp([
   'x-cli.config.mjs',
@@ -10,7 +11,7 @@ const configPath = await findUp([
   'x-cli.config.js',
 ]);
 if (configPath) {
-  const url = new URL(`file:///${configPath}`);
+  const url = pathToFileURL(configPath);
   const { run } = await import(url.href);
   process.chdir(path.dirname(configPath));
   run();
