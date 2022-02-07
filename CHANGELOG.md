@@ -1,3 +1,26 @@
+# (Mon Feb 07 2022)
+
+#### Fix
+
+- `@xerox/cli@1.1.1`
+  - Resolve config path as URL [#1003](https://github.com/xeroxinteractive/config/pull/1003) ([@tinytim84](https://github.com/tinytim84))
+
+#### Dependencies
+
+- `@xerox/semantic-release-config@3.1.1`
+  - Update all non-major dependencies [#1002](https://github.com/xeroxinteractive/config/pull/1002) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@1.1.1`
+  - Update dependency @types/node to v16.11.22 [#1001](https://github.com/xeroxinteractive/config/pull/1001) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Wed Jan 26 2022)
 
 #### Feature
