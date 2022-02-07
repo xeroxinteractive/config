@@ -10,7 +10,8 @@ const configPath = await findUp([
   'x-cli.config.js',
 ]);
 if (configPath) {
-  const { run } = await import(configPath);
+  const url = new URL(`file:///${configPath}`);
+  const { run } = await import(url.href);
   process.chdir(path.dirname(configPath));
   run();
 } else {
