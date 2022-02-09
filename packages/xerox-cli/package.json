@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "chalk": "5.0.0",
-    "find-up": "6.2.0"
+    "find-up": "6.3.0"
   }
 }

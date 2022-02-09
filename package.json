@@ -34,13 +34,13 @@
     "@auto-it/slack": "10.32.6",
     "auto": "10.32.6",
     "browserslist": "4.19.1",
-    "enhanced-resolve": "5.8.3",
+    "enhanced-resolve": "5.9.0",
     "eslint": "8.8.0",
     "jest": "27.4.7",
     "jest-package-audit": "4.0.1",
     "lerna": "4.0.0",
     "prettier": "2.5.1",
-    "stylelint": "14.3.0"
+    "stylelint": "14.4.0"
   },
   "resolutions": {
     "yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2",
