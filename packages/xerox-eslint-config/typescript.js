@@ -2,7 +2,6 @@ module.exports = {
   plugins: ['@typescript-eslint', 'jsdoc'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
@@ -41,7 +40,6 @@ module.exports = {
     ],
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/consistent-type-assertions': 'error',
-    '@typescript-eslint/no-unnecessary-condition': 'warn',
     'jsdoc/check-examples': 'off',
     'jsdoc/check-param-names': 'error',
     'jsdoc/check-tag-names': [
