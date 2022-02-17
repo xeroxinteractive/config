@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "stylelint-config-prettier": "^9.0.0",
-    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-recommended": "^7.0.0",
     "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {
     "@xerox/prettier-config": "^3.0.0",
-    "stylelint": "14.3.0"
+    "stylelint": "14.5.1"
   }
 }

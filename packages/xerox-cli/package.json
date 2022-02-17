@@ -24,11 +24,11 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/node": "16.11.22",
+    "@types/node": "16.11.25",
     "typescript": "4.5.5"
   },
   "dependencies": {
     "chalk": "5.0.0",
-    "find-up": "6.2.0"
+    "find-up": "6.3.0"
   }
 }
