@@ -1,3 +1,27 @@
+# v1.1.1 (Mon Feb 07 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@tinytim84](https://github.com/tinytim84))
+- Resolve config path as URL [#1003](https://github.com/xeroxinteractive/config/pull/1003) ([@tinytim84](https://github.com/tinytim84))
+- change method for getting file url ([@tinytim84](https://github.com/tinytim84))
+- fix: windows path esm issue ([@tinytim84](https://github.com/tinytim84))
+- Update dependency @types/node to v16.11.22 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1002](https://github.com/xeroxinteractive/config/pull/1002) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.22 [#1001](https://github.com/xeroxinteractive/config/pull/1001) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Tim Ottewell ([@tinytim84](https://github.com/tinytim84))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.1.0 (Wed Jan 26 2022)
 
 #### Feature
