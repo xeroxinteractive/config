@@ -7,7 +7,7 @@
     "prettier",
     "prettier-config"
   ],
-  "main": "index.json",
+  "main": "index.js",
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-prettier-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",

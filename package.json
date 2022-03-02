@@ -26,7 +26,7 @@
       "./packages/xerox-eslint-config/index.js"
     ]
   },
-  "prettier": "./packages/xerox-prettier-config/index.json",
+  "prettier": "./packages/xerox-prettier-config/index.js",
   "workspaces": [
     "packages/*"
   ],
