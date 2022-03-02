@@ -8,12 +8,16 @@
     "prettier-config"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-prettier-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@types/prettier": "*"
   },
   "peerDependencies": {
     "prettier": "*"
