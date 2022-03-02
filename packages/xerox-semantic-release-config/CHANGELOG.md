@@ -1,3 +1,23 @@
+# v4.0.0 (Wed Mar 02 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @semantic-release/npm to v9.0.1 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update dependency @types/node to v16.11.26 [#1017](https://github.com/xeroxinteractive/config/pull/1017) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v9.0.1 [#1016](https://github.com/xeroxinteractive/config/pull/1016) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.1.1 (Mon Feb 07 2022)
 
 #### Fix

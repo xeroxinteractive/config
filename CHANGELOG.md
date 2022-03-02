@@ -1,3 +1,37 @@
+# (Wed Mar 02 2022)
+
+#### Breaking Change
+
+- `@xerox/prettier-config@4.0.0`
+  - Fix prettier config exporting JSON [#1020](https://github.com/xeroxinteractive/config/pull/1020) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Feature
+
+- `@xerox/prettier-config@4.0.0`
+  - Add prettier config types [#1021](https://github.com/xeroxinteractive/config/pull/1021) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+
+#### Dependencies
+
+- Update actions/setup-node action to v3 [#1019](https://github.com/xeroxinteractive/config/pull/1019) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/checkout action to v3 [#1018](https://github.com/xeroxinteractive/config/pull/1018) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.0`
+  - Update dependency @types/node to v16.11.26 [#1017](https://github.com/xeroxinteractive/config/pull/1017) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@4.0.0`
+  - Update dependency @semantic-release/npm to v9.0.1 [#1016](https://github.com/xeroxinteractive/config/pull/1016) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.0`, `@xerox/eslint-config@5.0.0`, `@xerox/stylelint-config@3.0.0`
+  - Update all non-major dependencies [#1015](https://github.com/xeroxinteractive/config/pull/1015) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Thu Feb 17 2022)
 
 #### Fix

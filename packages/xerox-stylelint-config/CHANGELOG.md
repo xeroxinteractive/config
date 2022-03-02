@@ -1,3 +1,22 @@
+# v3.0.0 (Wed Mar 02 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1015](https://github.com/xeroxinteractive/config/pull/1015) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.1.1 (Thu Feb 17 2022)
 
 #### Fix
