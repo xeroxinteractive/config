@@ -1,3 +1,22 @@
+# v3.1.1 (Thu Feb 17 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update commitlint monorepo to v16.2.1 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update commitlint monorepo to v16.2.1 [#1011](https://github.com/xeroxinteractive/config/pull/1011) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.1.0 (Wed Jan 26 2022)
 
 #### Feature

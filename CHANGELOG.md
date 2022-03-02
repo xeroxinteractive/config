@@ -1,3 +1,37 @@
+# (Thu Feb 17 2022)
+
+#### Fix
+
+
+#### Refactor
+
+- `@xerox/eslint-config@4.1.1`
+  - Remove overenthusiastic TS checking for now [#1012](https://github.com/xeroxinteractive/config/pull/1012) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency jest to v27.5.1 [#1007](https://github.com/xeroxinteractive/config/pull/1007) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/commitlint-config@3.1.1`
+  - Update commitlint monorepo to v16.2.1 [#1011](https://github.com/xeroxinteractive/config/pull/1011) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/stylelint-config@2.1.1`
+  - Update dependency stylelint to v14.5.1 [#1013](https://github.com/xeroxinteractive/config/pull/1013) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1010](https://github.com/xeroxinteractive/config/pull/1010) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint-config-recommended to v7 [#1008](https://github.com/xeroxinteractive/config/pull/1008) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@1.1.2`
+  - Update dependency @types/node to v16.11.25 [#1009](https://github.com/xeroxinteractive/config/pull/1009) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@1.1.2`, `@xerox/stylelint-config@2.1.1`
+  - Update all non-major dependencies [#1006](https://github.com/xeroxinteractive/config/pull/1006) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@4.1.1`
+  - Update dependency @types/react to v17.0.39 [#1005](https://github.com/xeroxinteractive/config/pull/1005) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Mon Feb 07 2022)
 
 #### Fix

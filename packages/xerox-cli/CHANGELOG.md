@@ -1,3 +1,27 @@
+# v1.1.2 (Thu Feb 17 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @types/node to v16.11.25 ([@renovate-bot](https://github.com/renovate-bot))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1010](https://github.com/xeroxinteractive/config/pull/1010) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.25 [#1009](https://github.com/xeroxinteractive/config/pull/1009) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v7 [#1008](https://github.com/xeroxinteractive/config/pull/1008) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v27.5.1 [#1007](https://github.com/xeroxinteractive/config/pull/1007) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1006](https://github.com/xeroxinteractive/config/pull/1006) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v1.1.1 (Mon Feb 07 2022)
 
 #### Fix
