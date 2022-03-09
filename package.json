@@ -31,10 +31,10 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@auto-it/slack": "10.32.6",
-    "auto": "10.32.6",
-    "browserslist": "4.19.3",
-    "enhanced-resolve": "5.9.1",
+    "@auto-it/slack": "10.34.1",
+    "auto": "10.34.1",
+    "browserslist": "4.20.0",
+    "enhanced-resolve": "5.9.2",
     "eslint": "8.10.0",
     "jest": "27.5.1",
     "jest-package-audit": "4.0.1",
