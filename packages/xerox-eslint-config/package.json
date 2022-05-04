@@ -22,7 +22,7 @@
     "@types/react": "17.0.44",
     "globby": "11.1.0",
     "react": "18.0.0",
-    "typescript": "4.6.3"
+    "typescript": "4.6.4"
   },
   "dependencies": {
     "@types/react": "^17.0.0",
