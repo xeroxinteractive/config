@@ -36,7 +36,7 @@
     "browserslist": "4.20.4",
     "enhanced-resolve": "5.9.3",
     "eslint": "8.17.0",
-    "jest": "28.1.0",
+    "jest": "28.1.1",
     "jest-package-audit": "4.0.1",
     "lerna": "5.1.1",
     "prettier": "2.6.2",
