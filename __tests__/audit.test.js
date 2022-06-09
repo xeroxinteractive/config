@@ -10,11 +10,6 @@ test('packages do not have vunerabilities', () => {
     level: 'moderate',
     dependencyType: 'dependencies',
   }).toPassPackageAudit({
-    allow: [
-      // Patched version is ESM!
-      'ansi-regex',
-      // No patch available.
-      'trim-off-newlines',
-    ],
+    allow: ['minimist'],
   });
 });

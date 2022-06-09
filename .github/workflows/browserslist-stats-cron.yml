@@ -19,7 +19,7 @@ jobs:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: yarn-cache
         with:
           path: |
@@ -36,7 +36,7 @@ jobs:
           BAA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: 'chore(browserslist-config): update stats'
           title: 'chore(browserslist-config): update stats'
