@@ -33,14 +33,14 @@
   "devDependencies": {
     "@auto-it/slack": "10.37.1",
     "auto": "10.37.1",
-    "browserslist": "4.20.3",
+    "browserslist": "4.20.4",
     "enhanced-resolve": "5.9.3",
-    "eslint": "8.16.0",
+    "eslint": "8.17.0",
     "jest": "28.1.0",
     "jest-package-audit": "4.0.1",
     "lerna": "5.1.1",
     "prettier": "2.6.2",
-    "stylelint": "14.8.5"
+    "stylelint": "14.9.0"
   },
   "resolutions": {
     "yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2",
