@@ -1,3 +1,32 @@
+# v4.0.0 (Wed Mar 02 2022)
+
+#### Breaking Change
+
+- Fix prettier config exporting JSON [#1020](https://github.com/xeroxinteractive/config/pull/1020) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Feature
+
+- Add prettier config types [#1021](https://github.com/xeroxinteractive/config/pull/1021) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Add prettier config types ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Fix prettier config exporting JSON ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update actions/setup-node action to v3 [#1019](https://github.com/xeroxinteractive/config/pull/1019) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/checkout action to v3 [#1018](https://github.com/xeroxinteractive/config/pull/1018) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.0.0 (Fri Jan 07 2022)
 
 #### Feature
