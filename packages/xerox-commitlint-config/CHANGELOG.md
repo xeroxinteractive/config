@@ -1,3 +1,30 @@
+# v3.1.2 (Thu Jun 09 2022)
+
+#### Fix
+
+- Merge branch 'release' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Update commitlint monorepo to v17 ([@renovate-bot](https://github.com/renovate-bot))
+- Update commitlint monorepo to v16.2.4 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @commitlint/cli to v16.2.3 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update definitelyTyped [#1049](https://github.com/xeroxinteractive/config/pull/1049) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v17 (major) [#1053](https://github.com/xeroxinteractive/config/pull/1053) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency react to v18.1.0 [#1044](https://github.com/xeroxinteractive/config/pull/1044) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.33 [#1048](https://github.com/xeroxinteractive/config/pull/1048) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v16.2.4 [#1047](https://github.com/xeroxinteractive/config/pull/1047) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @commitlint/cli to v16.2.3 [#1025](https://github.com/xeroxinteractive/config/pull/1025) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.1.1 (Thu Feb 17 2022)
 
 #### Fix

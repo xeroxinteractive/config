@@ -1,3 +1,51 @@
+# v5.0.1 (Thu Jun 09 2022)
+
+#### Fix
+
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Merge branch 'next' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Update definitelyTyped ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency react to v18.1.0 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency eslint-plugin-jsdoc to v39 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/react to v17.0.44 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency react to v18 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/react to v17.0.43 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/react to v17.0.42 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/react to v17.0.41 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency eslint-plugin-jsdoc to v38 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update dependency stylelint-config-recommended to v8 [#1059](https://github.com/xeroxinteractive/config/pull/1059) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1056](https://github.com/xeroxinteractive/config/pull/1056) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1054](https://github.com/xeroxinteractive/config/pull/1054) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1049](https://github.com/xeroxinteractive/config/pull/1049) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency react to v18.1.0 [#1044](https://github.com/xeroxinteractive/config/pull/1044) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v16.2.4 [#1047](https://github.com/xeroxinteractive/config/pull/1047) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28 [#1045](https://github.com/xeroxinteractive/config/pull/1045) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1046](https://github.com/xeroxinteractive/config/pull/1046) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.44 [#1037](https://github.com/xeroxinteractive/config/pull/1037) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1036](https://github.com/xeroxinteractive/config/pull/1036) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v39 [#1039](https://github.com/xeroxinteractive/config/pull/1039) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency react to v18 [#1034](https://github.com/xeroxinteractive/config/pull/1034) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1033](https://github.com/xeroxinteractive/config/pull/1033) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v8.0.4 [#1031](https://github.com/xeroxinteractive/config/pull/1031) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.43 [#1032](https://github.com/xeroxinteractive/config/pull/1032) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.42 [#1028](https://github.com/xeroxinteractive/config/pull/1028) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @commitlint/cli to v16.2.3 [#1025](https://github.com/xeroxinteractive/config/pull/1025) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v38 [#1027](https://github.com/xeroxinteractive/config/pull/1027) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.41 [#1026](https://github.com/xeroxinteractive/config/pull/1026) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v5.0.0 (Wed Mar 02 2022)
 
 #### Fix
