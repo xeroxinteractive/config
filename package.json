@@ -38,7 +38,7 @@
     "eslint": "8.17.0",
     "jest": "28.1.1",
     "jest-package-audit": "4.0.1",
-    "lerna": "5.1.1",
+    "lerna": "5.1.4",
     "prettier": "2.6.2",
     "stylelint": "14.9.0"
   },
