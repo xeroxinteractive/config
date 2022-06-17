@@ -39,8 +39,8 @@
     "jest": "28.1.1",
     "jest-package-audit": "4.0.1",
     "lerna": "5.1.4",
-    "prettier": "2.6.2",
-    "stylelint": "14.9.0"
+    "prettier": "2.7.1",
+    "stylelint": "14.9.1"
   },
   "resolutions": {
     "yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2",
