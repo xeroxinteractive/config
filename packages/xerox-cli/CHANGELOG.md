@@ -1,3 +1,44 @@
+# v2.0.1 (Thu Jun 09 2022)
+
+#### Fix
+
+- Update dependency @types/node to v16.11.39 ([@renovate-bot](https://github.com/renovate-bot))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Merge branch 'next' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Update definitelyTyped ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v16.11.33 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v16.11.31 ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @types/node to v16.11.27 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update dependency jest to v28.1.1 [#1058](https://github.com/xeroxinteractive/config/pull/1058) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.39 [#1057](https://github.com/xeroxinteractive/config/pull/1057) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v8 [#1059](https://github.com/xeroxinteractive/config/pull/1059) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1056](https://github.com/xeroxinteractive/config/pull/1056) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1054](https://github.com/xeroxinteractive/config/pull/1054) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1049](https://github.com/xeroxinteractive/config/pull/1049) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency react to v18.1.0 [#1044](https://github.com/xeroxinteractive/config/pull/1044) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.33 [#1048](https://github.com/xeroxinteractive/config/pull/1048) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v16.2.4 [#1047](https://github.com/xeroxinteractive/config/pull/1047) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28 [#1045](https://github.com/xeroxinteractive/config/pull/1045) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1046](https://github.com/xeroxinteractive/config/pull/1046) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.31 [#1043](https://github.com/xeroxinteractive/config/pull/1043) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint to v14.7.1 [#1041](https://github.com/xeroxinteractive/config/pull/1041) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.27 [#1040](https://github.com/xeroxinteractive/config/pull/1040) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1033](https://github.com/xeroxinteractive/config/pull/1033) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1023](https://github.com/xeroxinteractive/config/pull/1023) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.0.0 (Wed Mar 02 2022)
 
 #### Fix

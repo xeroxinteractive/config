@@ -1,3 +1,27 @@
+# v4.0.1 (Thu Jun 09 2022)
+
+#### Fix
+
+- Merge branch 'next' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- Merge branch 'release' of https://github.com/xeroxinteractive/config into next ([@phawxby](https://github.com/phawxby))
+- fix: make refactor visible [#1060](https://github.com/xeroxinteractive/config/pull/1060) ([@phawxby](https://github.com/phawxby))
+- Update all non-major dependencies ([@renovate-bot](https://github.com/renovate-bot))
+- Update dependency @semantic-release/github to v8.0.4 ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1050](https://github.com/xeroxinteractive/config/pull/1050) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v8.0.4 [#1031](https://github.com/xeroxinteractive/config/pull/1031) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v4.0.0 (Wed Mar 02 2022)
 
 #### Fix

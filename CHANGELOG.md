@@ -1,3 +1,65 @@
+# (Thu Jun 09 2022)
+
+#### Fix
+
+- `@xerox/semantic-release-config@4.0.1`
+  - fix: make refactor visible [#1060](https://github.com/xeroxinteractive/config/pull/1060) ([@phawxby](https://github.com/phawxby))
+
+#### Dependencies
+
+- Update dependency jest to v28.1.1 [#1058](https://github.com/xeroxinteractive/config/pull/1058) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5 [#1055](https://github.com/xeroxinteractive/config/pull/1055) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28.1.0 [#1051](https://github.com/xeroxinteractive/config/pull/1051) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28 [#1045](https://github.com/xeroxinteractive/config/pull/1045) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1036](https://github.com/xeroxinteractive/config/pull/1036) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency prettier to v2.6.2 [#1035](https://github.com/xeroxinteractive/config/pull/1035) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update peter-evans/create-pull-request action to v4 [#1030](https://github.com/xeroxinteractive/config/pull/1030) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/cache action to v3 [#1029](https://github.com/xeroxinteractive/config/pull/1029) ([@renovate-bot](https://github.com/renovate-bot) [@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.1`
+  - Update dependency @types/node to v16.11.39 [#1057](https://github.com/xeroxinteractive/config/pull/1057) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v16.11.33 [#1048](https://github.com/xeroxinteractive/config/pull/1048) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v16.11.31 [#1043](https://github.com/xeroxinteractive/config/pull/1043) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v16.11.27 [#1040](https://github.com/xeroxinteractive/config/pull/1040) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1023](https://github.com/xeroxinteractive/config/pull/1023) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/stylelint-config@3.0.1`
+  - Update dependency stylelint-config-recommended to v8 [#1059](https://github.com/xeroxinteractive/config/pull/1059) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1042](https://github.com/xeroxinteractive/config/pull/1042) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency stylelint to v14.7.1 [#1041](https://github.com/xeroxinteractive/config/pull/1041) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1024](https://github.com/xeroxinteractive/config/pull/1024) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.1`, `@xerox/eslint-config@5.0.1`, `@xerox/stylelint-config@3.0.1`
+  - Update all non-major dependencies [#1056](https://github.com/xeroxinteractive/config/pull/1056) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1054](https://github.com/xeroxinteractive/config/pull/1054) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1046](https://github.com/xeroxinteractive/config/pull/1046) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update all non-major dependencies [#1033](https://github.com/xeroxinteractive/config/pull/1033) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.1`, `@xerox/eslint-config@5.0.1`
+  - Update definitelyTyped [#1049](https://github.com/xeroxinteractive/config/pull/1049) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/commitlint-config@3.1.2`
+  - Update commitlint monorepo to v17 (major) [#1053](https://github.com/xeroxinteractive/config/pull/1053) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update commitlint monorepo to v16.2.4 [#1047](https://github.com/xeroxinteractive/config/pull/1047) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @commitlint/cli to v16.2.3 [#1025](https://github.com/xeroxinteractive/config/pull/1025) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@4.0.1`, `@xerox/stylelint-config@3.0.1`
+  - Update all non-major dependencies [#1050](https://github.com/xeroxinteractive/config/pull/1050) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@5.0.1`
+  - Update dependency react to v18.1.0 [#1044](https://github.com/xeroxinteractive/config/pull/1044) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/react to v17.0.44 [#1037](https://github.com/xeroxinteractive/config/pull/1037) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-jsdoc to v39 [#1039](https://github.com/xeroxinteractive/config/pull/1039) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency react to v18 [#1034](https://github.com/xeroxinteractive/config/pull/1034) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/react to v17.0.43 [#1032](https://github.com/xeroxinteractive/config/pull/1032) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/react to v17.0.42 [#1028](https://github.com/xeroxinteractive/config/pull/1028) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-jsdoc to v38 [#1027](https://github.com/xeroxinteractive/config/pull/1027) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/react to v17.0.41 [#1026](https://github.com/xeroxinteractive/config/pull/1026) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@4.0.1`
+  - Update dependency @semantic-release/github to v8.0.4 [#1031](https://github.com/xeroxinteractive/config/pull/1031) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 4
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Wed Mar 02 2022)
 
 #### Breaking Change
