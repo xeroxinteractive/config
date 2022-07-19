@@ -1,3 +1,23 @@
+# v3.1.3 (Tue Jul 19 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update commitlint monorepo to v17.0.3 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency lerna to v5.1.6 [#1068](https://github.com/xeroxinteractive/config/pull/1068) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v17.0.3 [#1067](https://github.com/xeroxinteractive/config/pull/1067) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v3.1.2 (Thu Jun 09 2022)
 
 #### Fix

@@ -1,3 +1,29 @@
+# v2.0.2 (Tue Jul 19 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @types/node to v16.11.44 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.43 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped ([@renovate-bot](https://github.com/renovate-bot))
+
+#### Dependencies
+
+- Update dependency @types/node to v16.11.44 [#1077](https://github.com/xeroxinteractive/config/pull/1077) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v16.11.43 [#1071](https://github.com/xeroxinteractive/config/pull/1071) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1066](https://github.com/xeroxinteractive/config/pull/1066) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5.1.4 [#1063](https://github.com/xeroxinteractive/config/pull/1063) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1062](https://github.com/xeroxinteractive/config/pull/1062) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.0.1 (Thu Jun 09 2022)
 
 #### Fix
