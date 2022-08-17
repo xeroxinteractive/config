@@ -35,12 +35,12 @@
     "auto": "10.37.4",
     "browserslist": "4.21.3",
     "enhanced-resolve": "5.10.0",
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "jest": "28.1.3",
     "jest-package-audit": "5.0.0",
     "lerna": "5.4.2",
     "prettier": "2.7.1",
-    "stylelint": "14.9.1"
+    "stylelint": "14.10.0"
   },
   "resolutions": {
     "yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2",
