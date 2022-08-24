@@ -24,7 +24,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/node": "16.11.49",
+    "@types/node": "16.11.56",
     "typescript": "4.7.4"
   },
   "dependencies": {
