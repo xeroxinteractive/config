@@ -19,7 +19,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/react": "17.0.49",
+    "@types/react": "17.0.50",
     "globby": "11.1.0",
     "react": "18.1.0",
     "typescript": "4.8.3"
