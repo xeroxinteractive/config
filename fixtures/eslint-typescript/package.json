@@ -1,0 +1,9 @@
+{
+  "name": "eslint-typescript",
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@xerox/eslint-config": "workspace:*",
+    "typescript": "4.9.4"
+  },
+  "private": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "eslint-javascript",
+  "devDependencies": {
+    "@xerox/eslint-config": "workspace:*"
+  },
+  "private": true
+}
