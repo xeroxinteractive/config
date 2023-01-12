@@ -132,14 +132,17 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.js'],
+      files: ['*.{js,cjs}'],
       rules: {
         'jsdoc/require-jsdoc': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
       },
     },
     {
-      files: ['*.test.{tsx,ts}', '**/__mocks__/**/*.{tsx,ts}'],
+      files: [
+        '*.test.{tsx,ts,mts,mtsx}',
+        '**/__mocks__/**/*.{tsx,ts,mts,mtsx}',
+      ],
       rules: {
         'jsdoc/require-jsdoc': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
