@@ -20,8 +20,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3"
+    "@commitlint/cli": "17.4.2",
+    "@commitlint/config-conventional": "17.4.2"
   },
   "peerDependencies": {
     "husky": "*"
