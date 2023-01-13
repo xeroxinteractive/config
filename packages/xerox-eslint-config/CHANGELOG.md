@@ -1,3 +1,45 @@
+# v5.0.3 (Fri Jan 13 2023)
+
+#### Fix
+
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Move to pnpm and fix vulnerabilities [#1161](https://github.com/xeroxinteractive/config/pull/1161) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Merge remote-tracking branch 'origin/next' into AL-pnpm-vulnerability ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Add handling for ESM typescript & node 18 [#1162](https://github.com/xeroxinteractive/config/pull/1162) ([@phawxby](https://github.com/phawxby))
+- Move to pnpm and fix vulnerabilities ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jest to v27 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.49 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1152](https://github.com/xeroxinteractive/config/pull/1152) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1143](https://github.com/xeroxinteractive/config/pull/1143) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo to v17.2.0 [#1138](https://github.com/xeroxinteractive/config/pull/1138) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1137](https://github.com/xeroxinteractive/config/pull/1137) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1131](https://github.com/xeroxinteractive/config/pull/1131) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1112](https://github.com/xeroxinteractive/config/pull/1112) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5.5.1 [#1107](https://github.com/xeroxinteractive/config/pull/1107) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29.0.3 [#1106](https://github.com/xeroxinteractive/config/pull/1106) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1105](https://github.com/xeroxinteractive/config/pull/1105) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1104](https://github.com/xeroxinteractive/config/pull/1104) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29 [#1100](https://github.com/xeroxinteractive/config/pull/1100) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jest to v27 [#1099](https://github.com/xeroxinteractive/config/pull/1099) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v8.0.6 [#1095](https://github.com/xeroxinteractive/config/pull/1095) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update commitlint monorepo [#1098](https://github.com/xeroxinteractive/config/pull/1098) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1097](https://github.com/xeroxinteractive/config/pull/1097) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v17.0.49 [#1096](https://github.com/xeroxinteractive/config/pull/1096) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1086](https://github.com/xeroxinteractive/config/pull/1086) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+
+---
+
 # v5.0.2 (Tue Jul 19 2022)
 
 #### Fix

@@ -1,3 +1,26 @@
+# v4.0.3 (Fri Jan 13 2023)
+
+#### Fix
+
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update semantic-release monorepo ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v8.0.6 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update semantic-release monorepo [#1147](https://github.com/xeroxinteractive/config/pull/1147) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29 [#1100](https://github.com/xeroxinteractive/config/pull/1100) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jest to v27 [#1099](https://github.com/xeroxinteractive/config/pull/1099) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v8.0.6 [#1095](https://github.com/xeroxinteractive/config/pull/1095) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Paul Hawxby ([@phawxby](https://github.com/phawxby))
+
+---
+
 # v4.0.2 (Tue Jul 19 2022)
 
 #### Fix
