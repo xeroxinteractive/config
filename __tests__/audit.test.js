@@ -9,7 +9,5 @@ test('packages do not have vunerabilities', () => {
   return expect({
     level: 'moderate',
     dependencyType: 'dependencies',
-  }).toPassPackageAudit({
-    allow: ['minimist'],
-  });
+  }).toPassPackageAudit();
 });
