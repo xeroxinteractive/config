@@ -61,7 +61,9 @@
     "minimist": ">=1.2.6",
     "npm": " >=8.11.0",
     "glob/minimatch": "3.1.2",
-    "@npmcli/map-workspaces/glob/minimatch": ">=3.0.5"
+    "@npmcli/map-workspaces/glob/minimatch": ">=3.0.5",
+    "json5": ">=2.2.2",
+    "trim-off-newlines": ">=1.0.3"
   },
   "auto": {
     "baseBranch": "release",
