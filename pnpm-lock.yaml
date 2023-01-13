@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.4-inlineSpecifiers
 
 overrides:
   yargs-parser@<13.1.2: ^13.1.2
@@ -33,169 +33,216 @@ overrides:
 importers:
 
   .:
-    specifiers:
-      '@auto-it/slack': 10.37.6
-      auto: 10.37.6
-      browserslist: 4.21.4
-      enhanced-resolve: 5.12.0
-      eslint: 8.30.0
-      jest: 29.3.1
-      jest-package-audit: 5.0.2
-      lerna: 6.1.0
-      prettier: 2.8.1
-      stylelint: 14.16.0
     devDependencies:
-      '@auto-it/slack': 10.37.6_awa2wsr5thmg3i7jqycphctjfq
-      auto: 10.37.6_awa2wsr5thmg3i7jqycphctjfq
-      browserslist: 4.21.4
-      enhanced-resolve: 5.12.0
-      eslint: 8.30.0
-      jest: 29.3.1_@types+node@18.11.18
-      jest-package-audit: 5.0.2_dln5bxqqcs3to76exmegarvt7y
-      lerna: 6.1.0
-      prettier: 2.8.1
-      stylelint: 14.16.0
+      '@auto-it/slack':
+        specifier: 10.37.6
+        version: 10.37.6_awa2wsr5thmg3i7jqycphctjfq
+      auto:
+        specifier: 10.37.6
+        version: 10.37.6_awa2wsr5thmg3i7jqycphctjfq
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      enhanced-resolve:
+        specifier: 5.12.0
+        version: 5.12.0
+      eslint:
+        specifier: 8.30.0
+        version: 8.30.0
+      jest:
+        specifier: 29.3.1
+        version: 29.3.1_@types+node@18.11.18
+      jest-package-audit:
+        specifier: 5.0.2
+        version: 5.0.2_dln5bxqqcs3to76exmegarvt7y
+      lerna:
+        specifier: 6.1.0
+        version: 6.1.0
+      prettier:
+        specifier: 2.8.1
+        version: 2.8.1
+      stylelint:
+        specifier: 14.16.0
+        version: 14.16.0
 
   fixtures/eslint-javascript:
-    specifiers:
-      '@xerox/eslint-config': workspace:*
     devDependencies:
-      '@xerox/eslint-config': link:../../packages/xerox-eslint-config
+      '@xerox/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/xerox-eslint-config
 
   fixtures/eslint-react:
-    specifiers:
-      '@xerox/eslint-config': workspace:*
-      react: 18.1.0
     dependencies:
-      react: 18.1.0
+      react:
+        specifier: 18.1.0
+        version: 18.1.0
     devDependencies:
-      '@xerox/eslint-config': link:../../packages/xerox-eslint-config
+      '@xerox/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/xerox-eslint-config
 
   fixtures/eslint-typescript:
-    specifiers:
-      '@types/node': 18.11.18
-      '@xerox/eslint-config': workspace:*
-      typescript: 4.9.4
     devDependencies:
-      '@types/node': 18.11.18
-      '@xerox/eslint-config': link:../../packages/xerox-eslint-config
-      typescript: 4.9.4
+      '@types/node':
+        specifier: 18.11.18
+        version: 18.11.18
+      '@xerox/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/xerox-eslint-config
+      typescript:
+        specifier: 4.9.4
+        version: 4.9.4
 
   fixtures/eslint-typescriptreact:
-    specifiers:
-      '@types/node': 18.11.18
-      '@types/react': 18.0.26
-      '@xerox/eslint-config': workspace:*
-      react: 18.1.0
-      typescript: 4.9.4
     dependencies:
-      react: 18.1.0
+      react:
+        specifier: 18.1.0
+        version: 18.1.0
     devDependencies:
-      '@types/node': 18.11.18
-      '@types/react': 18.0.26
-      '@xerox/eslint-config': link:../../packages/xerox-eslint-config
-      typescript: 4.9.4
+      '@types/node':
+        specifier: 18.11.18
+        version: 18.11.18
+      '@types/react':
+        specifier: 18.0.26
+        version: 18.0.26
+      '@xerox/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/xerox-eslint-config
+      typescript:
+        specifier: 4.9.4
+        version: 4.9.4
 
   packages/xerox-browserslist-config:
-    specifiers:
-      browserslist: '>=4.8.0'
-      browserslist-adobe-analytics: 1.1.1
     dependencies:
-      browserslist: 4.21.4
+      browserslist:
+        specifier: '>=4.8.0'
+        version: 4.21.4
     devDependencies:
-      browserslist-adobe-analytics: 1.1.1
+      browserslist-adobe-analytics:
+        specifier: 1.1.1
+        version: 1.1.1
 
   packages/xerox-cli:
-    specifiers:
-      '@types/node': 16.18.10
-      chalk: 5.2.0
-      find-up: 6.3.0
-      typescript: 4.9.4
     dependencies:
-      chalk: 5.2.0
-      find-up: 6.3.0
+      chalk:
+        specifier: 5.2.0
+        version: 5.2.0
+      find-up:
+        specifier: 6.3.0
+        version: 6.3.0
     devDependencies:
-      '@types/node': 16.18.10
-      typescript: 4.9.4
+      '@types/node':
+        specifier: 16.18.10
+        version: 16.18.10
+      typescript:
+        specifier: 4.9.4
+        version: 4.9.4
 
   packages/xerox-eslint-config:
-    specifiers:
-      '@typescript-eslint/eslint-plugin': ^5.0.0
-      '@typescript-eslint/parser': ^5.0.0
-      '@xerox/prettier-config': '*'
-      babel-eslint: ^10.1.0
-      eslint: '>=7.2.0'
-      eslint-config-prettier: ^8.1.0
-      eslint-import-resolver-typescript: ^3.0.0
-      eslint-plugin-import: ^2.25.4
-      eslint-plugin-jest: ^27.0.0
-      eslint-plugin-jsdoc: ^39.0.0
-      eslint-plugin-prettier: ^4.0.0
-      eslint-plugin-react: ^7.21.5
-      eslint-plugin-testing-library: ^5.0.0
-      globby: ^11.0.1
-      prettier: '>=2.2.0'
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.9.0_hi2tago4pjb22zrz4w3dbnu6em
-      '@typescript-eslint/parser': 5.9.0_lzzuuodtsqwxnvqeq4g4likcqa
-      '@xerox/prettier-config': link:../xerox-prettier-config
-      babel-eslint: 10.1.0_eslint@8.30.0
-      eslint: 8.30.0
-      eslint-config-prettier: 8.3.0
-      eslint-import-resolver-typescript: 3.1.1_pfol643y32wbswahggnmdudvyu
-      eslint-plugin-import: 2.25.4_x7rm4vvu2zst2m4bd24navvxmi
-      eslint-plugin-jest: 27.0.1_rt5pchha3pn3of5wttpz5dvuwm
-      eslint-plugin-jsdoc: 39.2.1_eslint@8.30.0
-      eslint-plugin-prettier: 4.0.0_v4lnh37nqj3tpoqcxsxsx5336m
-      eslint-plugin-react: 7.24.0_eslint@8.30.0
-      eslint-plugin-testing-library: 5.0.1_lzzuuodtsqwxnvqeq4g4likcqa
-      globby: 11.1.0
-      prettier: 2.8.1
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^5.0.0
+        version: 5.9.0_hi2tago4pjb22zrz4w3dbnu6em
+      '@typescript-eslint/parser':
+        specifier: ^5.0.0
+        version: 5.9.0_lzzuuodtsqwxnvqeq4g4likcqa
+      '@xerox/prettier-config':
+        specifier: '*'
+        version: link:../xerox-prettier-config
+      babel-eslint:
+        specifier: ^10.1.0
+        version: 10.1.0_eslint@8.30.0
+      eslint:
+        specifier: '>=7.2.0'
+        version: 8.30.0
+      eslint-config-prettier:
+        specifier: ^8.1.0
+        version: 8.3.0
+      eslint-import-resolver-typescript:
+        specifier: ^3.0.0
+        version: 3.1.1_pfol643y32wbswahggnmdudvyu
+      eslint-plugin-import:
+        specifier: ^2.25.4
+        version: 2.25.4_x7rm4vvu2zst2m4bd24navvxmi
+      eslint-plugin-jest:
+        specifier: ^27.0.0
+        version: 27.0.1_rt5pchha3pn3of5wttpz5dvuwm
+      eslint-plugin-jsdoc:
+        specifier: 39.6.4
+        version: 39.6.4_eslint@8.30.0
+      eslint-plugin-prettier:
+        specifier: ^4.0.0
+        version: 4.0.0_v4lnh37nqj3tpoqcxsxsx5336m
+      eslint-plugin-react:
+        specifier: ^7.21.5
+        version: 7.24.0_eslint@8.30.0
+      eslint-plugin-testing-library:
+        specifier: ^5.0.0
+        version: 5.0.1_lzzuuodtsqwxnvqeq4g4likcqa
+      globby:
+        specifier: ^11.0.1
+        version: 11.1.0
+      prettier:
+        specifier: '>=2.2.0'
+        version: 2.8.1
 
   packages/xerox-prettier-config:
-    specifiers:
-      '@types/prettier': '*'
-      prettier: '*'
     dependencies:
-      '@types/prettier': 2.4.4
-      prettier: 2.8.1
+      '@types/prettier':
+        specifier: '*'
+        version: 2.4.4
+      prettier:
+        specifier: '*'
+        version: 2.8.1
 
   packages/xerox-semantic-release-config:
-    specifiers:
-      '@semantic-release/changelog': 6.0.2
-      '@semantic-release/commit-analyzer': 9.0.2
-      '@semantic-release/git': 10.0.1
-      '@semantic-release/github': 8.0.7
-      '@semantic-release/npm': 9.0.1
-      '@semantic-release/release-notes-generator': 10.0.3
-      semantic-release: '>=17.0.4'
-      semantic-release-slack-bot: 3.5.3
     dependencies:
-      '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
-      '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.5
-      '@semantic-release/git': 10.0.1_semantic-release@19.0.5
-      '@semantic-release/github': 8.0.7_semantic-release@19.0.5
-      '@semantic-release/npm': 9.0.1_semantic-release@19.0.5
-      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
-      semantic-release: 19.0.5
-      semantic-release-slack-bot: 3.5.3_semantic-release@19.0.5
+      '@semantic-release/changelog':
+        specifier: 6.0.2
+        version: 6.0.2_semantic-release@19.0.5
+      '@semantic-release/commit-analyzer':
+        specifier: 9.0.2
+        version: 9.0.2_semantic-release@19.0.5
+      '@semantic-release/git':
+        specifier: 10.0.1
+        version: 10.0.1_semantic-release@19.0.5
+      '@semantic-release/github':
+        specifier: 8.0.7
+        version: 8.0.7_semantic-release@19.0.5
+      '@semantic-release/npm':
+        specifier: 9.0.1
+        version: 9.0.1_semantic-release@19.0.5
+      '@semantic-release/release-notes-generator':
+        specifier: 10.0.3
+        version: 10.0.3_semantic-release@19.0.5
+      semantic-release:
+        specifier: '>=17.0.4'
+        version: 19.0.5
+      semantic-release-slack-bot:
+        specifier: 3.5.3
+        version: 3.5.3_semantic-release@19.0.5
 
   packages/xerox-stylelint-config:
-    specifiers:
-      '@xerox/prettier-config': ^4.0.0
-      stylelint: 14.16.0
-      stylelint-config-prettier: ^9.0.0
-      stylelint-config-recommended: ^9.0.0
-      stylelint-prettier: ^2.0.0
-      stylelint-scss: ^4.0.0
     dependencies:
-      stylelint-config-prettier: 9.0.3
-      stylelint-config-recommended: 9.0.0
-      stylelint-prettier: 2.0.0_lzrral356zwd7lm6e3scl4w4om
-      stylelint-scss: 4.1.0_stylelint@14.16.0
+      stylelint-config-prettier:
+        specifier: ^9.0.0
+        version: 9.0.3
+      stylelint-config-recommended:
+        specifier: ^9.0.0
+        version: 9.0.0
+      stylelint-prettier:
+        specifier: ^2.0.0
+        version: 2.0.0_lzrral356zwd7lm6e3scl4w4om
+      stylelint-scss:
+        specifier: ^4.0.0
+        version: 4.1.0_stylelint@14.16.0
     devDependencies:
-      '@xerox/prettier-config': link:../xerox-prettier-config
-      stylelint: 14.16.0
+      '@xerox/prettier-config':
+        specifier: ^4.0.0
+        version: link:../xerox-prettier-config
+      stylelint:
+        specifier: 14.16.0
+        version: 14.16.0
 
 packages:
 
@@ -727,13 +774,13 @@ packages:
       - typescript
     dev: true
 
-  /@es-joy/jsdoccomment/0.22.1:
-    resolution: {integrity: sha512-/WMkqLYfwCf0waCAMC8Eddt3iAOdghkDF5vmyKEu8pfO66KRFY1L15yks8mfgURiwOAOJpAQ3blvB3Znj6ZwBw==}
-    engines: {node: ^12 || ^14 || ^16 || ^17}
+  /@es-joy/jsdoccomment/0.36.1:
+    resolution: {integrity: sha512-922xqFsTpHs6D0BUiG4toiyPOMc8/jafnWKxz1KWgS4XzKPy2qXf1Pe6UFuNSCQqt6tOuhAWXBNuuyUhJmw9Vg==}
+    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
     dependencies:
       comment-parser: 1.3.1
       esquery: 1.4.0
-      jsdoc-type-pratt-parser: 2.2.5
+      jsdoc-type-pratt-parser: 3.1.0
     dev: false
 
   /@eslint/eslintrc/1.4.0:
@@ -4406,13 +4453,13 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-jsdoc/39.2.1_eslint@8.30.0:
-    resolution: {integrity: sha512-bNNAJPhFUKVBHJMKU7zAQ1LvlVWoDbxAA/Ty9hwSI2hy+AVpc9wq16W6YHXd0PuMhXlv4FgYtjizHMu8Mnc4GA==}
-    engines: {node: ^14 || ^16 || ^17}
+  /eslint-plugin-jsdoc/39.6.4_eslint@8.30.0:
+    resolution: {integrity: sha512-fskvdLCfwmPjHb6e+xNGDtGgbF8X7cDwMtVLAP2WwSf9Htrx68OAx31BESBM1FAwsN2HTQyYQq7m4aW4Q4Nlag==}
+    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
-      '@es-joy/jsdoccomment': 0.22.1
+      '@es-joy/jsdoccomment': 0.36.1
       comment-parser: 1.3.1
       debug: 4.3.4
       escape-string-regexp: 4.0.0
@@ -5795,6 +5842,7 @@ packages:
   /jest-cli/29.3.1_@types+node@18.11.18:
     resolution: {integrity: sha512-TO/ewvwyvPOiBBuWZ0gm04z3WWP8TIK8acgPzE4IxgsLKQgb377NYGrQLc3Wl/7ndWzIH2CDNNsUjGxwLL43VQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    hasBin: true
     peerDependencies:
       node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
     peerDependenciesMeta:
@@ -6163,6 +6211,7 @@ packages:
   /jest/29.3.1_@types+node@18.11.18:
     resolution: {integrity: sha512-6iWfL5DTT0Np6UYs/y5Niu7WIfNv/wRTtN5RSXt2DIEft3dx3zPuw/3WJQBCJfmEzvDiEKwoqMbGD9n49+qLSA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
+    hasBin: true
     peerDependencies:
       node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
     peerDependenciesMeta:
@@ -6197,8 +6246,8 @@ packages:
     dependencies:
       argparse: 2.0.1
 
-  /jsdoc-type-pratt-parser/2.2.5:
-    resolution: {integrity: sha512-2a6eRxSxp1BW040hFvaJxhsCMI9lT8QB8t14t+NY5tC5rckIR0U9cr2tjOeaFirmEOy6MHvmJnY7zTBHq431Lw==}
+  /jsdoc-type-pratt-parser/3.1.0:
+    resolution: {integrity: sha512-MgtD0ZiCDk9B+eI73BextfRrVQl0oyzRG8B2BjORts6jbunj4ScKPcyXGTbB6eXL4y9TzxCm6hyeLq/2ASzNdw==}
     engines: {node: '>=12.0.0'}
     dev: false
 
@@ -7313,6 +7362,7 @@ packages:
 
   /nx/15.0.0:
     resolution: {integrity: sha512-uh9Ou5oj7yr6Uyp4QhqW1vIVoanYn1sJM1jzOyoT17GAhhODfS0BtQgUvlmInDuRqP8LMaPg4LXFMby07U1HXg==}
+    hasBin: true
     requiresBuild: true
     peerDependencies:
       '@swc-node/register': ^1.4.2
@@ -8330,6 +8380,7 @@ packages:
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+    hasBin: true
 
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
@@ -8958,6 +9009,7 @@ packages:
 
   /ts-node/10.9.1_awa2wsr5thmg3i7jqycphctjfq:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
+    hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
       '@swc/wasm': '>=1.2.50'
@@ -8989,6 +9041,7 @@ packages:
   /ts-node/9.1.1_typescript@4.9.4:
     resolution: {integrity: sha512-hPlt7ZACERQGf03M253ytLY3dHbGNGrAq9qIHWUY9XHYl1z7wYngSr3OQ5xmui8o2AaxsONxIzjafLUiWBo1Fg==}
     engines: {node: '>=10.0.0'}
+    hasBin: true
     peerDependencies:
       typescript: '>=2.7'
     dependencies:
@@ -9204,6 +9257,7 @@ packages:
 
   /update-browserslist-db/1.0.9_browserslist@4.21.4:
     resolution: {integrity: sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==}
+    hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
