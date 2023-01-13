@@ -30,7 +30,7 @@ Holds the source code for the Xerox shareable configurations. Each used to be th
 
 [license]: ./LICENSE
 
-[ci-badge]: https://img.shields.io/github/workflow/status/xeroxinteractive/config/Publish?logo=github&style=flat-square
+[ci-badge]: https://img.shields.io/github/actions/workflow/status/xeroxinteractive/config/publish.yml?logo=github&style=flat-square&branch=release
 [ci-link]: https://github.com/xeroxinteractive/config/actions?query=branch%3Arelease
 
 [license-badge]: https://img.shields.io/badge/license-MIT-yellow?style=flat-square
