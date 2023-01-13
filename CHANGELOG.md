@@ -1,3 +1,42 @@
+# (Tue Jul 19 2022)
+
+#### Fix
+
+- `@xerox/browserslist-config@2.0.1`
+  - Fix JSON main warning [#1078](https://github.com/xeroxinteractive/config/pull/1078) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency browserslist to v4.21.2 [#1076](https://github.com/xeroxinteractive/config/pull/1076) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28.1.3 [#1075](https://github.com/xeroxinteractive/config/pull/1075) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5.1.8 [#1073](https://github.com/xeroxinteractive/config/pull/1073) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint to v8.19.0 [#1072](https://github.com/xeroxinteractive/config/pull/1072) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v28.1.2 [#1069](https://github.com/xeroxinteractive/config/pull/1069) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5.1.6 [#1068](https://github.com/xeroxinteractive/config/pull/1068) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v5.1.4 [#1063](https://github.com/xeroxinteractive/config/pull/1063) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.2`
+  - Update dependency @types/node to v16.11.44 [#1077](https://github.com/xeroxinteractive/config/pull/1077) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v16.11.43 [#1071](https://github.com/xeroxinteractive/config/pull/1071) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@4.0.2`
+  - Update dependency @semantic-release/github to v8.0.5 [#1074](https://github.com/xeroxinteractive/config/pull/1074) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@5.0.2`
+  - Update dependency eslint-import-resolver-typescript to v3 [#1070](https://github.com/xeroxinteractive/config/pull/1070) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/commitlint-config@3.1.3`
+  - Update commitlint monorepo to v17.0.3 [#1067](https://github.com/xeroxinteractive/config/pull/1067) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.2`, `@xerox/eslint-config@5.0.2`
+  - Update all non-major dependencies [#1066](https://github.com/xeroxinteractive/config/pull/1066) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1062](https://github.com/xeroxinteractive/config/pull/1062) ([@renovate-bot](https://github.com/renovate-bot) [@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/stylelint-config@3.0.2`
+  - Update all non-major dependencies [#1064](https://github.com/xeroxinteractive/config/pull/1064) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # (Thu Jun 09 2022)
 
 #### Fix

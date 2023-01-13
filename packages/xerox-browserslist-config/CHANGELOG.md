@@ -1,3 +1,19 @@
+# v2.0.1 (Tue Jul 19 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Fix JSON main warning [#1078](https://github.com/xeroxinteractive/config/pull/1078) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Fix JSON main warning ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v2.0.0 (Fri Jan 07 2022)
 
 #### Feature

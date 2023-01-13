@@ -1,3 +1,22 @@
+# v4.0.2 (Tue Jul 19 2022)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @semantic-release/github to v8.0.5 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency @semantic-release/github to v8.0.5 [#1074](https://github.com/xeroxinteractive/config/pull/1074) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 3
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- WhiteSource Renovate ([@renovate-bot](https://github.com/renovate-bot))
+
+---
+
 # v4.0.1 (Thu Jun 09 2022)
 
 #### Fix
