@@ -107,7 +107,7 @@ importers:
 
   packages/xerox-cli:
     specifiers:
-      '@types/node': 16.18.10
+      '@types/node': 18.11.18
       chalk: 5.2.0
       find-up: 6.3.0
       typescript: 4.9.4
@@ -115,7 +115,7 @@ importers:
       chalk: 5.2.0
       find-up: 6.3.0
     devDependencies:
-      '@types/node': 16.18.10
+      '@types/node': 18.11.18
       typescript: 4.9.4
 
   packages/xerox-eslint-config:
@@ -2683,10 +2683,6 @@ packages:
 
   /@types/minimist/1.2.1:
     resolution: {integrity: sha512-fZQQafSREFyuZcdWFAExYjBiCL7AUCdgsk80iO0q4yihYYdcIiH28CcuPTGFgLOCC8RlW49GSQxdHwZP+I7CNg==}
-
-  /@types/node/16.18.10:
-    resolution: {integrity: sha512-XU1+v7h81p7145ddPfjv7jtWvkSilpcnON3mQ+bDi9Yuf7OI56efOglXRyXWgQ57xH3fEQgh7WOJMncRHVew5w==}
-    dev: true
 
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
