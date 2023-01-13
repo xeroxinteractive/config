@@ -2,7 +2,9 @@ const glob = require('globby');
 const { posix } = require('path');
 const { ESLint } = require('eslint');
 
-const fixtures = glob.sync(posix.join(__dirname, '../__fixtures__/**/index.*'));
+const fixtures = glob.sync(
+  posix.join(__dirname, '../../../fixtures/*/index.*')
+);
 
 const cli = new ESLint();
 

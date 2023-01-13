@@ -1,0 +1,10 @@
+{
+  "name": "eslint-react",
+  "dependencies": {
+    "react": "18.1.0"
+  },
+  "devDependencies": {
+    "@xerox/eslint-config": "workspace:*"
+  },
+  "private": true
+}

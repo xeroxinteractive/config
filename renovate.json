@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": true,
-  "labels": ["change: dependencies", "needs review"],
+  "labels": ["change: dependencies", "release: skip"],
   "assignees": ["AndrewLeedham"],
   "schedule": ["after 9am on Wednesday"],
   "timezone": "Europe/London",
@@ -16,5 +16,6 @@
     ":prConcurrentLimit20",
     ":semanticCommitsDisabled",
     "workarounds:all"
-  ]
+  ],
+  "baseBranches": ["next"]
 }

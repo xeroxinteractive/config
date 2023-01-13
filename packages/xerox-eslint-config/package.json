@@ -19,27 +19,21 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/react": "17.0.47",
-    "globby": "11.1.0",
-    "react": "18.1.0",
-    "typescript": "4.7.4"
+    "globby": "11.1.0"
   },
   "dependencies": {
-    "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-import-resolver-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.0.0",
-    "eslint-plugin-jsdoc": "^39.0.0",
+    "eslint-plugin-jest": "^27.0.0",
+    "eslint-plugin-jsdoc": "39.6.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-testing-library": "^5.0.0",
-    "globby": "^11.0.1",
-    "react": "^18.0.0",
-    "typescript": "^4.1.2"
+    "globby": "^11.0.1"
   },
   "peerDependencies": {
     "@xerox/prettier-config": "*",
