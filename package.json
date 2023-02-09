@@ -28,8 +28,8 @@
   },
   "prettier": "./packages/xerox-prettier-config/index.js",
   "devDependencies": {
-    "@auto-it/slack": "10.38.5",
-    "auto": "10.38.5",
+    "@auto-it/slack": "10.40.0",
+    "auto": "10.40.0",
     "browserslist": "4.21.5",
     "enhanced-resolve": "5.12.0",
     "eslint": "8.33.0",
