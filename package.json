@@ -37,7 +37,7 @@
     "jest-package-audit": "5.0.3",
     "lerna": "6.4.1",
     "prettier": "2.8.4",
-    "stylelint": "14.16.1"
+    "stylelint": "15.1.0"
   },
   "resolutions": {
     "yargs-parser@<13.1.2": "^13.1.2",
