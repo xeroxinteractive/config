@@ -84,7 +84,7 @@ importers:
   fixtures/eslint-typescriptreact:
     specifiers:
       '@types/node': 18.13.0
-      '@types/react': 18.0.27
+      '@types/react': 18.0.28
       '@xerox/eslint-config': workspace:*
       react: 18.1.0
       typescript: 4.9.5
@@ -92,7 +92,7 @@ importers:
       react: 18.1.0
     devDependencies:
       '@types/node': 18.13.0
-      '@types/react': 18.0.27
+      '@types/react': 18.0.28
       '@xerox/eslint-config': link:../../packages/xerox-eslint-config
       typescript: 4.9.5
 
@@ -2770,8 +2770,8 @@ packages:
     resolution: {integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==}
     dev: true
 
-  /@types/react/18.0.27:
-    resolution: {integrity: sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==}
+  /@types/react/18.0.28:
+    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
     dependencies:
       '@types/prop-types': 15.7.3
       '@types/scheduler': 0.16.1
