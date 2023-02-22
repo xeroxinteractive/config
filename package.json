@@ -28,8 +28,8 @@
   },
   "prettier": "./packages/xerox-prettier-config/index.js",
   "devDependencies": {
-    "@auto-it/slack": "10.42.0",
-    "auto": "10.42.0",
+    "@auto-it/slack": "10.42.1",
+    "auto": "10.42.1",
     "browserslist": "4.21.5",
     "enhanced-resolve": "5.12.0",
     "eslint": "8.34.0",
@@ -37,7 +37,7 @@
     "jest-package-audit": "5.0.3",
     "lerna": "6.5.1",
     "prettier": "2.8.4",
-    "stylelint": "15.1.0"
+    "stylelint": "15.2.0"
   },
   "resolutions": {
     "yargs-parser@<13.1.2": "^13.1.2",
@@ -69,5 +69,5 @@
     "minimatch@<3.0.5": "^3.0.5",
     "json5@<1.0.2": "^1.0.2"
   },
-  "packageManager": "pnpm@7.27.0"
+  "packageManager": "pnpm@7.27.1"
 }

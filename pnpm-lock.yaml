@@ -34,8 +34,8 @@ importers:
 
   .:
     specifiers:
-      '@auto-it/slack': 10.42.0
-      auto: 10.42.0
+      '@auto-it/slack': 10.42.1
+      auto: 10.42.1
       browserslist: 4.21.5
       enhanced-resolve: 5.12.0
       eslint: 8.34.0
@@ -43,10 +43,10 @@ importers:
       jest-package-audit: 5.0.3
       lerna: 6.5.1
       prettier: 2.8.4
-      stylelint: 15.1.0
+      stylelint: 15.2.0
     devDependencies:
-      '@auto-it/slack': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
-      auto: 10.42.0_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/slack': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
+      auto: 10.42.1_4bewfcp2iebiwuold25d6rgcsy
       browserslist: 4.21.5
       enhanced-resolve: 5.12.0
       eslint: 8.34.0
@@ -54,7 +54,7 @@ importers:
       jest-package-audit: 5.0.3_dvqmzxoxiw43ypvs6ttz25v2p4
       lerna: 6.5.1
       prettier: 2.8.4
-      stylelint: 15.1.0
+      stylelint: 15.2.0
 
   fixtures/eslint-javascript:
     specifiers:
@@ -183,19 +183,19 @@ importers:
   packages/xerox-stylelint-config:
     specifiers:
       '@xerox/prettier-config': ^4.0.0
-      stylelint: 15.1.0
+      stylelint: 15.2.0
       stylelint-config-prettier: ^9.0.0
       stylelint-config-recommended: ^10.0.0
       stylelint-prettier: ^2.0.0
       stylelint-scss: ^4.0.0
     dependencies:
-      stylelint-config-prettier: 9.0.3_stylelint@15.1.0
-      stylelint-config-recommended: 10.0.1_stylelint@15.1.0
-      stylelint-prettier: 2.0.0_td3e22n6o6gf67slppaayadvha
-      stylelint-scss: 4.1.0_stylelint@15.1.0
+      stylelint-config-prettier: 9.0.3_stylelint@15.2.0
+      stylelint-config-recommended: 10.0.1_stylelint@15.2.0
+      stylelint-prettier: 2.0.0_7tfqzuwksfwysdxnjpqifqt36u
+      stylelint-scss: 4.1.0_stylelint@15.2.0
     devDependencies:
       '@xerox/prettier-config': link:../xerox-prettier-config
-      stylelint: 15.1.0
+      stylelint: 15.2.0
 
 packages:
 
@@ -228,20 +228,20 @@ packages:
     engines: {node: '>=8.2.0', npm: '>=5.0.0'}
     dev: true
 
-  /@auto-it/bot-list/10.42.0:
-    resolution: {integrity: sha512-MYGrTJsix5r2RaYbfS6uIDTJrrhDCAK1NxmI2aFqq5DqD3Zn2vhIzsOk3qpl29rxUs986opqCUaPIUxHjsIV0g==}
+  /@auto-it/bot-list/10.42.1:
+    resolution: {integrity: sha512-yMvKYnjY/9ihMywPXvy01+7uWmdKdBuw6F4DP9T/CV4AjvUxn64pgUw0IUq35ptWTVut0wIrz57pMe35bLaR7w==}
     engines: {node: '>=10.x'}
     dev: true
 
-  /@auto-it/core/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-sxuqRjtoW51PVegCEK+1Jyd2yTbrqfZO97PUN8XhuzkFP65H5YaskS0+9qDJDDRGG0AH/Hk906xzG1bv6/rcgg==}
+  /@auto-it/core/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-/XPjYNGM0etgo+ggZFVGHMaa+wuSt1G4BZH96PAVVJh0Ruz8DxznSNeJn8JY+wMRtpxuE6urImvsHbjxc7VNzg==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@auto-it/bot-list': 10.42.0
+      '@auto-it/bot-list': 10.42.1
       '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.2_7xcwfsfqkm3z47jew3ci4ezh7m
       '@octokit/core': 3.6.0
       '@octokit/plugin-enterprise-compatibility': 1.3.0
@@ -290,11 +290,11 @@ packages:
       - supports-color
     dev: true
 
-  /@auto-it/npm/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-53Pfs41hhjKKduq9GsTkYJdzM1CvAAiwuF7vj9Q4BtZA28qK/rFDxdISkWKXLDTIDO+ughQd9f2MpO+qBRbe/w==}
+  /@auto-it/npm/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-XpNkqJ1rusaDR8nNRU4BA76UIE6ZZhyNX/Hs93Dy56Gp8JjTmH80scoFcx6EeC8dX4yJkwB5srt9wnqT8s/ETQ==}
     dependencies:
-      '@auto-it/core': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
-      '@auto-it/package-json-utils': 10.42.0
+      '@auto-it/core': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/package-json-utils': 10.42.1
       await-to-js: 3.0.0
       endent: 2.1.0
       env-ci: 5.0.2
@@ -316,19 +316,19 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/package-json-utils/10.42.0:
-    resolution: {integrity: sha512-Kcnn1wTYJ9o0bweczaeIvgNyBERPyiG70SsGy7311acdnMr2b75WbhNOw4LM9RsD9CqA3HDzeWBQvIUvuJfJVA==}
+  /@auto-it/package-json-utils/10.42.1:
+    resolution: {integrity: sha512-6nDpK2cWOkmUrafgJm72lklTpaBxb+++kDA9xJFndwNxkjaOocvvqPzT9AFK72bmOwGFxYic4+/yZme84HFmcg==}
     engines: {node: '>=10.x'}
     dependencies:
       parse-author: 2.0.0
       parse-github-url: 1.0.2
     dev: true
 
-  /@auto-it/released/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-iBxXtLfaqXlcHKxl6z2Vi6TfW50qyPetSXvZHyrSw7p+hkQ+4fSIPiNR+bWE/51kD3UbpzIpt22k5xqdi8jzBg==}
+  /@auto-it/released/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-2vbpzLPz/DCoKrkEueTdYJOmEkMnCYux/rz3dk0wPUKEfd8q/hJYA5gxXuY9HwpNkinwkMntOTCVz47Xp1KfKw==}
     dependencies:
-      '@auto-it/bot-list': 10.42.0
-      '@auto-it/core': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/bot-list': 10.42.1
+      '@auto-it/core': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
       deepmerge: 4.2.2
       fp-ts: 2.9.0
       io-ts: 2.2.13_fp-ts@2.9.0
@@ -342,11 +342,11 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/slack/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-BGLg7wE2rJ7znoPPOuIjPn233ESVsimQuWv/M+oP9n2BoUFwpNyu4yJkhtFkDPnpROawm/wDo7sk7RRRyYNGdA==}
+  /@auto-it/slack/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-S8b2vgD9hSHuXS9dAHGqCaagAWx8Jg03Gm2U/+FyhKmbOaZTJ4drejG3VaMKT5OMCfvBj7cW0FINfKY7RYRXXA==}
     dependencies:
       '@atomist/slack-messages': 1.2.2
-      '@auto-it/core': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/core': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
       '@octokit/rest': 18.12.0
       fp-ts: 2.9.0
       https-proxy-agent: 5.0.1
@@ -362,10 +362,10 @@ packages:
       - typescript
     dev: true
 
-  /@auto-it/version-file/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-1kBs2XqgpvFK+b09DGbw29zb8XVTGKOB6cN4jVYivALXSC5x2FkHx1l6syWHozVaOQw5tVEqLD++C+bO6Pi0+w==}
+  /@auto-it/version-file/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-PvTw3paMSS3Cu2MZAehU8a9MnNdJgDmATcQykI0gv6ktEtrfqgDLVfTF5qsvI/HZY7fzp130sqhijs5eSXQ3ig==}
     dependencies:
-      '@auto-it/core': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/core': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
       fp-ts: 2.9.0
       io-ts: 2.2.13_fp-ts@2.9.0
       semver: 7.3.8
@@ -2655,15 +2655,15 @@ packages:
     engines: {node: '>=0.8'}
     dev: true
 
-  /auto/10.42.0_4bewfcp2iebiwuold25d6rgcsy:
-    resolution: {integrity: sha512-Yekf1zKXCMI8IuI/uTrHyeGjDUbsby5r9Z2IjAWr02zA6WpkZFz+pxsf+nuOdlg6OM1O7Yy+rFoOF+x0xRkAxA==}
+  /auto/10.42.1_4bewfcp2iebiwuold25d6rgcsy:
+    resolution: {integrity: sha512-y1MOeWU+7KYFstUuIfHp8VXprg3nbSXx8hdEIWkVu3FKM8ESKKTo6MOFAwYvdnZQTCkE/uW/k1BzJ0OKDhCm4Q==}
     engines: {node: '>=10.x'}
     hasBin: true
     dependencies:
-      '@auto-it/core': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
-      '@auto-it/npm': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
-      '@auto-it/released': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
-      '@auto-it/version-file': 10.42.0_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/core': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/npm': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/released': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
+      '@auto-it/version-file': 10.42.1_4bewfcp2iebiwuold25d6rgcsy
       await-to-js: 3.0.0
       chalk: 4.1.2
       command-line-application: 0.10.1
@@ -8336,25 +8336,25 @@ packages:
   /style-search/0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-config-prettier/9.0.3_stylelint@15.1.0:
+  /stylelint-config-prettier/9.0.3_stylelint@15.2.0:
     resolution: {integrity: sha512-5n9gUDp/n5tTMCq1GLqSpA30w2sqWITSSEiAWQlpxkKGAUbjcemQ0nbkRvRUa0B1LgD3+hCvdL7B1eTxy1QHJg==}
     engines: {node: '>= 12'}
     hasBin: true
     peerDependencies:
       stylelint: '>=11.0.0'
     dependencies:
-      stylelint: 15.1.0
+      stylelint: 15.2.0
     dev: false
 
-  /stylelint-config-recommended/10.0.1_stylelint@15.1.0:
+  /stylelint-config-recommended/10.0.1_stylelint@15.2.0:
     resolution: {integrity: sha512-TQ4xQ48tW4QSlODcti7pgSRqBZcUaBzuh0jPpfiMhwJKBPkqzTIAU+IrSWL/7BgXlOM90DjB7YaNgFpx8QWhuA==}
     peerDependencies:
       stylelint: ^15.0.0
     dependencies:
-      stylelint: 15.1.0
+      stylelint: 15.2.0
     dev: false
 
-  /stylelint-prettier/2.0.0_td3e22n6o6gf67slppaayadvha:
+  /stylelint-prettier/2.0.0_7tfqzuwksfwysdxnjpqifqt36u:
     resolution: {integrity: sha512-jvT3G+9lopkeB0ARmDPszyfaOnvnIF+30QCjZxyt7E6fynI1T9mOKgYDNb9bXX17M7PXMZaX3j/26wqakjp1tw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -8363,10 +8363,10 @@ packages:
     dependencies:
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
-      stylelint: 15.1.0
+      stylelint: 15.2.0
     dev: false
 
-  /stylelint-scss/4.1.0_stylelint@15.1.0:
+  /stylelint-scss/4.1.0_stylelint@15.2.0:
     resolution: {integrity: sha512-BNYTo7MMamhFOlcaAWp2dMpjg6hPyM/FFqfDIYzmYVLMmQJqc8lWRIiTqP4UX5bresj9Vo0dKC6odSh43VP2NA==}
     peerDependencies:
       stylelint: ^14.0.0
@@ -8376,11 +8376,11 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
-      stylelint: 15.1.0
+      stylelint: 15.2.0
     dev: false
 
-  /stylelint/15.1.0:
-    resolution: {integrity: sha512-Tw8OyIiYhxnIHUzgoLlCyWgCUKsPYiP3TDgs7M1VbayS+q5qZly2yxABg+YPe/hFRWiu0cOtptCtpyrn1CrnYw==}
+  /stylelint/15.2.0:
+    resolution: {integrity: sha512-wjg5OLn8zQwjlj5cYUgyQpMWKzct42AG5dYlqkHRJQJqsystFFn3onqEc263KH4xfEI0W3lZCnlIhFfS64uwSA==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
