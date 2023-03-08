@@ -27,7 +27,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "9.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "semantic-release-slack-bot": "3.5.3"
+    "semantic-release-slack-bot": "4.0.0"
   },
   "peerDependencies": {
     "semantic-release": ">=17.0.4"

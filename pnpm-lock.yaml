@@ -169,7 +169,7 @@ importers:
       '@semantic-release/npm': 9.0.2
       '@semantic-release/release-notes-generator': 10.0.3
       semantic-release: '>=17.0.4'
-      semantic-release-slack-bot: 3.5.3
+      semantic-release-slack-bot: 4.0.0
     dependencies:
       '@semantic-release/changelog': 6.0.2_semantic-release@19.0.5
       '@semantic-release/commit-analyzer': 9.0.2_semantic-release@19.0.5
@@ -178,7 +178,7 @@ importers:
       '@semantic-release/npm': 9.0.2_semantic-release@19.0.5
       '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.5
       semantic-release: 19.0.5
-      semantic-release-slack-bot: 3.5.3_semantic-release@19.0.5
+      semantic-release-slack-bot: 4.0.0_semantic-release@19.0.5
 
   packages/xerox-stylelint-config:
     specifiers:
@@ -7945,11 +7945,11 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /semantic-release-slack-bot/3.5.3_semantic-release@19.0.5:
-    resolution: {integrity: sha512-QoLRfZPkgkER2s/DiIu0qA9pYu4am8ASu7xq3omCXl2oJ+fKdb1Rentgezzv7RefMXhO2q2aah1aqutWnSnlhw==}
-    engines: {node: '>=14.7'}
+  /semantic-release-slack-bot/4.0.0_semantic-release@19.0.5:
+    resolution: {integrity: sha512-A/R8vUEMpb/ZsuP4v+3BCC6K2uK/oC1keERpyaIntoNkOPLglxEuDRRt9EkCBAwQmMJXMafX3JwFVcNwPfWtuQ==}
+    engines: {node: '>=18.13'}
     peerDependencies:
-      semantic-release: '>=11.0.0 <20.0.0'
+      semantic-release: '>=11.0.0 <21.0.0'
     dependencies:
       '@semantic-release/error': 2.2.0
       micromatch: 4.0.2
