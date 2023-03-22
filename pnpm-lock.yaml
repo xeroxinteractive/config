@@ -185,12 +185,12 @@ importers:
       '@xerox/prettier-config': ^4.0.0
       stylelint: 15.3.0
       stylelint-config-prettier: ^9.0.0
-      stylelint-config-recommended: ^10.0.0
+      stylelint-config-recommended: ^11.0.0
       stylelint-prettier: ^3.0.0
       stylelint-scss: ^4.0.0
     dependencies:
       stylelint-config-prettier: 9.0.3_stylelint@15.3.0
-      stylelint-config-recommended: 10.0.1_stylelint@15.3.0
+      stylelint-config-recommended: 11.0.0_stylelint@15.3.0
       stylelint-prettier: 3.0.0_7ec2o7xgwtp77vdznqndf7abne
       stylelint-scss: 4.1.0_stylelint@15.3.0
     devDependencies:
@@ -8379,10 +8379,10 @@ packages:
       stylelint: 15.3.0
     dev: false
 
-  /stylelint-config-recommended/10.0.1_stylelint@15.3.0:
-    resolution: {integrity: sha512-TQ4xQ48tW4QSlODcti7pgSRqBZcUaBzuh0jPpfiMhwJKBPkqzTIAU+IrSWL/7BgXlOM90DjB7YaNgFpx8QWhuA==}
+  /stylelint-config-recommended/11.0.0_stylelint@15.3.0:
+    resolution: {integrity: sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==}
     peerDependencies:
-      stylelint: ^15.0.0
+      stylelint: ^15.3.0
     dependencies:
       stylelint: 15.3.0
     dev: false
