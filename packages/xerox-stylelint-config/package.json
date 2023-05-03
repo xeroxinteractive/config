@@ -22,7 +22,7 @@
     "stylelint-config-prettier": "^9.0.0",
     "stylelint-config-recommended": "^11.0.0",
     "stylelint-prettier": "^3.0.0",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^5.0.0"
   },
   "devDependencies": {
     "@xerox/prettier-config": "^4.0.0",

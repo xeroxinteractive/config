@@ -234,8 +234,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(prettier@2.8.7)(stylelint@15.3.0)
       stylelint-scss:
-        specifier: ^4.0.0
-        version: 4.1.0(stylelint@15.3.0)
+        specifier: ^5.0.0
+        version: 5.0.0(stylelint@15.3.0)
     devDependencies:
       '@xerox/prettier-config':
         specifier: ^4.0.0
@@ -9000,12 +9000,11 @@ packages:
       stylelint: 15.3.0
     dev: false
 
-  /stylelint-scss@4.1.0(stylelint@15.3.0):
-    resolution: {integrity: sha512-BNYTo7MMamhFOlcaAWp2dMpjg6hPyM/FFqfDIYzmYVLMmQJqc8lWRIiTqP4UX5bresj9Vo0dKC6odSh43VP2NA==}
+  /stylelint-scss@5.0.0(stylelint@15.3.0):
+    resolution: {integrity: sha512-5Ee5kG3JIcP2jk2PMoFMiNmW/815V+wK5o37X5ke90ihWMpPXI9iyqeA6zEWipWSRXeQc0kqbd7hKqiR+wPKNA==}
     peerDependencies:
-      stylelint: ^14.0.0
+      stylelint: ^14.5.1 || ^15.0.0
     dependencies:
-      lodash: 4.17.21
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.11
