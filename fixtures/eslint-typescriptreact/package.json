@@ -4,7 +4,7 @@
     "react": "18.1.0"
   },
   "devDependencies": {
-    "@types/node": "18.16.6",
+    "@types/node": "18.16.7",
     "@types/react": "18.2.6",
     "@xerox/eslint-config": "workspace:*",
     "typescript": "5.0.4"
