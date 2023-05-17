@@ -37,7 +37,7 @@
     "jest-package-audit": "5.0.3",
     "lerna": "6.6.2",
     "prettier": "2.8.8",
-    "stylelint": "15.6.1"
+    "stylelint": "15.6.2"
   },
   "resolutions": {
     "yargs-parser@<13.1.2": "^13.1.2",
@@ -69,5 +69,5 @@
     "minimatch@<3.0.5": "^3.0.5",
     "json5@<1.0.2": "^1.0.2"
   },
-  "packageManager": "pnpm@8.5.0"
+  "packageManager": "pnpm@8.5.1"
 }
