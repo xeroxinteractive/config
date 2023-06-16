@@ -172,8 +172,8 @@ importers:
         specifier: ^27.0.0
         version: 27.0.1(@typescript-eslint/eslint-plugin@5.9.0)(eslint@8.30.0)(jest@29.5.0)(typescript@5.1.3)
       eslint-plugin-jsdoc:
-        specifier: 40.3.0
-        version: 40.3.0(eslint@8.30.0)
+        specifier: 46.2.6
+        version: 46.2.6(eslint@8.30.0)
       eslint-plugin-prettier:
         specifier: ^4.0.0
         version: 4.0.0(eslint-config-prettier@8.3.0)(eslint@8.30.0)(prettier@2.8.1)
@@ -323,7 +323,7 @@ packages:
       parse-github-url: 1.0.2
       pretty-ms: 7.0.1
       requireg: 0.2.2
-      semver: 7.3.8
+      semver: 7.5.2
       signale: 1.4.0
       tapable: 2.2.0
       terminal-link: 2.1.1
@@ -353,7 +353,7 @@ packages:
       get-monorepo-packages: 1.2.0
       io-ts: 2.2.13(fp-ts@2.9.0)
       registry-url: 5.1.0
-      semver: 7.3.8
+      semver: 7.5.2
       tslib: 2.1.0
       typescript-memoize: 1.0.0-alpha.4
       url-join: 4.0.1
@@ -419,7 +419,7 @@ packages:
       '@auto-it/core': 10.46.0(@types/node@18.16.18)(typescript@5.1.3)
       fp-ts: 2.9.0
       io-ts: 2.2.13(fp-ts@2.9.0)
-      semver: 7.3.8
+      semver: 7.5.2
       tslib: 1.10.0
     transitivePeerDependencies:
       - '@swc/core'
@@ -796,9 +796,9 @@ packages:
       - typescript
     dev: true
 
-  /@es-joy/jsdoccomment@0.37.0:
-    resolution: {integrity: sha512-hjK0wnsPCYLlF+HHB4R/RbUjOWeLW2SlarB67+Do5WsKILOkmIZvvPJFbtWSmbypxcjpoECLAMzoao0D4Bg5ZQ==}
-    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
+  /@es-joy/jsdoccomment@0.39.4:
+    resolution: {integrity: sha512-Jvw915fjqQct445+yron7Dufix9A+m9j1fCJYlCo1FWlRvTxa3pjJelxdSTdaLWcTwRU6vbL+NYjO4YuNIS5Qg==}
+    engines: {node: '>=16'}
     dependencies:
       comment-parser: 1.3.1
       esquery: 1.5.0
@@ -1179,7 +1179,7 @@ packages:
       p-reduce: 2.1.0
       pacote: 15.2.0
       pify: 5.0.0
-      semver: 7.3.8
+      semver: 7.5.2
       slash: 3.0.0
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 5.0.0
@@ -1212,14 +1212,14 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /@npmcli/fs@3.1.0:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /@npmcli/git@4.0.4:
@@ -1232,7 +1232,7 @@ packages:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.3.8
+      semver: 7.5.2
       which: 3.0.0
     transitivePeerDependencies:
       - bluebird
@@ -1768,7 +1768,7 @@ packages:
       '@pnpm/crypto.base32-hash': 1.0.1
       '@pnpm/types': 8.10.0
       encode-registry: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /@pnpm/error@4.0.0:
@@ -2120,7 +2120,7 @@ packages:
       read-pkg: 5.2.0
       registry-auth-token: 5.0.1
       semantic-release: 19.0.5
-      semver: 7.3.8
+      semver: 7.5.2
       tempy: 1.0.0
     dev: false
 
@@ -2460,7 +2460,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -2481,7 +2481,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.2
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -2699,6 +2699,11 @@ packages:
   /aproba@2.0.0:
     resolution: {integrity: sha512-lYe4Gx7QT+MKGbDsA+Z+he/Wtef0BiwDOlK/XkBrdfsh9J/jPPXbX0tE9x9cl27Tmu5gg3QUbUrQYa/y+KOHPQ==}
     dev: true
+
+  /are-docs-informative@0.0.2:
+    resolution: {integrity: sha512-ixiS0nLNNG5jNQzgZJNoUpBKdo9yTYZMGJ+QgT2jmjR7G7+QHRCc4v6LQ3NgE7EBJq+o0ams3waJwkrlBom8Ig==}
+    engines: {node: '>=14'}
+    dev: false
 
   /are-we-there-yet@3.0.0:
     resolution: {integrity: sha512-0GWpv50YSOcLXaN6/FAKY3vfRbllXWV2xvfA/oKJF8pzFhWXPV+yjhJXDBbjscDYowv7Yw1A3uigpzn5iEGTyw==}
@@ -3045,6 +3050,11 @@ packages:
       ieee754: 1.2.1
     dev: true
 
+  /builtin-modules@3.3.0:
+    resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
+    engines: {node: '>=6'}
+    dev: false
+
   /builtins@1.0.3:
     resolution: {integrity: sha512-uYBjakWipfaO/bXI7E8rq6kpwHRZK5cNYrUv2OzZSI/FvmdMyXJ2tG9dKcjEC5YHmHpUAwsargWIZNWdxb/bnQ==}
     dev: true
@@ -3052,7 +3062,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /byte-size@8.1.1:
@@ -4081,19 +4091,21 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-jsdoc@40.3.0(eslint@8.30.0):
-    resolution: {integrity: sha512-EhCqpzRkxoT2DUB4AnrU0ggBYvTh3bWrLZzQTupq6vSVE6XzNwJVKsOHa41GCoevnsWMBNmoDVjXWGqckjuG1g==}
-    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
+  /eslint-plugin-jsdoc@46.2.6(eslint@8.30.0):
+    resolution: {integrity: sha512-zIaK3zbSrKuH12bP+SPybPgcHSM6MFzh3HFeaODzmsF1N8C1l8dzJ22cW1aq4g0+nayU1VMjmNf7hg0dpShLrA==}
+    engines: {node: '>=16'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
-      '@es-joy/jsdoccomment': 0.37.0
+      '@es-joy/jsdoccomment': 0.39.4
+      are-docs-informative: 0.0.2
       comment-parser: 1.3.1
       debug: 4.3.4
       escape-string-regexp: 4.0.0
       eslint: 8.30.0
       esquery: 1.5.0
-      semver: 7.3.8
+      is-builtin-module: 3.2.1
+      semver: 7.5.2
       spdx-expression-parse: 3.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5296,7 +5308,7 @@ packages:
       promzard: 1.0.0
       read: 2.1.0
       read-package-json: 6.0.4
-      semver: 7.3.8
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 5.0.0
     dev: true
@@ -5387,6 +5399,13 @@ packages:
   /is-buffer@2.0.5:
     resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
     engines: {node: '>=4'}
+    dev: false
+
+  /is-builtin-module@3.2.1:
+    resolution: {integrity: sha512-BSLE3HnV2syZ0FK0iMA/yUGplUeMmNz4AW5fnTunbCIqZi4vG3WjJT9FHMy5D69xmAYBHXQhJdALdpwVxV501A==}
+    engines: {node: '>=6'}
+    dependencies:
+      builtin-modules: 3.3.0
     dev: false
 
   /is-callable@1.2.4:
@@ -5995,7 +6014,7 @@ packages:
       jest-util: 29.5.0
       natural-compare: 1.4.0
       pretty-format: 29.5.0
-      semver: 7.3.8
+      semver: 7.5.2
     transitivePeerDependencies:
       - supports-color
 
@@ -6309,7 +6328,7 @@ packages:
       npm-package-arg: 10.1.0
       npm-registry-fetch: 14.0.5
       proc-log: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.2
       sigstore: 1.4.0
       ssri: 10.0.1
     transitivePeerDependencies:
@@ -7098,7 +7117,7 @@ packages:
       nopt: 5.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
-      semver: 7.3.8
+      semver: 7.5.2
       tar: 6.1.11
       which: 2.0.2
     transitivePeerDependencies:
@@ -7137,7 +7156,7 @@ packages:
     dependencies:
       hosted-git-info: 4.0.2
       is-core-module: 2.9.0
-      semver: 7.3.8
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
 
   /normalize-package-data@5.0.0:
@@ -7146,7 +7165,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       is-core-module: 2.9.0
-      semver: 7.3.8
+      semver: 7.5.2
       validate-npm-package-license: 3.0.4
 
   /normalize-path@3.0.0:
@@ -7180,7 +7199,7 @@ packages:
     resolution: {integrity: sha512-udSGENih/5xKh3Ex+L0PtZcOt0Pa+6ppDLnpG5D49/EhMja3LupaY9E/DtJTxyFBwE09ot7Fc+H4DywnZNWTVA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /npm-normalize-package-bin@1.0.1:
@@ -7198,7 +7217,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       proc-log: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.2
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -7207,7 +7226,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 3.0.8
-      semver: 7.3.8
+      semver: 7.5.2
       validate-npm-package-name: 3.0.0
     dev: true
 
@@ -7236,7 +7255,7 @@ packages:
       npm-install-checks: 6.1.0
       npm-normalize-package-bin: 3.0.0
       npm-package-arg: 10.1.0
-      semver: 7.3.8
+      semver: 7.5.2
     dev: true
 
   /npm-registry-fetch@14.0.5:
@@ -8551,6 +8570,13 @@ packages:
 
   /semver@7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+
+  /semver@7.5.2:
+    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
