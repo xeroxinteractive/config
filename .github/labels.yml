@@ -69,3 +69,23 @@
 - name: discussion
   description: being discussed
   color: a2d3f9
+
+# Project specific labels
+- name: 'release: force (cli)'
+  description: Forces a release of the cli regardless of whether there were changes.
+  color: f08df7
+- name: 'release: force (browserslist-config)'
+  description: Forces a release of the browserslist-config regardless of whether there were changes.
+  color: f08df7
+- name: 'release: force (eslint-config)'
+  description: Forces a release of the eslint-config regardless of whether there were changes.
+  color: f08df7
+- name: 'release: force (prettier-config)'
+  description: Forces a release of the prettier-config regardless of whether there were changes.
+  color: f08df7
+- name: 'release: force (semantic-release-config)'
+  description: Forces a release of the semantic-release-config regardless of whether there were changes.
+  color: f08df7
+- name: 'release: force (stylelint-config)'
+  description: Forces a release of the stylelint-config regardless of whether there were changes.
+  color: f08df7
