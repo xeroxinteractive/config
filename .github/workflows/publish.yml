@@ -48,7 +48,7 @@ jobs:
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
       - run: pnpm install
-      - run: node ../scripts/scripts/apply-force-publish-labels.mjs
+      - run: node ../scripts/apply-force-publish-labels.mjs
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: pnpm run deploy
