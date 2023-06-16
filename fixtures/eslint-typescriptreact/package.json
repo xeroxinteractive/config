@@ -4,10 +4,10 @@
     "react": "18.1.0"
   },
   "devDependencies": {
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.26",
+    "@types/node": "18.16.18",
+    "@types/react": "18.2.12",
     "@xerox/eslint-config": "workspace:*",
-    "typescript": "4.9.4"
+    "typescript": "5.1.3"
   },
   "private": true
 }

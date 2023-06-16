@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '12.x'
-      - uses: webfactory/ssh-agent@v0.7.0
+      - uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: ${{secrets.SSH_PRIVATE_KEY}}
       - name: Get yarn cache directory path
@@ -36,7 +36,7 @@ jobs:
           BAA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: 'chore(browserslist-config): update stats'
           title: 'chore(browserslist-config): update stats'

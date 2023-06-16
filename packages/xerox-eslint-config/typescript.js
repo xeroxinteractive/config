@@ -55,8 +55,6 @@ module.exports = {
     'jsdoc/no-undefined-types': 'off',
     'jsdoc/require-returns-type': 'off',
     'jsdoc/valid-types': 'off',
-
-    'jsdoc/newline-after-description': 'error',
     'jsdoc/require-description': 'off',
     'jsdoc/require-description-complete-sentence': 'error',
     'jsdoc/require-example': 'off',
