@@ -1,10 +1,16 @@
 import autoModule from '@auto-it/core';
 const Auto = autoModule.Auto;
+const LabelExistsError = autoModule.LabelExistsError;
 import { readFile, writeFile } from 'fs/promises';
 import * as url from 'url';
 
 async function applyForcePublishLabels() {
+  /**
+   * @type {import('@auto-it/core').Auto}
+   */
   const auto = new Auto();
+
+  await auto.loadConfig();
 
   const packages = [
     { label: 'release: force (cli)', packageName: '@xerox/cli' },
@@ -32,10 +38,14 @@ async function applyForcePublishLabels() {
 
   async function labelExists(label) {
     try {
-      await auto.label({ exists: label });
+      await auto.label({ exists: label, pr: 1233 });
       return true;
     } catch (e) {
-      return false;
+      if (e instanceof LabelExistsError) {
+        return false;
+      } else {
+        throw e;
+      }
     }
   }
 
