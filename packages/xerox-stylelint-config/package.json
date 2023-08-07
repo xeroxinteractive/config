@@ -7,7 +7,7 @@
     "stylelint-config",
     "xerox"
   ],
-  "main": "index.json",
+  "main": "index.cjs",
   "repository": "git@github.com:xeroxinteractive/config.git",
   "homepage": "https://github.com/xeroxinteractive/config/blob/master/packages/xerox-stylelint-config",
   "author": "Andrew Leedham <andrew.leedham@xerox.com>",
@@ -19,10 +19,10 @@
     "stylelint": "*"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.0",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^13.0.0",
-    "stylelint-prettier": "^3.0.0",
-    "stylelint-scss": "^5.0.0"
+    "stylelint-prettier": "^4.0.2",
+    "stylelint-scss": "^5.0.1"
   },
   "devDependencies": {
     "@xerox/prettier-config": "^4.0.0",
