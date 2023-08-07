@@ -1,3 +1,55 @@
+# v3.0.4 (Mon Aug 07 2023)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Jest -> Vitest for ESM ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v13 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency stylelint-scss to v5 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v12 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v11 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-prettier to v3 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v10 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint to v15 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency prettier to v3 [#1239](https://github.com/xeroxinteractive/config/pull/1239) ([@renovate[bot]](https://github.com/renovate[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies [#1234](https://github.com/xeroxinteractive/config/pull/1234) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @auto-it/slack to v11 [#1245](https://github.com/xeroxinteractive/config/pull/1245) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29.6.2 [#1238](https://github.com/xeroxinteractive/config/pull/1238) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#1237](https://github.com/xeroxinteractive/config/pull/1237) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v13 [#1240](https://github.com/xeroxinteractive/config/pull/1240) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1221](https://github.com/xeroxinteractive/config/pull/1221) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1218](https://github.com/xeroxinteractive/config/pull/1218) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1206](https://github.com/xeroxinteractive/config/pull/1206) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1201](https://github.com/xeroxinteractive/config/pull/1201) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update peter-evans/create-pull-request action to v5 [#1207](https://github.com/xeroxinteractive/config/pull/1207) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v12 [#1210](https://github.com/xeroxinteractive/config/pull/1210) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/release-notes-generator to v11 [#1211](https://github.com/xeroxinteractive/config/pull/1211) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-scss to v5 [#1212](https://github.com/xeroxinteractive/config/pull/1212) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency typescript to v5 [#1200](https://github.com/xeroxinteractive/config/pull/1200) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10 [#1198](https://github.com/xeroxinteractive/config/pull/1198) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v11 [#1199](https://github.com/xeroxinteractive/config/pull/1199) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1197](https://github.com/xeroxinteractive/config/pull/1197) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-prettier to v3 [#1190](https://github.com/xeroxinteractive/config/pull/1190) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1185](https://github.com/xeroxinteractive/config/pull/1185) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v6.5.1 [#1181](https://github.com/xeroxinteractive/config/pull/1181) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v10 [#1184](https://github.com/xeroxinteractive/config/pull/1184) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29.4.3 [#1180](https://github.com/xeroxinteractive/config/pull/1180) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v40 [#1182](https://github.com/xeroxinteractive/config/pull/1182) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint to v15 [#1183](https://github.com/xeroxinteractive/config/pull/1183) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1166](https://github.com/xeroxinteractive/config/pull/1166) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v3.0.3 (Fri Jan 13 2023)
 
 #### Fix

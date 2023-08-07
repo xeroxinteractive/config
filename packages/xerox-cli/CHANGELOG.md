@@ -1,3 +1,50 @@
+# v2.0.4 (Mon Aug 07 2023)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update definitelyTyped ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency typescript to v5 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.15.5 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.15.3 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.14.6 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.14.1 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.13.0 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update definitelyTyped [#1235](https://github.com/xeroxinteractive/config/pull/1235) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1234](https://github.com/xeroxinteractive/config/pull/1234) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1220](https://github.com/xeroxinteractive/config/pull/1220) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1221](https://github.com/xeroxinteractive/config/pull/1221) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1218](https://github.com/xeroxinteractive/config/pull/1218) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1219](https://github.com/xeroxinteractive/config/pull/1219) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1217](https://github.com/xeroxinteractive/config/pull/1217) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update npm to v9.6.6 [#1215](https://github.com/xeroxinteractive/config/pull/1215) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1213](https://github.com/xeroxinteractive/config/pull/1213) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1206](https://github.com/xeroxinteractive/config/pull/1206) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1201](https://github.com/xeroxinteractive/config/pull/1201) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency typescript to v5 [#1200](https://github.com/xeroxinteractive/config/pull/1200) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1197](https://github.com/xeroxinteractive/config/pull/1197) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.15.5 [#1196](https://github.com/xeroxinteractive/config/pull/1196) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.15.3 [#1195](https://github.com/xeroxinteractive/config/pull/1195) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.14.6 [#1188](https://github.com/xeroxinteractive/config/pull/1188) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.14.1 [#1186](https://github.com/xeroxinteractive/config/pull/1186) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.13.0 [#1175](https://github.com/xeroxinteractive/config/pull/1175) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1171](https://github.com/xeroxinteractive/config/pull/1171) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1166](https://github.com/xeroxinteractive/config/pull/1166) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18 [#1167](https://github.com/xeroxinteractive/config/pull/1167) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.0.3 (Fri Jan 13 2023)
 
 #### Fix
