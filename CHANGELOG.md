@@ -2,6 +2,19 @@
 
 #### Fix
 
+- `@xerox/prettier-config@4.0.2`
+  - fix: remove @types/prettier from deps [#1248](https://github.com/xeroxinteractive/config/pull/1248) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 1
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
+# (Mon Aug 07 2023)
+
+#### Fix
+
 - Back merge [#1231](https://github.com/xeroxinteractive/config/pull/1231) ([@AndrewLeedham](https://github.com/AndrewLeedham))
 
 #### Dependencies

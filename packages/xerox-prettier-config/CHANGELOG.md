@@ -1,3 +1,16 @@
+# v4.0.2 (Mon Aug 07 2023)
+
+#### Fix
+
+- fix: remove @types/prettier from deps [#1248](https://github.com/xeroxinteractive/config/pull/1248) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- fix: remove @types/prettier from deps ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 1
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v4.0.0 (Wed Mar 02 2022)
 
 #### Breaking Change
