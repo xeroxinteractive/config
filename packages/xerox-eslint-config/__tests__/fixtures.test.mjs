@@ -1,9 +1,9 @@
-const glob = require('globby');
-const { posix } = require('path');
-const { ESLint } = require('eslint');
+import { test, expect } from 'vitest';
+import glob from 'globby';
+import { ESLint } from 'eslint';
 
 const fixtures = glob.sync(
-  posix.join(__dirname, '../../../fixtures/*/index.*')
+  new URL('../../../fixtures/*/index.*', import.meta.url).pathname
 );
 
 const cli = new ESLint();

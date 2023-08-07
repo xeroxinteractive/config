@@ -62,3 +62,6 @@ typings/
 
 # CLI build folder
 packages/xerox-cli/build
+
+# Allows us to generate it on the fly in CI
+lerna.json

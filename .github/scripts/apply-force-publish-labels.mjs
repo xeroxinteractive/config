@@ -1,10 +1,16 @@
 import autoModule from '@auto-it/core';
 const Auto = autoModule.Auto;
-import { readFile, writeFile } from 'fs/promises';
+const LabelExistsError = autoModule.LabelExistsError;
+import { writeFile } from 'fs/promises';
 import * as url from 'url';
 
 async function applyForcePublishLabels() {
+  /**
+   * @type {import('@auto-it/core').Auto}
+   */
   const auto = new Auto();
+
+  await auto.loadConfig();
 
   const packages = [
     { label: 'release: force (cli)', packageName: '@xerox/cli' },
@@ -32,10 +38,14 @@ async function applyForcePublishLabels() {
 
   async function labelExists(label) {
     try {
-      await auto.label({ exists: label });
+      await auto.label({ exists: label, pr: 1233 });
       return true;
     } catch (e) {
-      return false;
+      if (e instanceof LabelExistsError) {
+        return false;
+      } else {
+        throw e;
+      }
     }
   }
 
@@ -51,18 +61,25 @@ async function applyForcePublishLabels() {
     console.info('No force publish labels found');
     return;
   }
+
   const lernaPath = url.fileURLToPath(
     new URL('../../lerna.json', import.meta.url)
   );
-  const lernaFile = await readFile(lernaPath);
-  const lerna = JSON.parse(lernaFile.toString());
-  if (!lerna) {
-    throw new Error('Could not find lerna.json');
-  }
 
-  lerna.command = lerna.command ?? {};
-  lerna.command.version = lerna.command.version ?? {};
-  lerna.command.version.forcePublish = forcedPackages.join(',');
+  const lerna = {
+    version: 'independent',
+    npmClient: 'pnpm',
+    useWorkspaces: true,
+    command: {
+      publish: {
+        registry: 'https://registry.npmjs.org',
+      },
+    },
+  };
+
+  lerna.command.version = {
+    forcePublish: forcedPackages.join(','),
+  };
 
   await writeFile(lernaPath, JSON.stringify(lerna, null, 2));
 
