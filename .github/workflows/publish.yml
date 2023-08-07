@@ -52,7 +52,7 @@ jobs:
       - run: node ./.github/scripts/apply-force-publish-labels.mjs
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: pnpm run deploy
+      - run: cat ./lerna.json && pnpm run deploy
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
           SLACK_WEBHOOK_URL: ${{secrets.NPM_SLACK_WEBHOOK}}

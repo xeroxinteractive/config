@@ -69,7 +69,6 @@ async function applyForcePublishLabels() {
   const lerna = {
     version: 'independent',
     npmClient: 'pnpm',
-    useWorkspaces: true,
     command: {
       publish: {
         registry: 'https://registry.npmjs.org',
