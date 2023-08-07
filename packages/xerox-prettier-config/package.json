@@ -16,9 +16,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@types/prettier": "*"
-  },
   "peerDependencies": {
     "prettier": "*"
   }
