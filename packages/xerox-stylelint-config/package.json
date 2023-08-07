@@ -1,6 +1,6 @@
 {
   "name": "@xerox/stylelint-config",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Stylelint shareable configuration for Xerox projects.",
   "keywords": [
     "stylelint",
@@ -25,7 +25,7 @@
     "stylelint-scss": "^5.0.1"
   },
   "devDependencies": {
-    "@xerox/prettier-config": "^4.0.0",
+    "@xerox/prettier-config": "^4.0.1",
     "stylelint": "15.10.2"
   }
 }
