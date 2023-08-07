@@ -1,5 +1,6 @@
-const { ESLint } = require('eslint');
-const { posix } = require('path');
+import { test, expect } from 'vitest';
+import { ESLint } from 'eslint';
+import { posix } from 'path';
 
 test.each(['index.js', 'react.js', 'typescript.js', 'jest.js'])(
   '%s config valid',

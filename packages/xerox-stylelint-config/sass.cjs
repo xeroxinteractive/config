@@ -1,5 +1,5 @@
 module.exports = {
-  extends: './index.js',
+  extends: './index.cjs',
   plugins: ['stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
