@@ -1,3 +1,58 @@
+# v4.0.6 (Thu Aug 10 2023)
+
+#### Fix
+
+- Merge remote-tracking branch 'origin/next' into AL-eslint-fix ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 1
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
+# v4.0.4 (Mon Aug 07 2023)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update semantic-release monorepo ([@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency @semantic-release/npm to v10.0.4 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/release-notes-generator to v11.0.3 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/release-notes-generator to v11 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency semantic-release-slack-bot to v4 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v9.0.2 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency @auto-it/slack to v11 [#1245](https://github.com/xeroxinteractive/config/pull/1245) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29.6.2 [#1238](https://github.com/xeroxinteractive/config/pull/1238) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#1237](https://github.com/xeroxinteractive/config/pull/1237) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1225](https://github.com/xeroxinteractive/config/pull/1225) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10.0.4 - autoclosed [#1226](https://github.com/xeroxinteractive/config/pull/1226) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1221](https://github.com/xeroxinteractive/config/pull/1221) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/release-notes-generator to v11.0.3 [#1222](https://github.com/xeroxinteractive/config/pull/1222) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo (major) [#1224](https://github.com/xeroxinteractive/config/pull/1224) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#1202](https://github.com/xeroxinteractive/config/pull/1202) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1206](https://github.com/xeroxinteractive/config/pull/1206) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1201](https://github.com/xeroxinteractive/config/pull/1201) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update peter-evans/create-pull-request action to v5 [#1207](https://github.com/xeroxinteractive/config/pull/1207) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v12 [#1210](https://github.com/xeroxinteractive/config/pull/1210) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/release-notes-generator to v11 [#1211](https://github.com/xeroxinteractive/config/pull/1211) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency typescript to v5 [#1200](https://github.com/xeroxinteractive/config/pull/1200) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10 [#1198](https://github.com/xeroxinteractive/config/pull/1198) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency semantic-release-slack-bot to v4 [#1193](https://github.com/xeroxinteractive/config/pull/1193) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v9.0.2 [#1168](https://github.com/xeroxinteractive/config/pull/1168) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v4.0.3 (Fri Jan 13 2023)
 
 #### Fix

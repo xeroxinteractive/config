@@ -1,3 +1,66 @@
+# v5.0.6 (Thu Aug 10 2023)
+
+#### Fix
+
+- Remove unused babel-eslint [#1249](https://github.com/xeroxinteractive/config/pull/1249) ([@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/next' into AL-eslint-fix ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency eslint-config-prettier to v9 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Remove unused babel-eslint ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update definitelyTyped [#1250](https://github.com/xeroxinteractive/config/pull/1250) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-config-prettier to v9 [#1251](https://github.com/xeroxinteractive/config/pull/1251) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
+# v5.0.4 (Mon Aug 07 2023)
+
+#### Fix
+
+- Merge branch 'release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- ESLint prettier upgrade ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Jest -> Vitest for ESM ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update typescript-eslint monorepo to v6 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/release' into next ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Remove deprecated jsdoc/newline-after-description rule ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Upgrade @typescript-eslint ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency eslint-plugin-jsdoc to v46 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v40 ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency prettier to v3 [#1239](https://github.com/xeroxinteractive/config/pull/1239) ([@renovate[bot]](https://github.com/renovate[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies [#1234](https://github.com/xeroxinteractive/config/pull/1234) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @auto-it/core to v11 [#1244](https://github.com/xeroxinteractive/config/pull/1244) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update typescript-eslint monorepo to v6 (major) [#1243](https://github.com/xeroxinteractive/config/pull/1243) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v46 [#1223](https://github.com/xeroxinteractive/config/pull/1223) ([@renovate[bot]](https://github.com/renovate[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update all non-major dependencies [#1206](https://github.com/xeroxinteractive/config/pull/1206) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1197](https://github.com/xeroxinteractive/config/pull/1197) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1194](https://github.com/xeroxinteractive/config/pull/1194) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-prettier to v3 [#1190](https://github.com/xeroxinteractive/config/pull/1190) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1189](https://github.com/xeroxinteractive/config/pull/1189) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency stylelint-config-recommended to v10 [#1184](https://github.com/xeroxinteractive/config/pull/1184) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v18.0.28 [#1178](https://github.com/xeroxinteractive/config/pull/1178) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency jest to v29.4.3 [#1180](https://github.com/xeroxinteractive/config/pull/1180) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-jsdoc to v40 [#1182](https://github.com/xeroxinteractive/config/pull/1182) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1174](https://github.com/xeroxinteractive/config/pull/1174) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1171](https://github.com/xeroxinteractive/config/pull/1171) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1169](https://github.com/xeroxinteractive/config/pull/1169) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v5.0.3 (Fri Jan 13 2023)
 
 #### Fix
