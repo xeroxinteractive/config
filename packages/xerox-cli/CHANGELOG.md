@@ -1,3 +1,22 @@
+# v2.0.6 (Thu Aug 10 2023)
+
+#### Fix
+
+- Remove unused babel-eslint [#1249](https://github.com/xeroxinteractive/config/pull/1249) ([@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+- Merge remote-tracking branch 'origin/next' into AL-eslint-fix ([@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update definitelyTyped ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update definitelyTyped [#1250](https://github.com/xeroxinteractive/config/pull/1250) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.0.4 (Mon Aug 07 2023)
 
 #### Fix

@@ -1,3 +1,15 @@
+# v4.0.3 (Thu Aug 10 2023)
+
+#### Fix
+
+- Merge remote-tracking branch 'origin/next' into AL-eslint-fix ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 1
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v4.0.2 (Mon Aug 07 2023)
 
 #### Fix

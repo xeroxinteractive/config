@@ -1,3 +1,25 @@
+# (Thu Aug 10 2023)
+
+#### Fix
+
+- `@xerox/cli@2.0.6`, `@xerox/eslint-config@5.0.6`
+  - Remove unused babel-eslint [#1249](https://github.com/xeroxinteractive/config/pull/1249) ([@AndrewLeedham](https://github.com/AndrewLeedham) [@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Dependencies
+
+- Update dependency lerna to v7.1.5 [#1252](https://github.com/xeroxinteractive/config/pull/1252) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.6`
+  - Update definitelyTyped [#1250](https://github.com/xeroxinteractive/config/pull/1250) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@5.0.6`
+  - Update dependency eslint-config-prettier to v9 [#1251](https://github.com/xeroxinteractive/config/pull/1251) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # (Mon Aug 07 2023)
 
 #### Fix
