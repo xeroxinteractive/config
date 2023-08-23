@@ -1,7 +1,7 @@
 {
   "name": "eslint-typescript",
   "devDependencies": {
-    "@types/node": "18.17.5",
+    "@types/node": "18.17.8",
     "@xerox/eslint-config": "workspace:*",
     "typescript": "5.1.6"
   },
