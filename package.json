@@ -29,18 +29,18 @@
   },
   "prettier": "./packages/xerox-prettier-config/index.js",
   "devDependencies": {
-    "@auto-it/core": "11.0.2",
-    "@auto-it/slack": "11.0.2",
-    "auto": "11.0.2",
-    "browserslist": "4.21.10",
+    "@auto-it/core": "11.0.4",
+    "@auto-it/slack": "11.0.4",
+    "auto": "11.0.4",
+    "browserslist": "4.21.11",
     "enhanced-resolve": "5.15.0",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "lerna": "7.3.0",
     "prettier": "3.0.3",
     "stylelint": "15.10.3",
     "vitest": "0.34.4"
   },
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.6",
   "pnpm": {
     "overrides": {
       "yargs-parser@<13.1.2": "^13.1.2",
