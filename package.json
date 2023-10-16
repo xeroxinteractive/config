@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">=14",
+    "node": ">=18",
     "npm": ">=5.0",
     "pnpm": ">=7"
   },
@@ -32,7 +32,7 @@
     "@auto-it/core": "11.0.4",
     "@auto-it/slack": "11.0.4",
     "auto": "11.0.4",
-    "browserslist": "4.22.0",
+    "browserslist": "4.22.1",
     "enhanced-resolve": "5.15.0",
     "eslint": "8.50.0",
     "lerna": "7.3.0",
@@ -74,7 +74,8 @@
       "semver@<5.7.2": "^5.7.2",
       "semver@>6.3.0 <6.3.1": "^6.3.1",
       "semver@>=7.0.0 <7.5.2": "^7.5.2",
-      "word-wrap@<1.2.4": "^1.2.4"
+      "word-wrap@<1.2.4": "^1.2.4",
+      "postcss@<8.4.31": ">=8.4.31"
     }
   }
 }
