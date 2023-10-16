@@ -35,7 +35,7 @@
     "browserslist": "4.22.1",
     "enhanced-resolve": "5.15.0",
     "eslint": "8.50.0",
-    "lerna": "7.3.0",
+    "lerna": "7.3.1",
     "prettier": "3.0.3",
     "stylelint": "15.10.3",
     "vitest": "0.34.5"
