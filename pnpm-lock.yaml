@@ -59,8 +59,8 @@ importers:
         specifier: 5.15.0
         version: 5.15.0
       eslint:
-        specifier: 8.51.0
-        version: 8.51.0
+        specifier: 8.52.0
+        version: 8.52.0
       lerna:
         specifier: 7.4.1
         version: 7.4.1
@@ -716,13 +716,13 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: false
 
-  /@eslint-community/eslint-utils@4.4.0(eslint@8.51.0):
+  /@eslint-community/eslint-utils@4.4.0(eslint@8.52.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
-      eslint: 8.51.0
+      eslint: 8.52.0
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -764,8 +764,8 @@ packages:
       - supports-color
     dev: true
 
-  /@eslint/js@8.51.0:
-    resolution: {integrity: sha512-HxjQ8Qn+4SI3/AFv6sOrDB+g6PpUTDwSJiQqOrnneEk8L71161srI9gjzzZvYVbzHiVg/BvcH95+cK/zfIt4pg==}
+  /@eslint/js@8.52.0:
+    resolution: {integrity: sha512-mjZVbpaeMZludF2fsWLD0Z9gCref1Tk4i9+wddjRvpUNqqcndPkBD09N/Mapey0b3jaXbLm2kICwFv2E64QinA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
@@ -773,11 +773,11 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
 
-  /@humanwhocodes/config-array@0.11.11:
-    resolution: {integrity: sha512-N2brEuAadi0CcdeMXUkhbZB84eskAc8MEX1By6qEchoVywSgXPIjou4rYsl0V3Hj0ZnuGycGCjdNgockbzeWNA==}
+  /@humanwhocodes/config-array@0.11.13:
+    resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
     engines: {node: '>=10.10.0'}
     dependencies:
-      '@humanwhocodes/object-schema': 1.2.1
+      '@humanwhocodes/object-schema': 2.0.1
       debug: 4.3.4
       minimatch: 3.1.2
     transitivePeerDependencies:
@@ -801,6 +801,11 @@ packages:
 
   /@humanwhocodes/object-schema@1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: false
+
+  /@humanwhocodes/object-schema@2.0.1:
+    resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
+    dev: true
 
   /@hutson/parse-repository-url@3.0.2:
     resolution: {integrity: sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==}
@@ -2156,6 +2161,10 @@ packages:
       '@typescript-eslint/types': 6.0.0
       eslint-visitor-keys: 3.4.3
     dev: false
+
+  /@ungap/structured-clone@1.2.0:
+    resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+    dev: true
 
   /@vitest/expect@0.34.6:
     resolution: {integrity: sha512-QUzKpUQRc1qC7qdGo7rMK3AkETI7w18gTCUrsNnyjjJKYiuUB9+TQK3QnR1unhCnWRC0AbKv2omLGQDF/mIjOw==}
@@ -4082,18 +4091,19 @@ packages:
       - supports-color
     dev: false
 
-  /eslint@8.51.0:
-    resolution: {integrity: sha512-2WuxRZBrlwnXi+/vFSJyjMqrNjtJqiasMzehF0shoLaW7DzS3/9Yvrmq5JiT66+pNjiX4UBnLDiKHcWAr/OInA==}
+  /eslint@8.52.0:
+    resolution: {integrity: sha512-zh/JHnaixqHZsolRB/w9/02akBk9EPrOs9JwcTP2ek7yL5bVvXuRariiaAjjoJ5DvuwQ1WAE/HsMz+w17YgBCg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint-community/eslint-utils': 4.4.0(eslint@8.51.0)
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.52.0)
       '@eslint-community/regexpp': 4.6.2
       '@eslint/eslintrc': 2.1.2
-      '@eslint/js': 8.51.0
-      '@humanwhocodes/config-array': 0.11.11
+      '@eslint/js': 8.52.0
+      '@humanwhocodes/config-array': 0.11.13
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
+      '@ungap/structured-clone': 1.2.0
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.3
