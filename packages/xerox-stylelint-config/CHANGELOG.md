@@ -1,3 +1,24 @@
+# v3.0.7 (Fri Nov 10 2023)
+
+#### Fix
+
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1284](https://github.com/xeroxinteractive/config/pull/1284) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1257](https://github.com/xeroxinteractive/config/pull/1257) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10.0.5 [#1258](https://github.com/xeroxinteractive/config/pull/1258) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1260](https://github.com/xeroxinteractive/config/pull/1260) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v3.0.6 (Thu Aug 10 2023)
 
 #### Fix

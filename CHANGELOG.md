@@ -1,3 +1,66 @@
+# (Fri Nov 10 2023)
+
+#### Fix
+
+- `@xerox/browserslist-config@2.0.5`, `@xerox/cli@2.0.7`, `@xerox/eslint-config@5.0.7`, `@xerox/prettier-config@4.0.4`, `@xerox/semantic-release-config@4.0.7`, `@xerox/stylelint-config@3.0.7`
+  - Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency lerna to v7.4.2 [#1294](https://github.com/xeroxinteractive/config/pull/1294) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1295](https://github.com/xeroxinteractive/config/pull/1295) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/setup-node action to v4 [#1290](https://github.com/xeroxinteractive/config/pull/1290) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1289](https://github.com/xeroxinteractive/config/pull/1289) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/react to v18.2.29 [#1287](https://github.com/xeroxinteractive/config/pull/1287) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v7.4.1 [#1285](https://github.com/xeroxinteractive/config/pull/1285) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency vitest to v0.34.6 [#1282](https://github.com/xeroxinteractive/config/pull/1282) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v7.3.1 [#1283](https://github.com/xeroxinteractive/config/pull/1283) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1279](https://github.com/xeroxinteractive/config/pull/1279) ([@renovate[bot]](https://github.com/renovate[bot]) [@AndrewLeedham](https://github.com/AndrewLeedham))
+- Update dependency vitest to v0.34.5 [#1275](https://github.com/xeroxinteractive/config/pull/1275) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1276](https://github.com/xeroxinteractive/config/pull/1276) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency vitest to v0.34.4 [#1271](https://github.com/xeroxinteractive/config/pull/1271) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v7.3.0 [#1272](https://github.com/xeroxinteractive/config/pull/1272) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update actions/checkout action to v4 [#1267](https://github.com/xeroxinteractive/config/pull/1267) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1266](https://github.com/xeroxinteractive/config/pull/1266) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency vitest to v0.34.3 [#1259](https://github.com/xeroxinteractive/config/pull/1259) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v7.2.0 [#1264](https://github.com/xeroxinteractive/config/pull/1264) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1254](https://github.com/xeroxinteractive/config/pull/1254) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.7`
+  - Update dependency @types/node to v18.18.8 [#1293](https://github.com/xeroxinteractive/config/pull/1293) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1288](https://github.com/xeroxinteractive/config/pull/1288) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v18.18.6 [#1286](https://github.com/xeroxinteractive/config/pull/1286) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1280](https://github.com/xeroxinteractive/config/pull/1280) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1277](https://github.com/xeroxinteractive/config/pull/1277) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1273](https://github.com/xeroxinteractive/config/pull/1273) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v18.17.17 [#1270](https://github.com/xeroxinteractive/config/pull/1270) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v18.17.14 [#1265](https://github.com/xeroxinteractive/config/pull/1265) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v18.17.12 [#1261](https://github.com/xeroxinteractive/config/pull/1261) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update definitelyTyped [#1257](https://github.com/xeroxinteractive/config/pull/1257) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @types/node to v18.17.5 [#1255](https://github.com/xeroxinteractive/config/pull/1255) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/stylelint-config@3.0.7`
+  - Update all non-major dependencies [#1284](https://github.com/xeroxinteractive/config/pull/1284) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/semantic-release-config@4.0.7`
+  - Update dependency @semantic-release/github to v9.2.1 [#1281](https://github.com/xeroxinteractive/config/pull/1281) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @semantic-release/github to v9.2.0 [#1278](https://github.com/xeroxinteractive/config/pull/1278) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update semantic-release monorepo (major) [#1274](https://github.com/xeroxinteractive/config/pull/1274) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update semantic-release monorepo [#1269](https://github.com/xeroxinteractive/config/pull/1269) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update semantic-release monorepo [#1262](https://github.com/xeroxinteractive/config/pull/1262) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency @semantic-release/npm to v10.0.5 [#1258](https://github.com/xeroxinteractive/config/pull/1258) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@5.0.7`
+  - Update all non-major dependencies [#1268](https://github.com/xeroxinteractive/config/pull/1268) ([@renovate[bot]](https://github.com/renovate[bot]))
+  - Update dependency eslint-plugin-testing-library to v6 [#1256](https://github.com/xeroxinteractive/config/pull/1256) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/cli@2.0.7`, `@xerox/eslint-config@5.0.7`
+  - Update all non-major dependencies [#1263](https://github.com/xeroxinteractive/config/pull/1263) ([@renovate[bot]](https://github.com/renovate[bot]))
+- `@xerox/eslint-config@5.0.7`, `@xerox/stylelint-config@3.0.7`
+  - Update all non-major dependencies [#1260](https://github.com/xeroxinteractive/config/pull/1260) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # (Thu Aug 10 2023)
 
 #### Fix

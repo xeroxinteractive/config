@@ -1,3 +1,27 @@
+# v5.0.7 (Fri Nov 10 2023)
+
+#### Fix
+
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-testing-library to v6 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update all non-major dependencies [#1268](https://github.com/xeroxinteractive/config/pull/1268) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1263](https://github.com/xeroxinteractive/config/pull/1263) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1257](https://github.com/xeroxinteractive/config/pull/1257) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10.0.5 [#1258](https://github.com/xeroxinteractive/config/pull/1258) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1260](https://github.com/xeroxinteractive/config/pull/1260) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency eslint-plugin-testing-library to v6 [#1256](https://github.com/xeroxinteractive/config/pull/1256) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v5.0.6 (Thu Aug 10 2023)
 
 #### Fix

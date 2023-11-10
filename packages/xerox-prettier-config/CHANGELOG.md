@@ -1,3 +1,15 @@
+# v4.0.4 (Fri Nov 10 2023)
+
+#### Fix
+
+- Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Authors: 1
+
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v4.0.3 (Thu Aug 10 2023)
 
 #### Fix

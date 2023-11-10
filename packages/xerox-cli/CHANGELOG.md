@@ -1,3 +1,41 @@
+# v2.0.7 (Fri Nov 10 2023)
+
+#### Fix
+
+- Update dependency @types/node to v18.18.8 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.18.6 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.17 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.14 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.12 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.5 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency @types/node to v18.18.8 [#1293](https://github.com/xeroxinteractive/config/pull/1293) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1288](https://github.com/xeroxinteractive/config/pull/1288) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency lerna to v7.4.1 [#1285](https://github.com/xeroxinteractive/config/pull/1285) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.18.6 [#1286](https://github.com/xeroxinteractive/config/pull/1286) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1280](https://github.com/xeroxinteractive/config/pull/1280) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v9.2.0 [#1278](https://github.com/xeroxinteractive/config/pull/1278) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1277](https://github.com/xeroxinteractive/config/pull/1277) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1273](https://github.com/xeroxinteractive/config/pull/1273) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.17 [#1270](https://github.com/xeroxinteractive/config/pull/1270) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.14 [#1265](https://github.com/xeroxinteractive/config/pull/1265) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update all non-major dependencies [#1263](https://github.com/xeroxinteractive/config/pull/1263) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.12 [#1261](https://github.com/xeroxinteractive/config/pull/1261) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1257](https://github.com/xeroxinteractive/config/pull/1257) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @types/node to v18.17.5 [#1255](https://github.com/xeroxinteractive/config/pull/1255) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v2.0.6 (Thu Aug 10 2023)
 
 #### Fix

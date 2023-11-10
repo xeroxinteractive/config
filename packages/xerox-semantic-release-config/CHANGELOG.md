@@ -1,3 +1,32 @@
+# v4.0.7 (Fri Nov 10 2023)
+
+#### Fix
+
+- Update dependency @semantic-release/github to v9.2.1 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v9.2.0 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10.0.5 ([@renovate[bot]](https://github.com/renovate[bot]))
+- Back merge [#1253](https://github.com/xeroxinteractive/config/pull/1253) ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+#### Dependencies
+
+- Update dependency @semantic-release/github to v9.2.1 [#1281](https://github.com/xeroxinteractive/config/pull/1281) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/github to v9.2.0 [#1278](https://github.com/xeroxinteractive/config/pull/1278) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1273](https://github.com/xeroxinteractive/config/pull/1273) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo (major) [#1274](https://github.com/xeroxinteractive/config/pull/1274) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#1269](https://github.com/xeroxinteractive/config/pull/1269) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency vitest to v0.34.3 [#1259](https://github.com/xeroxinteractive/config/pull/1259) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update semantic-release monorepo [#1262](https://github.com/xeroxinteractive/config/pull/1262) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update definitelyTyped [#1257](https://github.com/xeroxinteractive/config/pull/1257) ([@renovate[bot]](https://github.com/renovate[bot]))
+- Update dependency @semantic-release/npm to v10.0.5 [#1258](https://github.com/xeroxinteractive/config/pull/1258) ([@renovate[bot]](https://github.com/renovate[bot]))
+
+#### Authors: 2
+
+- [@renovate[bot]](https://github.com/renovate[bot])
+- Andrew Leedham ([@AndrewLeedham](https://github.com/AndrewLeedham))
+
+---
+
 # v4.0.6 (Thu Aug 10 2023)
 
 #### Fix
