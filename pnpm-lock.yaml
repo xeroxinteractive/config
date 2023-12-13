@@ -157,7 +157,7 @@ importers:
         version: 6.0.0(eslint@8.30.0)(typescript@5.2.2)
       '@xerox/prettier-config':
         specifier: '*'
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.1)
       eslint:
         specifier: '>=7.2.0'
         version: 8.30.0
@@ -234,15 +234,15 @@ importers:
         specifier: ^13.0.0
         version: 13.0.0(stylelint@15.11.0)
       stylelint-prettier:
-        specifier: ^4.0.2
-        version: 4.0.2(prettier@3.0.3)(stylelint@15.11.0)
+        specifier: ^5.0.0
+        version: 5.0.0(prettier@3.0.3)(stylelint@15.11.0)
       stylelint-scss:
         specifier: ^5.0.1
         version: 5.0.1(stylelint@15.11.0)
     devDependencies:
       '@xerox/prettier-config':
         specifier: ^4.0.3
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.3)
       stylelint:
         specifier: 15.11.0
         version: 15.11.0
@@ -2204,6 +2204,22 @@ packages:
       diff-sequences: 29.4.3
       loupe: 2.3.6
       pretty-format: 29.6.2
+    dev: true
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.1):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.1
+    dev: false
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.3):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.3
     dev: true
 
   /@yarnpkg/lockfile@1.1.0:
@@ -8514,12 +8530,12 @@ packages:
       stylelint: 15.11.0
     dev: false
 
-  /stylelint-prettier@4.0.2(prettier@3.0.3)(stylelint@15.11.0):
-    resolution: {integrity: sha512-EoHnR2PiaWgpGtoI4VW7AzneMfwmwQsNwQ+3/E2k/a+ju5yO6rfPfop4vzPQKcJN4ZM1YbspEOPu88D8538sbg==}
-    engines: {node: ^14.17.0 || >=16.0.0}
+  /stylelint-prettier@5.0.0(prettier@3.0.3)(stylelint@15.11.0):
+    resolution: {integrity: sha512-RHfSlRJIsaVg5Br94gZVdWlz/rBTyQzZflNE6dXvSxt/GthWMY3gEHsWZEBaVGg7GM+XrtVSp4RznFlB7i0oyw==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
       prettier: '>=3.0.0'
-      stylelint: '>=15.8.0'
+      stylelint: '>=16.0.0'
     dependencies:
       prettier: 3.0.3
       prettier-linter-helpers: 1.0.0
