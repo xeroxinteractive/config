@@ -36,7 +36,7 @@ jobs:
           BAA_PRIVATE_KEY: ${{secrets.ADOBE_ANALYTICS_PRIVATE_KEY}}
 
       - name: Create PR
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: 'chore(browserslist-config): update stats'
           title: 'chore(browserslist-config): update stats'
