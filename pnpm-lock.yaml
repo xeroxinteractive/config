@@ -83,8 +83,8 @@ importers:
   fixtures/eslint-react:
     dependencies:
       react:
-        specifier: 18.1.0
-        version: 18.1.0
+        specifier: 18.3.1
+        version: 18.3.1
     devDependencies:
       '@xerox/eslint-config':
         specifier: workspace:*
@@ -105,8 +105,8 @@ importers:
   fixtures/eslint-typescriptreact:
     dependencies:
       react:
-        specifier: 18.1.0
-        version: 18.1.0
+        specifier: 18.3.1
+        version: 18.3.1
     devDependencies:
       '@types/node':
         specifier: 18.18.8
@@ -157,7 +157,7 @@ importers:
         version: 6.0.0(eslint@8.30.0)(typescript@5.2.2)
       '@xerox/prettier-config':
         specifier: '*'
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.1)
       eslint:
         specifier: '>=7.2.0'
         version: 8.30.0
@@ -242,7 +242,7 @@ importers:
     devDependencies:
       '@xerox/prettier-config':
         specifier: ^4.0.3
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.3)
       stylelint:
         specifier: 15.11.0
         version: 15.11.0
@@ -2204,6 +2204,22 @@ packages:
       diff-sequences: 29.4.3
       loupe: 2.3.6
       pretty-format: 29.6.2
+    dev: true
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.1):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.1
+    dev: false
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.3):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.3
     dev: true
 
   /@yarnpkg/lockfile@1.1.0:
@@ -5971,6 +5987,7 @@ packages:
 
   /loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
     dependencies:
       js-tokens: 4.0.0
     dev: false
@@ -7684,8 +7701,8 @@ packages:
     resolution: {integrity: sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==}
     dev: true
 
-  /react@18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
