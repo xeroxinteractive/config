@@ -59,8 +59,8 @@ importers:
         specifier: 5.15.0
         version: 5.15.0
       eslint:
-        specifier: 8.52.0
-        version: 8.52.0
+        specifier: 8.57.1
+        version: 8.57.1
       lerna:
         specifier: 7.4.2
         version: 7.4.2
@@ -157,7 +157,7 @@ importers:
         version: 6.0.0(eslint@8.30.0)(typescript@5.2.2)
       '@xerox/prettier-config':
         specifier: '*'
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.1)
       eslint:
         specifier: '>=7.2.0'
         version: 8.30.0
@@ -242,7 +242,7 @@ importers:
     devDependencies:
       '@xerox/prettier-config':
         specifier: ^4.0.3
-        version: link:../xerox-prettier-config
+        version: 4.0.4(prettier@3.0.3)
       stylelint:
         specifier: 15.11.0
         version: 15.11.0
@@ -716,13 +716,13 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: false
 
-  /@eslint-community/eslint-utils@4.4.0(eslint@8.52.0):
+  /@eslint-community/eslint-utils@4.4.0(eslint@8.57.1):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
-      eslint: 8.52.0
+      eslint: 8.57.1
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -747,8 +747,8 @@ packages:
       - supports-color
     dev: false
 
-  /@eslint/eslintrc@2.1.2:
-    resolution: {integrity: sha512-+wvgpDsrB1YqAMdEUCcnTlpfVBH7Vqn6A/NT3D8WVXFIaKMlErPIZT3oCIAVCOtarRpMtelZLqJeU3t7WY6X6g==}
+  /@eslint/eslintrc@2.1.4:
+    resolution: {integrity: sha512-269Z39MS6wVJtsoUl10L60WdkhJVdPG24Q4eZTH3nnF6lpvSShEK3wQjDX9JRWAUPvPh7COouPpU9IrqaZFvtQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       ajv: 6.12.6
@@ -764,24 +764,13 @@ packages:
       - supports-color
     dev: true
 
-  /@eslint/js@8.52.0:
-    resolution: {integrity: sha512-mjZVbpaeMZludF2fsWLD0Z9gCref1Tk4i9+wddjRvpUNqqcndPkBD09N/Mapey0b3jaXbLm2kICwFv2E64QinA==}
+  /@eslint/js@8.57.1:
+    resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /@gar/promisify@1.1.3:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
-    dev: true
-
-  /@humanwhocodes/config-array@0.11.13:
-    resolution: {integrity: sha512-JSBDMiDKSzQVngfRjOdFXgFfklaXI4K9nLF49Auh21lmBWRLIK3+xTErTWD4KU54pb6coM6ESE7Awz/FNU3zgQ==}
-    engines: {node: '>=10.10.0'}
-    dependencies:
-      '@humanwhocodes/object-schema': 2.0.1
-      debug: 4.3.4
-      minimatch: 3.1.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@humanwhocodes/config-array@0.11.8:
@@ -795,6 +784,18 @@ packages:
       - supports-color
     dev: false
 
+  /@humanwhocodes/config-array@0.13.0:
+    resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
+    engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
+    dependencies:
+      '@humanwhocodes/object-schema': 2.0.3
+      debug: 4.3.4
+      minimatch: 3.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@humanwhocodes/module-importer@1.0.1:
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
     engines: {node: '>=12.22'}
@@ -803,8 +804,9 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: false
 
-  /@humanwhocodes/object-schema@2.0.1:
-    resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
+  /@humanwhocodes/object-schema@2.0.3:
+    resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
     dev: true
 
   /@hutson/parse-repository-url@3.0.2:
@@ -2204,6 +2206,22 @@ packages:
       diff-sequences: 29.4.3
       loupe: 2.3.6
       pretty-format: 29.6.2
+    dev: true
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.1):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.1
+    dev: false
+
+  /@xerox/prettier-config@4.0.4(prettier@3.0.3):
+    resolution: {integrity: sha512-s03b0rW91zjUJnqWZFchqisHtFqDR6OkhssPY/xTlpKhlBlQ5SetNNmHmpC4SuqNJ40hvwKzkANNIthFec2cKw==}
+    peerDependencies:
+      prettier: '*'
+    dependencies:
+      prettier: 3.0.3
     dev: true
 
   /@yarnpkg/lockfile@1.1.0:
@@ -4085,16 +4103,16 @@ packages:
       - supports-color
     dev: false
 
-  /eslint@8.52.0:
-    resolution: {integrity: sha512-zh/JHnaixqHZsolRB/w9/02akBk9EPrOs9JwcTP2ek7yL5bVvXuRariiaAjjoJ5DvuwQ1WAE/HsMz+w17YgBCg==}
+  /eslint@8.57.1:
+    resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@eslint-community/eslint-utils': 4.4.0(eslint@8.52.0)
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.1)
       '@eslint-community/regexpp': 4.6.2
-      '@eslint/eslintrc': 2.1.2
-      '@eslint/js': 8.52.0
-      '@humanwhocodes/config-array': 0.11.13
+      '@eslint/eslintrc': 2.1.4
+      '@eslint/js': 8.57.1
+      '@humanwhocodes/config-array': 0.13.0
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
       '@ungap/structured-clone': 1.2.0
@@ -4749,6 +4767,7 @@ packages:
 
   /glob@7.1.4:
     resolution: {integrity: sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -4760,6 +4779,7 @@ packages:
 
   /glob@7.1.6:
     resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -4771,6 +4791,7 @@ packages:
   /glob@8.0.3:
     resolution: {integrity: sha512-ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -7971,6 +7992,7 @@ packages:
 
   /rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.1.6
