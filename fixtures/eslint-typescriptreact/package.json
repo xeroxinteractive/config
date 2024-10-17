@@ -7,7 +7,7 @@
     "@types/node": "18.18.8",
     "@types/react": "18.2.33",
     "@xerox/eslint-config": "workspace:*",
-    "typescript": "5.2.2"
+    "typescript": "5.6.3"
   },
   "private": true
 }
