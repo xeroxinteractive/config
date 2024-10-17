@@ -3,7 +3,7 @@
   "devDependencies": {
     "@types/node": "18.18.8",
     "@xerox/eslint-config": "workspace:*",
-    "typescript": "5.2.2"
+    "typescript": "5.6.3"
   },
   "private": true
 }
