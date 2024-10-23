@@ -4,8 +4,8 @@
     "react": "18.1.0"
   },
   "devDependencies": {
-    "@types/node": "18.18.8",
-    "@types/react": "18.2.33",
+    "@types/node": "18.19.59",
+    "@types/react": "18.3.12",
     "@xerox/eslint-config": "workspace:*",
     "typescript": "5.2.2"
   },
