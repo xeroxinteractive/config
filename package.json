@@ -32,15 +32,15 @@
     "@auto-it/core": "11.0.4",
     "@auto-it/slack": "11.0.4",
     "auto": "11.0.4",
-    "browserslist": "4.22.1",
-    "enhanced-resolve": "5.15.0",
+    "browserslist": "4.28.9",
+    "enhanced-resolve": "5.24.5",
     "eslint": "8.52.0",
     "lerna": "7.4.2",
-    "prettier": "3.0.3",
+    "prettier": "3.9.6",
     "stylelint": "15.11.0",
     "vitest": "0.34.6"
   },
-  "packageManager": "pnpm@8.10.2",
+  "packageManager": "pnpm@8.15.9",
   "pnpm": {
     "overrides": {
       "yargs-parser@<13.1.2": "^13.1.2",
