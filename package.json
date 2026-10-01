@@ -29,9 +29,9 @@
   },
   "prettier": "./packages/xerox-prettier-config/index.js",
   "devDependencies": {
-    "@auto-it/core": "11.0.4",
-    "@auto-it/slack": "11.0.4",
-    "auto": "11.0.4",
+    "@auto-it/core": "11.3.6",
+    "@auto-it/slack": "11.3.6",
+    "auto": "11.3.6",
     "browserslist": "4.22.1",
     "enhanced-resolve": "5.15.0",
     "eslint": "8.52.0",
